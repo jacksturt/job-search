@@ -16,7 +16,7 @@ AGENTS.md                             # this file
 
 ## Tracker columns
 
-Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | Status | Resume Version | Cover Letter Version | Date Applied | Notes | Cover Letter Needed
+Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | Status | Resume Version | Cover Letter Version | Date Applied | Notes | Cover Letter Needed | Has Extra Questions | Effort
 
 `Cover Letter Needed` (column M, appended last so column order for earlier fields is unchanged) is one of:
 - `Required`: the application form requires a cover letter. Write one.
@@ -26,7 +26,21 @@ Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | St
 
 Muse may fill this in for rows it appends. Claude Code may also edit it.
 
-Daily target: ~10 applications/day, about 9 quick ones (no cover letter needed) and 1 with a tailored cover letter.
+Two more effort-triage columns follow it (appended last, so earlier column order is unchanged):
+
+`Has Extra Questions` (column N), custom application questions beyond the standard fields (name, contact, resume, cover letter, links, work-authorization / EEO / "how did you hear"):
+- `None`: nothing extra.
+- `Short`: one or two short answers (about 1-2 sentences, or a one-line text box).
+- `Long`: at least one real free-text question (e.g. "Why do you want to work here?").
+- `Unknown`: not checked or not determinable.
+
+`Effort` (column O), how much work the application is:
+- `Low`: no cover letter needed (Optional / No field) and extra questions are None or Short. Quick apply.
+- `Medium`: cover letter Required with no long questions, OR long questions with no cover letter required.
+- `High`: cover letter Required AND long questions.
+- `Unknown`: inputs unknown.
+
+Daily target: ~9 `Low` + 1 `Medium`/`High` (with a tailored cover letter or long answers).
 
 ## Status lifecycle
 
