@@ -44,7 +44,9 @@ Daily target: ~9 `Low` + 1 `Medium`/`High` (with a tailored cover letter or long
 
 ## Status lifecycle
 
-`new` → `reviewing` → `tailoring` → `applied` → `screening` → `interview` → `offer` | `rejected`
+`new` → `reviewing` → `tailoring` → `applied` → `screening` → `interview` → `offer` | `rejected` | `skipped`
+
+`skipped` means Jack decided not to pursue the role (e.g. not qualified). Keep the row so Muse's URL dedupe doesn't re-add it. Never delete rows.
 
 ## Rules
 
