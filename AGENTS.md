@@ -16,7 +16,17 @@ AGENTS.md                             # this file
 
 ## Tracker columns
 
-Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | Status | Resume Version | Cover Letter Version | Date Applied | Notes
+Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | Status | Resume Version | Cover Letter Version | Date Applied | Notes | Cover Letter Needed
+
+`Cover Letter Needed` (column M, appended last so column order for earlier fields is unchanged) is one of:
+- `Required`: the application form requires a cover letter. Write one.
+- `Optional`: the form has a cover letter field but it can be skipped.
+- `No field`: the form has no cover letter field.
+- `Unknown`: could not be determined (e.g. non-Greenhouse/Lever ATS, or the posting is closed).
+
+Muse may fill this in for rows it appends. Claude Code may also edit it.
+
+Daily target: ~10 applications/day, about 9 quick ones (no cover letter needed) and 1 with a tailored cover letter.
 
 ## Status lifecycle
 
@@ -25,7 +35,7 @@ Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | St
 ## Rules
 
 ### Muse (sourcing agent)
-- May ONLY append new rows with Status = `new`.
+- May ONLY append new rows with Status = `new` (and may set Cover Letter Needed on those rows).
 - Dedupe on Job URL (compare the full URL, including query string) before appending.
 - Must NOT edit any column of existing rows.
 
