@@ -1,0 +1,47 @@
+# Job Search: Agent Collaboration Protocol
+
+Two agents share this repo for Jack Sturtevant's job hunt.
+
+- **Muse**: sourcing agent (separate machine). Finds new job leads and adds them to the tracker.
+- **Claude Code**: uses the tracker to tailor the resume and cover letters per application.
+
+## Layout
+
+```
+tracker.xlsx                          # the job tracker (single source of truth)
+resume/base/                          # base resume source (LaTeX, XeLaTeX / Tectonic)
+applications/<company>-<slug>/        # tailored resume + cover letter per job pursued
+AGENTS.md                             # this file
+```
+
+## Tracker columns
+
+Company | Role | Location | Job URL | Posted Date | Salary Band | Fit Notes | Status | Resume Version | Cover Letter Version | Date Applied | Notes
+
+## Status lifecycle
+
+`new` → `reviewing` → `tailoring` → `applied` → `screening` → `interview` → `offer` | `rejected`
+
+## Rules
+
+### Muse (sourcing agent)
+- May ONLY append new rows with Status = `new`.
+- Dedupe on Job URL (compare the full URL, including query string) before appending.
+- Must NOT edit any column of existing rows.
+
+### Claude Code
+- May edit Status, Resume Version, Cover Letter Version, Date Applied, and Notes.
+- May add files under `applications/`.
+- Must NOT delete or reorder rows.
+
+### Both
+- Pull before writing, commit small, push promptly. Muse only ever appends at the bottom, so merges should not conflict.
+- Do not commit secrets or credentials.
+
+## Application files
+
+Tailored application files go in `applications/<company>-<slug>/`:
+- `resume.pdf` and `cover-letter.pdf` (the deliverables)
+- keep the source files too (e.g. `resume.tex`, `cover-letter.md`)
+
+Record the folder name in Resume Version / Cover Letter Version in the tracker.
