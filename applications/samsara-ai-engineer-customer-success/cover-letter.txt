@@ -1,0 +1,7 @@
+Hello Samsara Team,
+
+I'm applying for the AI Engineer role on Customer Success because I like building AI tools that make a team faster, and then hearing from the team.
+
+At Coordinator I built LLM features, a production voice pipeline and a data-access gateway that grew into an app store. Earlier, at Applied Intuition, I rebuilt customer support on Zendesk and cut response times from over a day to under an hour, and I built a customer-facing license dashboard that helped close deals.
+
+I'd be glad to talk about how I could help Samsara's customers succeed.

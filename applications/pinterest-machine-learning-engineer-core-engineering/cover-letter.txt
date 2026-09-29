@@ -1,0 +1,7 @@
+Hello Pinterest Team,
+
+I'm applying for the Machine Learning Engineer role on Core Engineering because I like taking models from experiment to production.
+
+At Coordinator I built fine-tuning and serving pipelines on H100 GPUs, vision models over video, and the CI/CD that gated releases. I care about training and serving systems being reproducible and easy to debug.
+
+I'd be glad to talk about how I could help Pinterest's ML engineers move faster.

@@ -1,0 +1,7 @@
+Hello Roblox Team,
+
+I'm applying for the Data Infrastructure role because I like building the pipelines and storage that other teams depend on.
+
+At Ralli I built the ingestion pipeline that moved betting lines and athlete data into Postgres on a schedule. At Coordinator I built a video pipeline with clip and frame storage on MinIO and Postgres, and the CI/CD around it. I haven't operated data infrastructure at Roblox's scale.
+
+I'd be glad to talk about how I could help Roblox.

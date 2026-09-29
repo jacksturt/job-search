@@ -1,0 +1,7 @@
+Hello Samsara Team,
+
+I'm applying for the Senior Machine Learning Engineer role because I like owning ML systems from training through deployment.
+
+At Coordinator I built fine-tuning and vLLM serving pipelines on H100 GPUs, vision models over video, and the CI/CD around them. I'm short of the 6+ years the posting asks for, so I'd rather show you what I've built.
+
+I'd be glad to talk about how I could help Samsara.

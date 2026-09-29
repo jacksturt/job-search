@@ -1,0 +1,7 @@
+Hello Reddit Team,
+
+I'm applying for the Senior Machine Learning Engineer role because I like building ML systems that run in production.
+
+At Coordinator I built fine-tuning and vLLM serving pipelines on H100 GPUs, a voice feature that shipped to real users, and vision models over video, plus the CI/CD that gated releases. I work agentic-first, so I move quickly.
+
+I'd be glad to talk about how I could help Reddit.

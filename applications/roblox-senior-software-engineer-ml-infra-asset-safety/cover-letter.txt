@@ -1,0 +1,7 @@
+Hello Roblox Team,
+
+I'm applying for the ML Infra role on Asset Safety because it sits between two things I've built: ML serving systems and vision pipelines.
+
+At Coordinator I ran GPU training and vLLM serving and built vision-language pipelines over video, with the CI/CD around them. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network.
+
+I'd be glad to talk about how I could help keep Roblox's platform safe.

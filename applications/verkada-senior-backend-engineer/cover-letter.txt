@@ -1,0 +1,7 @@
+Hello Verkada Team,
+
+I'm applying for the Senior Backend Engineer role because I like building services that other systems depend on.
+
+The backend I shipped at Coordinator was Go, and I built a data-access gateway with scoped, revocable tokens for third-party apps, so I've thought about access control. I've also built backends in TypeScript on NestJS and Postgres at Ralli, and the CI/CD that gated releases at Coordinator.
+
+I'd be glad to talk about how I could help Verkada.

@@ -1,0 +1,7 @@
+Hello Brex Team,
+
+I'm applying for the AI Engineer role because I like building AI features that real users depend on.
+
+At Coordinator I built LLM fine-tuning and serving pipelines, a voice feature that shipped to production, and a data-access gateway with scoped, revocable tokens. I also built the CI/CD that gated releases, and I work agentic-first, so I ship quickly.
+
+I'd be glad to talk about how I could help Brex.

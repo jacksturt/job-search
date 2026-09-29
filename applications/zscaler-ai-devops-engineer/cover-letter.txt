@@ -1,0 +1,7 @@
+Hello Zscaler Team,
+
+I'm applying for the AI DevOps Engineer role because it combines infrastructure automation with AI, which is how I already work.
+
+At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring. At Coordinator I built the self-hosted CI/CD for our end-to-end tests and ran GPU model serving. I use agentic tools every day to build and operate systems. I haven't run multi-cloud infrastructure at Zscaler's scale.
+
+I'd be glad to talk about how I could help.

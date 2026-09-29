@@ -1,0 +1,7 @@
+Hello Chime Team,
+
+I'm applying for the Senior AI/ML Engineer role because I like owning a problem from the first question to a model running in production.
+
+At Coordinator I did that with LLM fine-tuning and serving on H100 GPUs, a production voice feature, and vision models over football film. I haven't built fraud or credit models, so I'd need to learn that domain, but the end-to-end habit of framing the problem, shipping, and watching what happens is one I bring.
+
+I'd be glad to talk about how I could help Chime's members.

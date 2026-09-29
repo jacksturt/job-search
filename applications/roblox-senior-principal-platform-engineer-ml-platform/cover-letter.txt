@@ -1,0 +1,7 @@
+Hello Roblox Team,
+
+I'm applying for the ML Platform role because I like building tooling that makes other engineers faster.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD that gated every release. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring. I've also been founder and CTO twice, so I'm used to owning systems end to end.
+
+I'd be glad to talk about how I could help Roblox's ML platform.

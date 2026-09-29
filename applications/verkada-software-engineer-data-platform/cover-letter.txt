@@ -1,0 +1,7 @@
+Hello Verkada Team,
+
+I'm applying for the Data Platform role because I like building pipelines and tooling from the ground up.
+
+At Ralli I built the ingestion pipeline that moved betting lines and athlete data into Postgres on a schedule. At Coordinator I built a video pipeline with storage on MinIO and Postgres, and the CI/CD around it. I'd be glad to grow with a team on the platform side.
+
+I'd be glad to talk about how I could help Verkada.

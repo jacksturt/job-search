@@ -1,0 +1,7 @@
+Hello Pinterest Team,
+
+I'm applying for the Visual AI role because computer vision is where I've spent most of my recent time.
+
+At Coordinator I built a pipeline that runs vision-language models over football film to detect formations and mark when plays begin and end, tuning confidence thresholds and frame preprocessing until it held up. I also built a pose-estimation analysis for swing video, and stored the clips and frames on MinIO and Postgres.
+
+I'd be glad to talk about how I could help Pinterest's Visual AI team.

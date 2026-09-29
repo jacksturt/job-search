@@ -1,0 +1,7 @@
+Hello Pinterest Team,
+
+I'm applying for the Senior Machine Learning Engineer role on Core Engineering because I like owning ML systems end to end.
+
+At Coordinator I built fine-tuning and vLLM serving pipelines on H100 GPUs, vision models over video, and the self-hosted CI/CD around them. I've also been founder and CTO twice, so I'm used to making architecture calls and shipping.
+
+I'd be glad to talk about how I could help Pinterest.

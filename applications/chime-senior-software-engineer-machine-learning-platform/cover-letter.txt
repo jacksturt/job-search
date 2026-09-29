@@ -1,0 +1,7 @@
+Hello Chime Team,
+
+I'm applying for the Machine Learning Platform role because it combines the two things I do most: ML systems and infrastructure.
+
+At Coordinator I built GPU training and vLLM serving, plus the self-hosted CI/CD around it. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network. I've built LLM features with tool calling and retrieval, and I care about testing systems that don't behave the same way twice. I haven't used Spark or Ray in production.
+
+I'd be glad to talk about how I could help Chime's ML platform.

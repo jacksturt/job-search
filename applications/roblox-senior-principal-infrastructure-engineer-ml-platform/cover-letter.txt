@@ -1,0 +1,7 @@
+Hello Roblox Team,
+
+I'm applying for the ML Platform Infrastructure role because building the systems that ML engineers train and ship on is work I enjoy.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD for our end-to-end tests. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring. I haven't operated infrastructure at Roblox's scale.
+
+I'd be glad to talk about how I could help Roblox's ML platform.

@@ -1,0 +1,7 @@
+Hello Reddit Team,
+
+I'm applying for the Senior Machine Learning Systems Engineer role because ML infrastructure is the part of ML I like best.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD around it. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network. The backend I shipped at Coordinator was Go.
+
+I'd be glad to talk about how I could help Reddit's ML systems.

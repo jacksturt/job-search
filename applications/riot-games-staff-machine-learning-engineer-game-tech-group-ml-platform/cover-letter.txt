@@ -1,0 +1,7 @@
+Hello Riot Games Team,
+
+I've followed Riot since Season 3 of League of Legends, and I've put in thousands of hours playing and watching it. Building ML infrastructure for Riot's games is a job I'd love, which is why I'm applying for the Staff ML Engineer role in Game Tech.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD around it. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network. Staff is a big step up in scope from what I've held, and I'd be upfront about that.
+
+I'd be glad to talk about how I could help Riot's ML platform.

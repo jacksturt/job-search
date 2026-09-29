@@ -1,0 +1,7 @@
+Hello Epic Games Team,
+
+I'm applying for the Machine Learning Engineer, Memory role. I haven't done research on long-horizon memory, and I'd rather say so up front.
+
+What I have done is post-train and serve open-weight models: at Coordinator I fine-tuned multi-sport LLMs on H100 GPUs with a feedback-retraining loop, quantized them for vLLM, and ran vision-language models over football film. I'd be a builder on the engineering side of this problem.
+
+I'd be glad to talk about whether that's useful to Epic.

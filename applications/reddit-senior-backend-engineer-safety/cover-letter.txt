@@ -1,0 +1,7 @@
+Hello Reddit Team,
+
+I'm applying for the Senior Backend Engineer role on Safety. The backend I shipped at Coordinator was Go, and I've built services in TypeScript and Python as well.
+
+At Coordinator I built a data-access gateway with scoped, revocable tokens for third-party apps, so I've thought about permissions, abuse and what a bad actor might try. I also built the CI/CD that gated every release. I haven't worked on trust and safety at Reddit's scale.
+
+I'd be glad to talk about how I could help keep Reddit safe.

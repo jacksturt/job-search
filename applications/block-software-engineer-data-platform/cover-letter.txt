@@ -1,0 +1,7 @@
+Hello Block Team,
+
+I'm applying for the Data Platform role because I like building the pipelines and tooling other people rely on.
+
+At Ralli I built the ingestion pipeline that moved betting lines and athlete data into Postgres on a schedule, then led the team that extended it. At Coordinator I built a video pipeline with clip and frame storage on MinIO and Postgres, plus the CI/CD that gated releases. I haven't run a warehouse and orchestration stack at Block's scale, and I'd be upfront about that.
+
+I'd be glad to talk about how I could help build the foundations for Block's data and agentic workflows.
