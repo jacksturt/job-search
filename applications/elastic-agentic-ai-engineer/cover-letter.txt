@@ -1,0 +1,7 @@
+Hello Elastic Team,
+
+I'm applying for the Agentic AI Engineer role because agent workflows are how I build software now, and I'd like to build them for a team that runs on them.
+
+At Coordinator I built LLM and voice features, a data-access gateway with scoped, revocable tokens for third-party apps, and vision pipelines that turn video into structured data. I haven't run a production system of many agents delegating work to each other, and I'd be upfront about that. What I bring is hands-on experience with the pieces around agents: tool and data access, permissions, and shipping to real users.
+
+I'd be glad to talk about how I could help Elastic's IT team build agents that do real work.

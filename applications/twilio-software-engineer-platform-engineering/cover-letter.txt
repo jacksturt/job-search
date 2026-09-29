@@ -1,0 +1,7 @@
+Hello Twilio Team,
+
+I'm applying for the Platform Engineering role because the day-to-day work, services and automation around Kubernetes clusters, is what I do well, and I'd like to be part of a bigger team.
+
+At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring. At Coordinator I built the self-hosted CI/CD for our end-to-end tests and shipped backend features in Go. I'm comfortable at any level of scope, and I'd be happy to learn Twilio's patterns from senior engineers, then grow from there.
+
+I'd be glad to talk about how I could help the platform team.

@@ -1,0 +1,7 @@
+Hello Vercel Team,
+
+I'm applying for the Data Platform role. I haven't run Kafka or ClickHouse at your scale, so I'll be direct about the gap. What I have is a habit of building data pipelines from scratch and owning them.
+
+At Ralli I built the pipeline that pulled betting lines and athlete data into Postgres on a schedule, and later led the team that extended it. At Coordinator I built a video pipeline that stored clips and frames on MinIO and Postgres, plus the CI/CD that kept releases safe. I've been a founder and CTO twice, so I'm comfortable making architecture calls and writing production code myself.
+
+Vercel calling itself the agentic infrastructure company fits how I already work. I'd be glad to talk about whether that's a match.

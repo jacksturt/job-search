@@ -1,0 +1,7 @@
+Hello Affirm Team,
+
+I'm applying for the Machine Learning Engineer II role. I haven't built credit underwriting models, and I know that's the core of this job. I'm applying because the engineering side of it, feature pipelines, production reliability and monitoring, is what I do well, and I'd like to learn the modeling side from a strong team.
+
+At Coordinator I built training pipelines on H100 GPUs, served models in production with vLLM, and built the CI/CD around them. At Ralli I built data ingestion pipelines on Postgres. I write production Python and I'm careful about how models fail.
+
+I'd be glad to talk about whether that's useful to the Underwriting ML team.

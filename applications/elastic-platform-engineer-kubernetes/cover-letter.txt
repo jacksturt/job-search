@@ -1,0 +1,7 @@
+Hello Elastic Team,
+
+I'm applying for the Platform Engineer role because it matches the work I do best: building the infrastructure other engineers ship on, and automating everything I can.
+
+At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog monitoring for a decentralized GPU network. At Coordinator I built the self-hosted CI/CD for our end-to-end test suite and ran GPU model serving in production. Before that I was founder and CTO twice, so I'm used to owning infrastructure end to end with a small team.
+
+I like small, focused teams that care about automation and security, and I'd be glad to talk about how I could help build Elastic's application hosting platform.

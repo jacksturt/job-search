@@ -1,0 +1,7 @@
+Hello Databricks Team,
+
+I'm applying for the AI FDE role because it combines what I like most: building GenAI systems and working directly with the people who use them.
+
+At Coordinator I built LLM fine-tuning and serving pipelines on H100 GPUs, RAG-style retrieval, and voice features that shipped to production. Earlier, at Applied Intuition, I built a customer-facing license dashboard that helped close multi-million dollar deals and rebuilt support so response times dropped from over a day to under an hour. I'm comfortable explaining technical things to engineers and to executives.
+
+I haven't used Spark or the Databricks platform in production, and I'd learn them quickly. I'd be glad to talk about how I could help your customers ship AI.
