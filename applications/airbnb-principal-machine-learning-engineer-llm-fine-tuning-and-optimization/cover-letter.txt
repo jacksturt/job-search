@@ -1,0 +1,7 @@
+Hello Airbnb Team,
+
+I'm applying for the Principal ML Engineer role in LLM Fine-tuning and Optimization. I'll be direct: I don't have a PhD, and I have fewer than the 10 years listed, so I'm a long shot on paper. I'm applying because fine-tuning and serving LLMs is the work I've been doing most recently.
+
+At Coordinator I built a multi-sport LLM fine-tuning pipeline on H100 GPUs with PyTorch, Hugging Face and PEFT. It included corpus curation, a two-layer training setup and a continuous feedback-retraining loop, and I quantized the models for vLLM serving. I also shipped a production voice feature and built the CI/CD that gated every release. Before that I was founder and CTO twice, so I'm used to making the architecture calls and writing the code myself.
+
+I'd be glad to talk about how I could help Airbnb's customer service AI.
