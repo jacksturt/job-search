@@ -71,3 +71,9 @@ Tailored application files go in `applications/<company>-<slug>/`:
 - keep the source files too (e.g. `resume.tex`, `cover-letter.md`)
 
 Record the folder name in Resume Version / Cover Letter Version in the tracker.
+
+## Applying (Muse)
+
+Muse may also submit applications. For rows with Status = `tailoring`, use the files named in `Resume Version` / `Cover Letter Version`: they live in `applications/<slug>/` as `resume.pdf` and `cover-letter.pdf`, where `<slug>` is the filename minus its `resume-` / `cover-letter-` prefix and `.pdf` suffix. A row with a blank `Cover Letter Version` has no cover letter field: upload the résumé only.
+
+After submitting, Muse may set that row's Status to `applied`, fill `Date Applied`, and add to `Notes`. If it cannot submit (CAPTCHA, login wall, a question it does not know the answer to), leave Status as `tailoring` and write the reason in `Notes`. Never guess answers about work authorization, sponsorship, demographics, salary or free-text questions. Never delete rows or files.
