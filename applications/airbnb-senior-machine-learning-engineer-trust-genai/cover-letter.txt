@@ -1,0 +1,7 @@
+Hello Airbnb Team,
+
+I'm applying for the Senior ML Engineer role on Trust because it combines agentic and LLM work with a real safety problem.
+
+At Coordinator I built LLM fine-tuning and serving pipelines, a production voice feature, and a data-access gateway with scoped, revocable tokens, so I think a lot about misuse. I haven't built risk models at Airbnb's scale, and my applied ML experience is shorter than the 5 to 10 years listed.
+
+I'd be glad to talk about how I could help keep Airbnb's guests and hosts safe.

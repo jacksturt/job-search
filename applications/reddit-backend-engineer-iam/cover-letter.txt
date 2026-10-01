@@ -1,0 +1,7 @@
+Hello Reddit Team,
+
+I'm applying for the Backend Engineer role on IAM. I haven't worked on an identity system at Reddit's scale, but I've built one small piece of the problem myself.
+
+At Coordinator I built a data-access gateway with scoped, revocable tokens that let third-party apps read and write user data, so I've spent real time on permissions, token lifetimes and what a caller should and shouldn't see. The backend I shipped there was Go, and I built the CI/CD that gated every release. At Ralli I built backend services in TypeScript on NestJS and Postgres.
+
+I'd be glad to talk about how I could help Reddit's IAM team.

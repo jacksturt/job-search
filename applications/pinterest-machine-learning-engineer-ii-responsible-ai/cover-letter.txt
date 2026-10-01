@@ -1,0 +1,7 @@
+Hello Pinterest Team,
+
+I'm applying for the Responsible AI role because I care about how models behave once real people use them.
+
+At Coordinator I built fine-tuning and vLLM serving pipelines on H100 GPUs, a feedback-retraining loop, and vision models over video, and I spent a lot of time tuning confidence thresholds until the outputs were trustworthy. I haven't worked on a dedicated responsible-AI or fairness team.
+
+I'd be glad to talk about how I could help Pinterest.
