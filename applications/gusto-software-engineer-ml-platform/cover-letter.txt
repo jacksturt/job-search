@@ -1,0 +1,7 @@
+Hello Gusto Team,
+
+I'm applying for the ML Platform role because the systems around models are the part of ML I like best.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD around it, and the backend I shipped was Go. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network. I'm most comfortable in Python and TypeScript, and I haven't worked in Ruby or Java.
+
+I'd be glad to talk about how I could help Gusto's ML platform.

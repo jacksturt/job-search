@@ -1,0 +1,7 @@
+Hello Verkada Team,
+
+I'm applying for the Senior Backend Engineer role on Access Control because I've built a small access system myself and want to build a bigger one.
+
+At Coordinator I built a data-access gateway with scoped, revocable tokens for third-party apps. The backend I shipped there was Go, and I built the CI/CD that gated every release. I'm short of the 5+ years in the posting.
+
+I'd be glad to talk about how I could help Verkada.

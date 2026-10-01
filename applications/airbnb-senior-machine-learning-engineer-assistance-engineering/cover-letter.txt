@@ -1,7 +1,0 @@
-Hello Airbnb Team,
-
-I'm applying for the Assistance Engineering role because Chat, Voice and human-agent assistants are close to what I've built recently.
-
-At Coordinator I built GPU fine-tuning and vLLM serving pipelines with a feedback-retraining loop, a voice pipeline that shipped to production as STT/TTS messaging, and a data-access gateway for third-party apps. I also built the CI/CD that ran our end-to-end tests, so I care about how these systems get tested.
-
-I'd be glad to talk about how I could help make Airbnb's customer service assistants better.

@@ -1,7 +1,0 @@
-Hello Airbnb Team,
-
-I'll be direct: this is a data science role built around causal inference and experimentation, and that isn't my background. I don't have a Master's or PhD in a quantitative field, and I haven't run experiments or econometric models professionally. I'm applying anyway because part of the role overlaps with what I do.
-
-I work in SQL and Python every day. At Applied Intuition I built a customer-facing license dashboard that showed usage trends and helped close multi-million dollar deals, and I explained the numbers to sales leaders and customers. At Coordinator I tuned the confidence thresholds on vision models and built fine-tuning and feedback-retraining pipelines for LLMs, so evaluating agentic and LLM-based systems is familiar ground.
-
-If you're open to an engineer who is strong on the ML and evaluation side, I'd be glad to talk.

@@ -1,0 +1,7 @@
+Hello Reddit Team,
+
+I'm applying for the Senior Backend Engineer role on Compliance Engineering because I like building the systems that make policy enforceable in code.
+
+The backend I shipped at Coordinator was Go. I built a data-access gateway with scoped, revocable tokens for third-party apps, so I've worked on permissions and on controlling what data leaves a system. I also built the CI/CD that gated every release. I'm short of the 5+ years of backend experience in the posting and haven't worked on compliance at Reddit's scale.
+
+I'd be glad to talk about how I could help.

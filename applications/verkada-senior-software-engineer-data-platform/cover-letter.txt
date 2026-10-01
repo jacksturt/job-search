@@ -1,0 +1,7 @@
+Hello Verkada Team,
+
+I'm applying for the Senior Data Platform role because I like building pipelines and tooling from the ground up.
+
+At Ralli I built the ingestion pipeline that moved betting lines and athlete data into Postgres on a schedule, and led the team that extended it. At Coordinator I built a video pipeline with storage on MinIO and Postgres, and the CI/CD around it. I'm short of the 5+ years of data engineering in the posting.
+
+I'd be glad to talk about how I could help Verkada.

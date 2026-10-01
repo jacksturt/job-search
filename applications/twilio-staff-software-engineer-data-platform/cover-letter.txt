@@ -1,7 +1,0 @@
-Hello Twilio Team,
-
-I'm applying for the Staff Data Platform role knowing it's a stretch on distributed data systems experience. I'd rather tell you that than have you find it in the interview.
-
-What I offer is ownership. I've built data ingestion pipelines on Postgres and MinIO, run GPU model serving in production, and built the CI/CD that gated every release at Coordinator. As founder and CTO of Ralli and Lancer I led small teams, made the architecture calls, and taught at Turbin3.
-
-If you're open to someone who learns fast and builds carefully, I'd be glad to talk.

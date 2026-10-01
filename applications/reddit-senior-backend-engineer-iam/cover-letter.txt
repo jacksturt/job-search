@@ -1,0 +1,7 @@
+Hello Reddit Team,
+
+I'm applying for the Senior Backend Engineer role on IAM. I haven't worked on an identity system at Reddit's scale, and I'm short of the 5+ years listed, so I'll lead with what I've built.
+
+At Coordinator I built a data-access gateway with scoped, revocable tokens that let third-party apps read and write user data, so I've spent real time on permissions and token lifetimes. The backend I shipped there was Go.
+
+I'd be glad to talk about how I could help Reddit's IAM team.
