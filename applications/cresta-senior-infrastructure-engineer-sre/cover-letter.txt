@@ -1,0 +1,7 @@
+Hello Cresta Team,
+
+I'm applying for the Senior Infrastructure Engineer role because building ML infrastructure so AI teams can ship faster is the work I like best.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD for our end-to-end tests. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for a decentralized GPU network. I haven't run multi-cloud Terraform at scale, and I'm short of the 5+ years of formal DevOps and SRE listed.
+
+I'd be glad to talk about how I could help Cresta's AI teams.

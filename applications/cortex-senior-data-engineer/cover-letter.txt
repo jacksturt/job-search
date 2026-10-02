@@ -1,0 +1,7 @@
+Hello Cortex Team,
+
+I'm applying for the Senior Data Engineer role because I like owning data systems end to end, including the automation built on top of them.
+
+At Ralli I built the pipeline that ingested betting lines and athlete data from public APIs into Postgres on a schedule, owned the data model, and led the team that later extended it. At Coordinator I built a video pipeline with clip and frame storage on MinIO and Postgres, and the CI/CD around it. I work agentic-first, so I move quickly. I haven't used dbt or BigQuery in production.
+
+I'd be glad to talk about how I could help Cortex.

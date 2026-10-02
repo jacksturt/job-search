@@ -1,0 +1,7 @@
+Hello SRS Acquiom Team,
+
+I'm applying for the Senior Data Engineer role on the internal data platform because Postgres, Python and AWS are the tools I know best, and I like building data systems for internal teams.
+
+At Ralli I built the ingestion pipeline that moved betting lines and athlete data into Postgres on a schedule, owned the data model, and later led the team that extended it. At Coordinator I built a video pipeline with storage on MinIO and Postgres, plus the self-hosted CI/CD around it. I haven't used Kafka, AWS Glue or Terraform in production, and I'm a little short of the 6+ years the posting lists.
+
+I'd be glad to talk about how I could help SRS Acquiom's platform engineering team.
