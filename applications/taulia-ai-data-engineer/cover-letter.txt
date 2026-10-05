@@ -1,0 +1,7 @@
+Hello Taulia Team,
+
+I'm applying for the AI Data Engineer role because it sits where I like to work: data pipelines feeding AI features, with retrieval done properly.
+
+At Coordinator I built retrieval and RAG-style features alongside LLM fine-tuning and serving pipelines, and a data-access gateway with scoped, revocable tokens that connects third-party apps to user data. At Ralli I built the ETL pipeline that ingested betting lines and athlete data from public REST APIs into Postgres on a schedule, owned the data model, and led the team that extended it. I write Python and SQL every day, and I work agentic-first. I haven't worked inside an enterprise warehouse, with SAP integrations, or under fintech compliance requirements.
+
+I'd be glad to talk about how I could help Taulia's AI data work.
