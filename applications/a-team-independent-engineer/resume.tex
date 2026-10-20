@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A.Team (a.team), independent builder network application.
+% Generalist framing for fractional "missions": full-stack + Solana founder work, with AI as the
+% latest chapter; contract/independent track record. Black-and-white submission version ([print] option).
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary}
+Full-stack and AI platform engineer and two-time founder/CTO with seven years of shipping for startups: TypeScript and Go products, real-time Solana apps, and production AI on GPU infrastructure (LLM fine-tuning, vLLM serving, vision, voice). Embeds with small teams and owns scope end to end.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+TypeScript \hfill | \hfill
+Python \hfill | \hfill
+Go \hfill | \hfill
+Rust \hfill | \hfill
+Full-Stack Web \hfill | \hfill
+LLM Fine-Tuning \& vLLM \hfill | \hfill
+GPU Pipelines \hfill | \hfill
+Solana (Anchor) \\
+\hspace{1.0cm} Postgres / SQL \hfill | \hfill
+NestJS \hfill | \hfill
+Multimodal (VLMs, Voice) \hfill | \hfill
+LLM / Agentic Tooling \hfill | \hfill
+Docker \hfill | \hfill
+Kubernetes \hfill | \hfill
+CI/CD \hfill | \hfill
+AWS \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Go data-access gateway (scoped, revocable tokens) that grew into a third-party app store with 3-way template merges
+    \item Shipped production voice messaging (STT/TTS via OpenRouter) after prototyping a self-hosted Whisper GPU pipeline
+    \item Multi-sport LLM fine-tuning pipeline on H100s with a feedback-retraining loop and quantized vLLM serving
+    \item Video/VLM pipeline (Qwen3-VL, Cosmos-Reason2) for at-the-snap football formation detection
+    \item Self-hosted CI/CD for the end-to-end test suite: serial vs. parallel job split; switched LLM backend to cut per-run cost
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{November 2024 – October 2025}
+\begin{tightemize}
+    \item Founded a real-time social sports betting platform; built the betting-line and roster ingestion pipeline (ESPN APIs)
+    \item Built player prop markets on an on-chain Solana order book (Manifest), with live projections from play-by-play data
+    \item Built core backend domain services (games, matchups, users, lines) on NestJS with Drizzle/Postgres
+    \item Wrote on-chain bet-submission and line-resolution programs on Solana (Anchor/Rust); integrated the Para wallet SDK
+    \item Led a team building out the platform; scaled from part-time to full-time (July 2025)
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, crypto and AI startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Banger (Feb 2024): interim CTO; tokenized tweets on bonding curves (Next.js, Anchor); led to a \$250K raise
+    \item Lancer (2022 – 2023): founder/CTO, Solana freelance platform with escrow contracts; 7 people; won \$30K at Grizzlython
+    \item Cherry Labs: NFT-based rentals of GPUs for AI training and crypto validators; Trustless Engineering (Apr 2024): Kubernetes (ArgoCD), ML infrastructure, Datadog
+    \item Real-time Solana front ends: DEX trading UI for Cypher (2022), live price charts for Tsunami Finance (2022), dashboards for Clockwork, Solana's on-chain cron (2023)
+    \item Particles (Nov 2022): built the platform for on-chain (Anchor) raffles of fractionalized-art NFTs, then trading
+    \item IkonShop (Nov 2023): merch marketplace paid in crypto and NFTs; Blocknotes (2023): on-chain raffles for MP3 NFTs
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Hydraze, Inc}
+\location{College Park, MD}
+\descriptit{Chief Technology Officer}
+\location{January 2019 – July 2020}
+\begin{tightemize}
+    \item Built an IoT sensor network (Raspberry Pi + Arduino) for facilities data collection, plus a device/usage management platform
+\end{tightemize}
+
+\runsubsection{Amazon Web Services}
+\location{Seattle, WA}
+\descriptit{SDE Intern}
+\location{May 2019 – August 2019}
+\begin{tightemize}
+    \item Enabled mathematical verification of AWS products through compilation from Dafny to Java, see \href{https://github.com/dafny-lang/dafny}{Github \ExternalLink}
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude} \hfill
+\begin{tightemize}
+    \item \color{darkmodePrimary}\href{https://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/fellows-special-programs/quest}{QUEST \ExternalLink}: Honors program focused on business and technology collaboration for solving complex design challenges
+\end{tightemize}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}
