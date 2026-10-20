@@ -1,5 +1,5 @@
 HEADLINE
-Full-Stack & AI Platform Engineer | 2x Founder/CTO | TypeScript, Go, Solana, LLM fine-tuning & vLLM serving | ex-Applied Intuition, ex-AWS
+Full-Stack & AI Platform Engineer | 2x Founder/CTO | TypeScript, Python, Go, Solana, LLM fine-tuning & vLLM serving | ex-Applied Intuition, ex-AWS
 
 ABOUT
 In second grade I wrote and illustrated a book about TL-01, a little robot learning how to love. I've been building things meant to help people ever since.
