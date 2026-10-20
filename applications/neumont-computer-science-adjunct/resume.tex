@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Neumont University, Computer Science Adjunct (Salt Lake City, in person).
+% Teaching-tailored; black-and-white submission version ([print] option).
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Teaching Areas and Profiles}
+\runsubsection{Teaching Areas}:
+Full-Stack Web Development \hfill | \hfill
+Software Design \& Architecture \hfill | \hfill
+Microservices \hfill | \hfill
+Python \hfill | \hfill
+SQL / Postgres \
+\hspace{1.0cm} Git / GitHub \hfill | \hfill
+Testing \& QA \hfill | \hfill
+CI/CD \hfill | \hfill
+Docker / Kubernetes \hfill | \hfill
+Agile Team Leadership \hfill | \hfill
+AI / ML \hfill | \hfill
+Embedded / IoT \
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TEACHING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Teaching Experience}
+
+\runsubsection{Turbin3}
+\location{Remote}
+\descriptit{Head of Special Projects}
+\location{May 2024 – July 2025}
+\begin{tightemize}
+    \item Guest lectures at MIT, USC, and Deree College (Athens, Greece)
+    \item Builders 101: taught Solana blockchain fundamentals; each student designed and built a custom project to completion to demonstrate mastery
+    \item Advanced Solana: led a deep dive into validator internals and network-wide coordination
+    \item Elites: selected the strongest engineers from Builders 101 and Advanced Solana and taught the product and soft skills of working as a founding software team; that cohort became the engineering team behind Ralli
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Industry Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Built self-hosted CI/CD for the end-to-end test suite: serial vs. parallel job split, cheaper LLM backend per run
+    \item Designed a data-access gateway (scoped, revocable tokens) that grew into an app store with 3-way merge template updates
+    \item LLM fine-tuning pipeline on H100 GPUs (feedback retraining, vLLM serving), plus voice (Whisper) and video/VLM pipelines
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{January 2025 – October 2025}
+\begin{tightemize}
+    \item Led the engineering team (the Turbin3 Elites cohort) building a real-time fantasy sports and social betting platform
+    \item Designed the data model and ETL pipelines loading live betting lines and rosters from ESPN's APIs into Postgres (Supabase)
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Software Consultant}
+\location{Remote}
+\descriptit{Founder / Contract Engineer, early-stage ventures}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Led engineering for multiple early-stage startups: full-stack web development and small team leadership
+    \item ML Engineer at Trustless Engineering (April 2024): built Kubernetes deployments (ArgoCD) and ML infrastructure, with Datadog for observability
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+    \item Helped close multiple million dollar deals with a license dashboard showing client product usage trends
+    \item Cut average customer support response time from > 1 day to < 1 hour by building and automating a custom Zendesk solution
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Hydraze, Inc}
+\location{College Park, MD}
+\descriptit{Chief Technology Officer}
+\location{January 2019 – July 2020}
+\begin{tightemize}
+    \item Built an embedded IoT sensor network (Raspberry Pi + Arduino) and a management platform for device and usage data
+\end{tightemize}
+
+\runsubsection{Amazon Web Services}
+\location{Seattle, WA}
+\descriptit{SDE Intern}
+\location{May 2019 – August 2019}
+\begin{tightemize}
+    \item Enabled mathematical verification of AWS products through compilation from Dafny to Java, see \href{https://github.com/dafny-lang/dafny}{Github \ExternalLink}
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude \hfill 2020}
+\begin{tightemize}
+    \item \color{darkmodePrimary}\href{https://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/fellows-special-programs/quest}{QUEST \ExternalLink}: Honors program focused on business and technology collaboration for solving complex design challenges
+\end{tightemize}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

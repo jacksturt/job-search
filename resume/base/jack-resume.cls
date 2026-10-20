@@ -30,6 +30,18 @@
 \definecolor{darkmodeHeadings}{HTML}{0CA4A5}
 \definecolor{darkmodeSubheadings}{HTML}{f6f6f6}
 
+% Black-and-white submission version: \documentclass[print]{jack-resume}
+% White page, black text, no background fill (for printing, ATS, email)
+\ifdefined\@cv@print
+  \definecolor{headings}{HTML}{000000}
+  \definecolor{darkmodeBackground}{HTML}{FFFFFF}
+  \definecolor{darkmodeDate}{HTML}{333333}
+  \definecolor{darkmodePrimary}{HTML}{1A1A1A}
+  \definecolor{darkmodeHeadings}{HTML}{000000}
+  \definecolor{darkmodeSubheadings}{HTML}{000000}
+  \renewcommand{\pagecolor}[1]{}
+\fi
+
 % Set main fonts
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Color=darkmodePrimary, Path = fonts/lato/]{Lato-Lig}
@@ -62,9 +74,14 @@ Last Updated on
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
-% Headings command
+% Headings command (bold in the print version, since teal no longer sets them apart)
+\ifdefined\@cv@print
+  \def\@cv@headingfont{Raleway-Bold}
+\else
+  \def\@cv@headingfont{Raleway-Medium}
+\fi
 \titleformat{\section}{\color{darkmodeHeadings}
-\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{20pt}\selectfont\centering\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/raleway/]{\@cv@headingfont}\fontsize{12pt}{20pt}\selectfont\centering\uppercase}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{darkmodeSubheadings}
