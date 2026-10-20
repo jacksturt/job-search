@@ -6,7 +6,9 @@ In second grade I wrote and illustrated a book about TL-01, a little robot learn
 
 I'm a full-stack and AI platform engineer and two-time founder/CTO with seven years of shipping for startups. Most recently, as lead engineer (contract) at Coordinator, I fine-tuned LLMs on H100s and served them on vLLM, built vision models that read football formations at the snap, shipped voice messaging to production, and built a Go data-access gateway that grew into a third-party app store.
 
-Before that I spent four years independent, mostly in crypto. I founded Lancer, a Solana freelance platform with smart-contract escrow (7-person team, $30K Grizzlython win), and Ralli, a real-time social sports betting platform. As interim CTO at Banger I built a platform that put tokenized tweets on a bonding curve, which led directly to a $250K raise. I also built real-time front ends for Solana teams: Cypher's DEX, Tsunami Finance's price charts, and Clockwork's dashboards. I started out at AWS and Applied Intuition.
+Before that I founded Ralli, a real-time social sports betting platform: player prop markets on an on-chain Solana order book, live projections from play-by-play data, a NestJS/Postgres backend, and the on-chain betting programs.
+
+From 2021 to 2024 I worked independently, mostly in crypto. I founded Lancer, a Solana freelance platform with escrow contracts (7-person team, $30K Grizzlython win). As interim CTO at Banger I built a platform that put tokenized tweets on bonding curves, which led directly to a $250K raise. I built Particles end to end (on-chain raffles of fractionalized-art NFTs, then trading), plus real-time front ends for Cypher's DEX, Tsunami Finance's price charts and Clockwork's dashboards. I started out at AWS and Applied Intuition.
 
 I do my best work embedded with a small team: scoping the problem, picking the simplest thing that works, and shipping something people use.
 
