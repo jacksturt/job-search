@@ -1,34 +1,71 @@
-BIO
+ABOUT ME (max 1000 characters)
 
-I'm a full-stack and AI platform engineer and two-time founder/CTO. For seven years I've built products for early-stage teams, usually as the first or most senior engineer, owning everything from the data model to the deploy.
-
-Most recently I was lead engineer at Coordinator. I fine-tuned LLMs on H100 GPUs and served them with vLLM, built vision-language pipelines that detect football formations at the snap, shipped voice messaging to production, and wrote a Go gateway that grew into a third-party app store.
-
-Before that I spent four years building on Solana. I founded Lancer, a freelance marketplace with on-chain escrow, and led a seven-person team to a $30K win at the Grizzlython hackathon. I then founded Ralli, a real-time social sports betting platform with player prop markets on an on-chain order book. As interim CTO at Banger, I built a platform in eight weeks that led directly to a $250K raise. I also built real-time trading interfaces and dashboards for Cypher, Tsunami Finance, and Clockwork.
-
-I started my career at AWS and Applied Intuition, where a license dashboard I built helped close million-dollar deals. I have a B.S. in Computer Engineering from the University of Maryland.
-
-I work best embedded in a small team: scoping the problem with founders, picking the simplest thing that works, and shipping it. I work across TypeScript, Python, Go, and Rust.
+Full-stack and AI platform engineer and two-time founder/CTO. For seven years I've built products for early-stage teams, usually as the first or most senior engineer. Most recently, at Coordinator, I fine-tuned and served LLMs on H100s with vLLM, built vision-language and voice pipelines, and wrote a Go gateway that grew into a third-party app store. Before that I founded Lancer, a Solana freelance marketplace with on-chain escrow ($30K Grizzlython win), and Ralli, a real-time social sports betting platform. As interim CTO at Banger, I built the platform in eight weeks that led to a $250K raise. I started out at AWS and Applied Intuition. I work best embedded in a small team: scoping with founders, picking the simplest thing that works, and shipping it.
 
 
 PROJECTS
+(Metrics marked "on-chain" were read from Solana mainnet on 2026-10-20. Commit counts are Jack's own commits on GitHub.)
 
-Lancer: Web3 freelance marketplace (Founder / CTO, Dec 2022 – Dec 2023)
-Lancer was a freelance marketplace on Solana. Clients posted bounties, freelancers applied and submitted work, and payment sat in on-chain escrow until the client approved it. I designed and wrote most of the platform: the Anchor escrow program with dispute resolution and vote-to-cancel, and a Next.js/tRPC/Prisma app with quotes, checkpoints, shortlists, and in-app messaging. I added ACH payouts through Coinflow so freelancers without crypto could get paid, plus NFT completion badges, leaderboards, and referrals. I also built a GitHub app and browser extension that linked bounties to pull requests: when a linked PR closed, the escrowed payment went to the developer who wrote it. I led a 7-person team, and we won $30K at Solana's Grizzlython hackathon.
+------------------------------------------------------------
+LANCER
+Headline: Solana freelance marketplace with on-chain escrow and automatic PR payouts
+Role: Founder / CTO
+Dates: Dec 2022 – Dec 2023
+Description:
+Lancer was a freelance marketplace on Solana. Clients posted bounties, freelancers applied and submitted work, and payment sat in on-chain escrow until the client approved it. I designed and wrote most of the platform: the Anchor escrow program with dispute resolution and vote-to-cancel, and a Next.js/tRPC/Prisma app with quotes, checkpoints, shortlists, and in-app messaging. I added ACH payouts through Coinflow so freelancers without crypto could get paid, plus NFT completion badges, leaderboards, and referrals. I also built a GitHub app and browser extension that linked bounties to pull requests: when a linked PR closed, the escrowed payment went to the developer who wrote it.
+Metrics:
+- Won $30K at Solana's Grizzlython hackathon
+- 264 bounty escrows funded on mainnet by 55 clients (on-chain)
+- 574 referral accounts and ~3,000 mainnet transactions (on-chain)
+- Led a 7-person team; wrote 825+ commits to the main codebase
 Skills: TypeScript, Next.js, tRPC, Prisma, Postgres, Rust, Anchor, Solana, GCP, Sentry
 
-Ralli: real-time social sports betting (Founder / CTO, Nov 2024 – Oct 2025)
-Ralli let friends bet on games together in real time. I started with player prop markets on an on-chain Solana order book (Manifest), priced against live projections built from play-by-play data. I then rebuilt it as a Turborepo monorepo: a Next.js web app and a NestJS server (games, matchups, lines, friends, leaderboards, notifications, referrals) on Drizzle/Postgres, with WebSockets for live updates and Datadog tracing. I wrote the Anchor programs for bet submission and line resolution, integrated Para embedded wallets so users never had to handle seed phrases, and built the ingestion pipeline for betting lines and rosters. I led the engineering team, and we went full-time in July 2025.
-Skills: TypeScript, Next.js, NestJS, Drizzle, Postgres, WebSockets, Rust, Anchor, Solana, Datadog
-
-Banger: tokenized tweets (Interim CTO, Feb – Apr 2024)
-Banger turned tweets into tradable assets: each tweet became a market on a bonding curve that anyone could buy into or sell out of. As interim CTO for eight weeks, I built the platform end to end: an Anchor program for the bonding-curve markets and creator vaults, a Next.js/tRPC/Prisma app with wallet and social-account registration, market creation, and live price and volume charts. The working product led directly to a $250K raise.
+------------------------------------------------------------
+BANGER
+Headline: Built a tweet-trading platform in 8 weeks that led to a $250K raise
+Role: Interim CTO
+Dates: Feb – Apr 2024
+Description:
+Banger turned tweets into tradable assets: each tweet became a market on a bonding curve that anyone could buy into or sell out of, with a cut going to the tweet's creator. As interim CTO, I built the platform end to end: an Anchor program for the bonding-curve markets and creator vaults, and a Next.js/tRPC/Prisma app with wallet and social-account registration, market creation, and live price and volume charts.
+Metrics:
+- Working product led directly to a $250K raise
+- Built end to end in 8 weeks (80 commits)
 Skills: TypeScript, Next.js, tRPC, Prisma, NextAuth, Rust, Anchor, Solana
 
-Particles and Blocknotes: on-chain NFT raffles (Lead Engineer, Sep 2022 – Jan 2023; Jun – Sep 2023)
-Particles raffled NFTs of fractionalized artwork on Solana. I built the whole raffle platform: an Anchor program to create raffles, sell tickets, draw winners, and settle (with SOL and BONK ticket payments), and a Next.js front end with raffle creation, an admin dashboard, and results pages. It ran on Solana mainnet. In 2023 I adapted the same platform for Blocknotes, which raffled MP3-based music NFTs.
+------------------------------------------------------------
+PARTICLES (and BLOCKNOTES)
+Headline: On-chain NFT raffle platform that sold 3,500+ tickets on Solana mainnet
+Role: Lead Engineer
+Dates: Sep 2022 – Jan 2023 (Blocknotes: Jun – Sep 2023)
+Description:
+Particles raffled NFTs of fractionalized artwork on Solana. I built the whole raffle platform: an Anchor program to create raffles, sell tickets, draw winners, and settle, with tickets payable in SOL, USDC, BONK and community tokens, plus a Next.js front end with raffle creation, an admin dashboard, and results pages. In 2023 I adapted the same platform for Blocknotes, which raffled MP3-based music NFTs.
+Metrics:
+- 38 raffles and 3,537 tickets sold to 232 unique wallets (on-chain)
+- ~4,450 mainnet transactions (on-chain)
+- Same program redeployed for Blocknotes: 19 more raffles (on-chain)
 Skills: TypeScript, Next.js, Rust, Anchor, Solana, Metaplex
 
-Cherry Labs: NFT-based GPU rentals (Contract Engineer, Sep – Nov 2024)
+------------------------------------------------------------
+RALLI
+Headline: Real-time social sports betting with on-chain player prop markets
+Role: Founder / CTO
+Dates: Nov 2024 – Oct 2025
+Description:
+Ralli let friends bet on games together in real time. I started with player prop markets on an on-chain Solana order book (Manifest), priced against live projections built from play-by-play data. I then rebuilt it as a Turborepo monorepo: a Next.js web app and a NestJS server (games, matchups, lines, friends, leaderboards, notifications, referrals) on Drizzle/Postgres, with WebSockets for live updates and Datadog tracing. I wrote the Anchor programs for bet submission and line resolution, integrated Para embedded wallets so users never had to handle seed phrases, and built the ingestion pipeline for betting lines and rosters.
+Metrics:
+- Led the engineering team; went full-time in July 2025
+- A dozen backend domain modules, with live updates over WebSockets
+- 500+ commits across the two codebases
+- [ADD: users, bets placed, or retention if you have them]
+Skills: TypeScript, Next.js, NestJS, Drizzle, Postgres, WebSockets, Rust, Anchor, Solana, Datadog
+
+------------------------------------------------------------
+CHERRY LABS
+Headline: NFT mint and marketplace for renting GPU servers
+Role: Contract Engineer
+Dates: Sep – Nov 2024
+Description:
 Cherry Labs rented out GPU servers for AI training and crypto validators, with each rental represented as an NFT. I built the mint and marketplace site: server listings with specs and price breakdowns, on-chain minting, listing flows, and signature verification for sensitive actions.
+Metrics:
+- [ADD: servers listed, NFTs minted, or revenue if you know them]
 Skills: TypeScript, Next.js, Solana, Docker
