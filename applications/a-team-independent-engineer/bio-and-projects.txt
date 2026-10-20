@@ -71,10 +71,10 @@ Metrics:
 Skills: TypeScript, Next.js, Solana, Docker
 
 
-EXPERIENCE: INDEPENDENT ENGINEER (Founder / Freelance Engineer, Oct 2021 – Dec 2024)
+EXPERIENCE: FREELANCE ENGINEER (Oct 2021 – Dec 2024; Lancer has its own entry)
 
 Full version:
-Founded two startups and freelanced for crypto and AI teams, mostly on Solana, usually as the first or most senior engineer. I founded Lancer, a freelance marketplace with on-chain escrow: I led a 7-person team, we won $30K at the Grizzlython hackathon, and clients funded 264 bounties on mainnet. As interim CTO at Banger, I built a tweet-trading platform on bonding curves in eight weeks, which led directly to a $250K raise. I built an on-chain NFT raffle platform for Particles that sold 3,500+ tickets to 232 wallets, and later reused it for Blocknotes. I also built an NFT-based GPU rental marketplace for Cherry Labs, real-time trading interfaces and dashboards for Cypher, Tsunami Finance, and Clockwork, and Kubernetes and ML infrastructure for Trustless Engineering.
+Freelance engineer for crypto and AI startups, mostly on Solana, usually brought in as the first or most senior engineer to take a product from idea to launch. As interim CTO at Banger, I built a tweet-trading platform on bonding curves in eight weeks, which led directly to a $250K raise. For Particles I built an on-chain NFT raffle platform that sold 3,500+ tickets to 232 wallets on mainnet, then adapted it for Blocknotes' music NFTs. I built the NFT-based GPU rental marketplace for Cherry Labs, real-time trading interfaces and dashboards for Cypher, Tsunami Finance, and Clockwork, a crypto- and NFT-paid merch marketplace for IkonShop, and Kubernetes and ML infrastructure for Trustless Engineering.
 
 Short version:
-Founder and freelance engineer for crypto and AI startups, mostly on Solana. Founded Lancer (on-chain freelance escrow; $30K Grizzlython win), was interim CTO at Banger (platform built in 8 weeks, led to a $250K raise), and built an NFT raffle platform that sold 3,500+ tickets, plus work for Cherry Labs, Cypher, Tsunami Finance, Clockwork, and Trustless Engineering.
+Freelance engineer for crypto and AI startups, mostly on Solana. Interim CTO at Banger (platform built in 8 weeks, led to a $250K raise); built an on-chain NFT raffle platform that sold 3,500+ tickets (Particles, Blocknotes); plus work for Cherry Labs, Cypher, Tsunami Finance, Clockwork, IkonShop, and Trustless Engineering.
