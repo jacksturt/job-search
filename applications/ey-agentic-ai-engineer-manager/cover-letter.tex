@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\definecolor{teal}{HTML}{0CA4A5}
+\hypersetup{colorlinks=true,urlcolor=teal}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack \textcolor{teal}{Sturtevant}}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello EY Challenger Team,
+
+I'm applying for the Agentic AI Engineer - Manager role. The posting asks for agents that carry work through to a verified outcome, and for the judgment to choose a plain workflow when it performs better. That's how I've been building.
+
+At Coordinator I built the tools the agent used to write and edit apps in a user's workspace, plus read-only tools for reading data across a user's installed apps. I built the gateway that gives third-party apps scoped, revocable, device-bound tokens with an audit log, and backed it with 28 integration tests. In the agent runtime I added group-scoped memory pruning and a pipeline that lets reviewers turn real production turns into labeled training data. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4--6x faster, so I added it as its own tier. Before Coordinator I was founder and CTO of Ralli and Lancer, where I led small teams and wrote production code myself.
+
+I haven't shipped MCP integrations or run agents on a durable workflow engine, and I've led as a founder and CTO rather than as a manager inside a large firm. I'd be glad to talk about how I could help Challenger build agents that hold up in production.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

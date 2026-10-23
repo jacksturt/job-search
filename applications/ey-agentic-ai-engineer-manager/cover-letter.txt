@@ -1,0 +1,9 @@
+Hello EY Challenger Team,
+
+I'm applying for the Agentic AI Engineer - Manager role. The posting asks for agents that carry work through to a verified outcome, and for the judgment to choose a plain workflow when it performs better. That's how I've been building.
+
+At Coordinator I built the tools the agent used to write and edit apps in a user's workspace, plus read-only tools for reading data across a user's installed apps. I built the gateway that gives third-party apps scoped, revocable, device-bound tokens with an audit log, and backed it with 28 integration tests. In the agent runtime I added group-scoped memory pruning and a pipeline that lets reviewers turn real production turns into labeled training data. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I added it as its own tier. Before Coordinator I was founder and CTO of Ralli and Lancer, where I led small teams and wrote production code myself.
+
+I haven't shipped MCP integrations or run agents on a durable workflow engine, and I've led as a founder and CTO rather than as a manager inside a large firm. I'd be glad to talk about how I could help Challenger build agents that hold up in production.
+
+Jack Sturtevant
