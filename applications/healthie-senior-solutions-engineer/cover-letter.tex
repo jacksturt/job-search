@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Healthie Team,
+
+I'm applying for the Senior Solutions Engineer role. I like the work between a customer's problem and a working integration.
+
+At Applied Intuition I built the customer-facing license dashboard that helped close multi-million-dollar deals, and a Zendesk automation that cut support response time from over a day to under an hour. Since then, as a founder and CTO, I've built React and TypeScript front ends on Postgres back ends, third-party API integrations, and a gateway that gives outside apps scoped access to user data with an audit log.
+
+I haven't worked in Rails or in healthcare. I'd be glad to talk about how I could help Healthie's customers get their integrations running.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

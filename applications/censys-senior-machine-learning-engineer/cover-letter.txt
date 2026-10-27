@@ -1,0 +1,9 @@
+Hello Censys Team,
+
+I'm applying for the Senior Machine Learning Engineer role. Turning messy raw data into labels people can trust is the part of ML I like best.
+
+At Coordinator I built a vision-language-model pipeline that classifies formations in game video, with a scoring harness to tune confidence thresholds against labeled examples. I fine-tuned sport-specific LLMs on H100s, from corpus curation to quantized vLLM serving, and built a pipeline that turns reviewed production output into labeled training data. I write Go and Python.
+
+I haven't worked with Internet scan or network data yet. I'd be glad to talk about how I could help Censys turn it into context customers can use.
+
+Jack Sturtevant

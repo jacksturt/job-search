@@ -1,0 +1,9 @@
+Hello Manifest Team,
+
+I'm applying for the Senior Infrastructure Engineer role. I like making build and release pipelines fast and safe.
+
+At Coordinator I built the self-hosted CI/CD that runs our end-to-end suite on every release merge, splitting serial and parallel jobs and cutting per-run cost, and I ran self-hosted GPU services in Docker. I also built a gateway with scoped, revocable tokens and an audit log. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability.
+
+To be clear about depth: I've deployed to Kubernetes with ArgoCD, but I haven't owned operating and troubleshooting a production cluster, and I haven't used Terraform, Ansible, or Helm in depth. I'd be glad to talk about whether that fits what Manifest needs.
+
+Jack Sturtevant

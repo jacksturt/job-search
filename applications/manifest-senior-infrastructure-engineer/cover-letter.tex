@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Manifest Team,
+
+I'm applying for the Senior Infrastructure Engineer role. I like making build and release pipelines fast and safe.
+
+At Coordinator I built the self-hosted CI/CD that runs our end-to-end suite on every release merge, splitting serial and parallel jobs and cutting per-run cost, and I ran self-hosted GPU services in Docker. I also built a gateway with scoped, revocable tokens and an audit log. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability.
+
+To be clear about depth: I've deployed to Kubernetes with ArgoCD, but I haven't owned operating and troubleshooting a production cluster, and I haven't used Terraform, Ansible, or Helm in depth. I'd be glad to talk about whether that fits what Manifest needs.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Healthie Team,
+
+I'm applying for the Senior Data Engineer role. I like data work where access control and data quality matter as much as throughput.
+
+At Ralli I built the pipeline that ingested betting lines and roster data from ESPN's APIs into Postgres, and the domain services on top of it. At Coordinator I built a gateway that gives third-party apps scoped, revocable access to user data with rate limits and an audit log, a storage pipeline for video clips and frames on MinIO and Postgres, and a pipeline that turns reviewed production turns into training data.
+
+I haven't worked with HIPAA-regulated data or run Snowflake, but least-privilege access and audit trails are how I build. I'd be glad to talk about how I could help Healthie keep its data platform reliable and safe.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

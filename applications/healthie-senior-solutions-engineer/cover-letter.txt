@@ -1,0 +1,9 @@
+Hello Healthie Team,
+
+I'm applying for the Senior Solutions Engineer role. I like the work between a customer's problem and a working integration.
+
+At Applied Intuition I built the customer-facing license dashboard that helped close multi-million-dollar deals, and a Zendesk automation that cut support response time from over a day to under an hour. Since then, as a founder and CTO, I've built React and TypeScript front ends on Postgres back ends, third-party API integrations, and a gateway that gives outside apps scoped access to user data with an audit log.
+
+I haven't worked in Rails or in healthcare. I'd be glad to talk about how I could help Healthie's customers get their integrations running.
+
+Jack Sturtevant

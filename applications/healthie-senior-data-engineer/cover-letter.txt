@@ -1,0 +1,9 @@
+Hello Healthie Team,
+
+I'm applying for the Senior Data Engineer role. I like data work where access control and data quality matter as much as throughput.
+
+At Ralli I built the pipeline that ingested betting lines and roster data from ESPN's APIs into Postgres, and the domain services on top of it. At Coordinator I built a gateway that gives third-party apps scoped, revocable access to user data with rate limits and an audit log, a storage pipeline for video clips and frames on MinIO and Postgres, and a pipeline that turns reviewed production turns into training data.
+
+I haven't worked with HIPAA-regulated data or run Snowflake, but least-privilege access and audit trails are how I build. I'd be glad to talk about how I could help Healthie keep its data platform reliable and safe.
+
+Jack Sturtevant

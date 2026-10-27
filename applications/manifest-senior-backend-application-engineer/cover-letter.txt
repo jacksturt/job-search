@@ -1,0 +1,9 @@
+Hello Manifest Team,
+
+I'm applying for the Senior Backend Application Engineer role. I like building web services and pipelines that have to stay correct under load.
+
+At Coordinator I built a Go gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log, which grew into an app store with a template registry and per-app storage. At Ralli, as founder and CTO, I built NestJS/Postgres services with live WebSocket updates and the ingestion pipeline for betting lines and rosters. I've also fine-tuned and served LLMs, which could help with Manifest's AI work.
+
+The posting asks for 8+ years; I have seven, including two companies where I founded and ran engineering. I'd be glad to talk about how I could help Manifest scale its services.
+
+Jack Sturtevant

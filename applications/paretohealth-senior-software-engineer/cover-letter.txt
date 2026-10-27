@@ -1,0 +1,9 @@
+Hello ParetoHealth Team,
+
+I'm applying for the Senior Software Engineer role. I like full-stack TypeScript work where I own a feature from the API to the UI.
+
+As founder and CTO of Ralli I built NestJS/Drizzle/Postgres services with live WebSocket updates behind a Next.js front end, and at Lancer I built a Next.js, tRPC, and Prisma platform with a 7-person team. At Coordinator I built a Go data gateway with scoped tokens and an audit log, and CI that runs our end-to-end suite on every release merge. I use AI coding agents every day.
+
+My front-end work is in React rather than Angular, and I haven't worked under HIPAA, though least-privilege access and audit logging are how I build. I'd be glad to talk about how I could help ParetoHealth.
+
+Jack Sturtevant

@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Manifest Team,
+
+I'm applying for the Senior Backend Application Engineer role. I like building web services and pipelines that have to stay correct under load.
+
+At Coordinator I built a Go gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log, which grew into an app store with a template registry and per-app storage. At Ralli, as founder and CTO, I built NestJS/Postgres services with live WebSocket updates and the ingestion pipeline for betting lines and rosters. I've also fine-tuned and served LLMs, which could help with Manifest's AI work.
+
+The posting asks for 8+ years; I have seven, including two companies where I founded and ran engineering. I'd be glad to talk about how I could help Manifest scale its services.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
