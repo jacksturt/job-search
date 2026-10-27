@@ -1,0 +1,9 @@
+Hello Reddit Team,
+
+I'm applying for the Machine Learning Engineer role because I like owning ML systems end to end, from data to serving.
+
+At Coordinator I fine-tuned sport-specific LLMs on H100 GPUs, from corpus curation to quantized vLLM serving, with a loop to retrain on reviewed production turns. I also built a vision-language-model pipeline over video with a scoring harness for tuning thresholds, and the CI that gated releases. I write Python and Go.
+
+I haven't built ranking or ads systems at Reddit's scale. I'd be glad to talk about how my production ML work could carry over.
+
+Jack Sturtevant

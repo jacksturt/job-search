@@ -1,0 +1,9 @@
+Hello Hudl Team,
+
+I'm applying for the Senior Software Engineer role. I spent this year building an AI sports-coaching platform, so Hudl's mix of game video, sensor data, and agentic AI is close to what I've been doing.
+
+As lead engineer at Coordinator I built a pipeline that runs vision-language models over game film to detect formations at the snap, with a scoring harness to tune it, plus IMU sensor and swing-video pose pipelines. I fine-tuned sport-specific LLMs on H100s, shipped voice messaging, and built the CI that ran our end-to-end suite on every release merge. Before that I was founder and CTO of Ralli, a real-time sports betting platform built on NestJS and Postgres with live projections from play-by-play data, where I led the engineering team.
+
+I work agent-first every day and have led small teams as a founder. I live in Utah, and I'd be glad to talk about how I could help Hudl's teams ship.
+
+Jack Sturtevant

@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Reddit Team,
+
+I'm applying for the Senior Forward Deployed Engineer (AI Enablement) role. The posting asks for someone who can tell where AI adds value, where conventional automation is better, and what should stay a human decision. I made that call often at Coordinator.
+
+There I built the tools our agent used to edit apps in a user's workspace and read data across their installed apps, plus a gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4--6x faster, so I shipped it as its own tier. I also built the pipeline that lets reviewers turn real production turns into labeled training data. Earlier, at Applied Intuition, I built internal tools for business teams: a Zendesk automation that cut support response time from over a day to under an hour, and a license dashboard that helped close multi-million-dollar deals.
+
+My integrations used our own tool contracts rather than MCP, but the work is the same: scoping, failure handling, and audit. I'd be glad to talk about how I could help Reddit's teams put AI to work.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

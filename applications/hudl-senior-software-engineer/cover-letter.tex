@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Hudl Team,
+
+I'm applying for the Senior Software Engineer role. I spent this year building an AI sports-coaching platform, so Hudl's mix of game video, sensor data, and agentic AI is close to what I've been doing.
+
+As lead engineer at Coordinator I built a pipeline that runs vision-language models over game film to detect formations at the snap, with a scoring harness to tune it, plus IMU sensor and swing-video pose pipelines. I fine-tuned sport-specific LLMs on H100s, shipped voice messaging, and built the CI that ran our end-to-end suite on every release merge. Before that I was founder and CTO of Ralli, a real-time sports betting platform built on NestJS and Postgres with live projections from play-by-play data, where I led the engineering team.
+
+I work agent-first every day and have led small teams as a founder. I live in Utah, and I'd be glad to talk about how I could help Hudl's teams ship.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
