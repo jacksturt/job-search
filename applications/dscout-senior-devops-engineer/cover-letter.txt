@@ -1,0 +1,9 @@
+Hello dscout Team,
+
+I'm applying for the Senior DevOps Engineer role. I like treating the rest of engineering as my customers.
+
+At Coordinator I built the self-hosted CI/CD that runs our end-to-end suite on every release merge, splitting serial and parallel jobs and cutting per-run cost, and I ran self-hosted GPU services in Docker on Linux. I also built a gateway with scoped, revocable tokens and an audit log. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability. I use AI coding tools daily and review what they produce before it touches production.
+
+I haven't held a DevOps title, and I haven't written Terraform in depth. I'd be glad to talk about whether my build-and-operate background fits what dscout needs.
+
+Jack Sturtevant

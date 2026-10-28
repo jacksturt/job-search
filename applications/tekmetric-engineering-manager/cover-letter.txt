@@ -1,0 +1,9 @@
+Hello Tekmetric Team,
+
+I'm applying for the Engineering Manager role. I've led small teams as a founder, and I want to keep doing that at a product company where customers feel the work directly.
+
+As founder and CTO of Ralli I led the engineering team building a real-time sports platform on NestJS and Postgres, and at Lancer I led a 7-person team building a Next.js and tRPC platform. At Coordinator I was lead engineer: I built the self-hosted CI/CD that gated every release, a data gateway with scoped tokens and an audit log, and agent tools for our LLM product. I still write code, and I think that keeps me useful in design and code reviews.
+
+My leadership has been as a founder and CTO rather than as a manager inside a larger engineering org. I'd be glad to talk about how I could help a Tekmetric team deliver.
+
+Jack Sturtevant

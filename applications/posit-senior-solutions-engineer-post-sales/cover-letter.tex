@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Posit Team,
+
+I'm applying for the Senior Solutions Engineer (Post-Sales) role. I like the work between a customer's problem and a setup that keeps running after the call ends.
+
+At Applied Intuition I built the customer-facing license dashboard that helped close multi-million-dollar deals, and a Zendesk automation that cut support response time from over a day to under an hour. Since then, as a founder and engineer, I've run self-hosted GPU services in Docker on Linux, built the CI/CD that ran our end-to-end suite on every release merge, and set up Kubernetes deployments with ArgoCD at Trustless Engineering.
+
+I'd be learning Posit's Pro Products from day one, which the posting says is expected. I'd be glad to talk about how I could help Posit's customers get their data science platforms running well.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

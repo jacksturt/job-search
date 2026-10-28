@@ -1,0 +1,9 @@
+Hello Neo.Tax Team,
+
+I'm applying for the Senior Full-Stack Software Engineer role. Pulling messy data out of Jira, GitHub, and payroll systems into one model that holds up across very different companies is the kind of work I like.
+
+At Ralli, as founder and CTO, I built the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres, and the NestJS/Drizzle services and live projections on top of it. At Lancer I built a Next.js, tRPC, and Prisma platform. At Coordinator I built a Go data gateway that gives third-party apps scoped access to user data, which grew into an app store with a template registry and a 3-way merge for template updates.
+
+I use AI coding tools every day, and I can walk through the design of everything above without them. I'd be glad to talk about how I could help Neo.Tax's small team.
+
+Jack Sturtevant

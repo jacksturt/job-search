@@ -1,0 +1,9 @@
+Hello Upstart Team,
+
+I'm applying for the Senior Data Platform Engineer role. I like platform work that makes other teams faster while keeping access and cost under control.
+
+At Coordinator I built the self-hosted CI/CD for our end-to-end suite, splitting serial and parallel jobs to cut per-run cost, and a gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log. I also built the pipelines that feed our ML work: a storage pipeline for video clips and frames, and one that turns reviewed production turns into training data. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability.
+
+I've used Databricks, but I haven't owned a Databricks platform or supported OCC or SOX audits. I'd be glad to talk about how I could help Upstart's Lakehouse team.
+
+Jack Sturtevant

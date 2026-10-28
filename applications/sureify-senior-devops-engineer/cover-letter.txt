@@ -1,0 +1,9 @@
+Hello Sureify Team,
+
+I'm applying for the Senior DevOps Engineer role. I like building the pipelines and infrastructure that make releases routine.
+
+At Coordinator I built the self-hosted CI/CD that runs our end-to-end suite on every release merge, splitting serial and parallel jobs and cutting per-run cost, and I ran self-hosted GPU services in Docker. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability, and as founder and CTO of Ralli I ran our production services with Datadog tracing.
+
+The posting asks for 6-10 years in DevOps or SRE. My seven years are mostly as a builder who also ran what I built, and I haven't written Terraform in depth. I'd be glad to talk about whether that fits what Sureify needs.
+
+Jack Sturtevant

@@ -1,0 +1,9 @@
+Hello Calendly Team,
+
+I'm applying for the Senior Full Stack Engineer, AI Scheduling role. The posting asks for products that combine probabilistic AI behavior with reliable application workflows, which is what I spent this year building.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps, and agent-runtime memory for both chat and voice. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I shipped it as its own tier. Before that, as founder and CTO of Ralli, I built NestJS/Drizzle/Postgres services with live WebSocket updates behind a React front end, and led the engineering team.
+
+I have seven years of experience, including two companies where I founded and ran engineering. I'd be glad to talk about how I could help Calendly's AI scheduling team.
+
+Jack Sturtevant

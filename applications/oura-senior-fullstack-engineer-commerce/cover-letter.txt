@@ -1,0 +1,9 @@
+Hello Oura Team,
+
+I'm applying for the Senior Fullstack Engineer role on the Commerce mission. I like owning a feature across the stack, from API design to the screen a customer pays on.
+
+As founder and CTO of Ralli I built NestJS/Drizzle/Postgres services with live WebSocket updates and Datadog tracing behind a Next.js front end, and led the engineering team. At Lancer I built a Next.js, tRPC, and Prisma platform with escrowed payments and a 7-person team. Most recently, at Coordinator, I built a Go data gateway with scoped tokens, rate limits, and an audit log, and the CI/CD that ran our end-to-end suite on every release merge.
+
+My AWS work hasn't centered on Lambda and DynamoDB, and I haven't run checkout at Oura's scale. I'd be glad to talk about how I could help the Commerce team ship.
+
+Jack Sturtevant

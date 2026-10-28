@@ -1,0 +1,9 @@
+Hello Komodo Health Team,
+
+I'm applying for the Senior Data Platform Engineer role. Building data that other teams can trust without double-checking it is the part of data engineering I like most.
+
+At Ralli, as founder and CTO, I built the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres, and the live projections built on it. At Coordinator I built a storage and inference pipeline for video clips and frames on MinIO and Postgres, a pipeline that turns reviewed production turns into training data, and a gateway that gives third-party apps scoped access to user data with an audit log.
+
+To be clear: I haven't operated Airflow at scale or worked with claims or EHR data. I'd be glad to talk about how I could help Komodo's Data Foundations team.
+
+Jack Sturtevant

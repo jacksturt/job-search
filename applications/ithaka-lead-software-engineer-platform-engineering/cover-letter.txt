@@ -1,0 +1,9 @@
+Hello ITHAKA Team,
+
+I'm applying for the Lead Software Engineer, Platform Engineering role. I like building the tools other engineers rely on, and making them pleasant to use.
+
+At Coordinator I built the self-hosted CI/CD for our end-to-end suite, splitting serial and parallel jobs so it could run on every release merge at lower cost. I also built a Go data gateway for third-party apps that grew into an app store with a template registry and per-app storage. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability, and as founder and CTO of Ralli I built NestJS and Postgres services and led the engineering team.
+
+The posting asks for a minimum of eight years; I have seven, including two companies where I founded and ran engineering. My Kubernetes and Terraform experience is working knowledge rather than deep ownership. I'd be glad to talk about how I could help ITHAKA's engineers ship.
+
+Jack Sturtevant

@@ -1,0 +1,9 @@
+Hello Upstart Team,
+
+I'm applying for the Senior Software Engineer - Machine Learning Platform role. I like building the path that gets a model from training data to production without hand-offs.
+
+At Coordinator I fine-tuned sport-specific LLMs on H100s, from corpus curation to quantized vLLM serving, with a loop that retrains on reviewed production turns. I built that review pipeline, a scoring harness for our vision-language-model detection, and the CI/CD that gated releases. I write Python and Go and have built backend services and APIs as a founder and CTO.
+
+My Spark and Databricks experience is light. I'd be glad to talk about how my ML production work could help Upstart's platform team.
+
+Jack Sturtevant

@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Komodo Health Team,
+
+I'm applying for the Senior Data Platform Engineer role. Building data that other teams can trust without double-checking it is the part of data engineering I like most.
+
+At Ralli, as founder and CTO, I built the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres, and the live projections built on it. At Coordinator I built a storage and inference pipeline for video clips and frames on MinIO and Postgres, a pipeline that turns reviewed production turns into training data, and a gateway that gives third-party apps scoped access to user data with an audit log.
+
+To be clear: I haven't operated Airflow at scale or worked with claims or EHR data. I'd be glad to talk about how I could help Komodo's Data Foundations team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

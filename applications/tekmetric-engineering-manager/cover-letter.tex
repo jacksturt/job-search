@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Tekmetric Team,
+
+I'm applying for the Engineering Manager role. I've led small teams as a founder, and I want to keep doing that at a product company where customers feel the work directly.
+
+As founder and CTO of Ralli I led the engineering team building a real-time sports platform on NestJS and Postgres, and at Lancer I led a 7-person team building a Next.js and tRPC platform. At Coordinator I was lead engineer: I built the self-hosted CI/CD that gated every release, a data gateway with scoped tokens and an audit log, and agent tools for our LLM product. I still write code, and I think that keeps me useful in design and code reviews.
+
+My leadership has been as a founder and CTO rather than as a manager inside a larger engineering org. I'd be glad to talk about how I could help a Tekmetric team deliver.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

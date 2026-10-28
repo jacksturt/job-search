@@ -1,0 +1,9 @@
+Hello OpenTeams Team,
+
+I'm applying for the U.S.-remote Platform Engineer, AI/ML Infrastructure role. I've spent this year running model training and serving and the pipelines around them.
+
+At Coordinator I fine-tuned sport-specific LLMs on H100s and served them quantized with vLLM, ran self-hosted GPU services in Docker, and built the self-hosted CI/CD that ran our end-to-end suite on every release merge. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability for ML infrastructure.
+
+To be clear about depth: I've deployed to Kubernetes with ArgoCD, but I haven't owned GPU scheduling or multi-tenant isolation on a production cluster. I'd be glad to talk about whether that fits what OpenTeams needs.
+
+Jack Sturtevant

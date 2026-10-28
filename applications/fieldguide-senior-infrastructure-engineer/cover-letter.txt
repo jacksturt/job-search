@@ -1,0 +1,9 @@
+Hello Fieldguide Team,
+
+I'm applying for the Senior Infrastructure Engineer role. I like building the platform pieces that let product engineers ship safely without thinking about them.
+
+At Coordinator I built the self-hosted CI/CD that runs our end-to-end suite on every release merge, splitting serial and parallel jobs and cutting per-run cost, and I ran self-hosted GPU services in Docker. I also built a gateway with scoped, revocable tokens, rate limits, and an audit log. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability, and at Ralli I ran our services with Datadog tracing.
+
+To be clear about depth: I haven't written Terraform in depth, so infrastructure as code is where I'd be ramping up. I'd be glad to talk about whether that fits what Fieldguide needs.
+
+Jack Sturtevant

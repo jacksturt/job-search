@@ -1,0 +1,9 @@
+Hello Zuora Team,
+
+I'm applying for the Customer Solutions Engineer - Payments role. I like sitting between a customer's architecture and the product that has to fit into it.
+
+At Applied Intuition I built the customer-facing license dashboard that helped close multi-million-dollar deals, and a Zendesk automation that cut support response time from over a day to under an hour. As a founder I built payment flows into two products: escrowed payments at Lancer, and bet submission and line resolution at Ralli. At Coordinator I built a gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log.
+
+I haven't worked at a payment service provider or gateway, so I'd be learning gateway routing and authorization optimization on the job. I'd be glad to talk about how my integration and customer work could help Zuora's payments customers.
+
+Jack Sturtevant

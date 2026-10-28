@@ -1,0 +1,9 @@
+Hello AssemblyAI Team,
+
+I'm applying for the Senior GTM AI Engineer role. The posting asks for someone who can build agents that do real work and knows when a plain script is the better tool. That judgment was most of my job this year.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps, and the pipeline that turns reviewed production turns into training data. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I shipped it as its own tier. At Ralli I built the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres. At Applied Intuition I built a Zendesk automation for the support team that cut response time from over a day to under an hour. I use Claude Code every day and review what it writes the way I'd review a colleague's code.
+
+I haven't worked inside a sales org, but as a founder I cared a lot about how users found us, and I want to learn how deals get found and closed. I'd be glad to talk about how I could help AssemblyAI's GTM team.
+
+Jack Sturtevant

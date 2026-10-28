@@ -1,0 +1,9 @@
+Hello Tines Team,
+
+I'm applying for the Senior Forward Deployed Engineer role on the West team. I live in Utah, on Mountain Time. I like the part of engineering where a customer's messy process turns into a workflow that runs without them thinking about it.
+
+At Applied Intuition I built a Zendesk automation that cut support response time from over a day to under an hour, and a customer-facing license dashboard that helped close multi-million-dollar deals. At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps, and a gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I shipped it as its own tier. I write Python every day.
+
+The posting asks for 8+ years in a customer-facing technical role. Most of my seven years were spent building, with customer-facing work at Applied Intuition and with my own users as a founder. I'd be glad to talk about how I could help Tines customers get their deployments running.
+
+Jack Sturtevant

@@ -1,0 +1,9 @@
+Hello Sola Payments Team,
+
+I'm applying for the Senior Data Platform Engineer role. I like keeping the data layer of a payments product fast and correct.
+
+As founder and CTO of Ralli I designed the Postgres schemas and NestJS/Drizzle services behind a real-time betting platform, with live WebSocket updates and Datadog tracing, and built the ingestion pipeline for betting lines and rosters. At Coordinator I built a gateway that gives third-party apps scoped, revocable access to user data with rate limits and an audit log, and a storage pipeline for video clips and frames on MinIO and Postgres.
+
+The posting asks for a primary DBA with years of Redshift, MySQL, and SQL Server administration. I've built on Postgres as an engineer, not as a dedicated DBA, so I'd be growing into that side of the role. I'd be glad to talk about whether that fits.
+
+Jack Sturtevant

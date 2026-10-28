@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Oura Team,
+
+I'm applying for the Senior Fullstack Engineer role on the Commerce mission. I like owning a feature across the stack, from API design to the screen a customer pays on.
+
+As founder and CTO of Ralli I built NestJS/Drizzle/Postgres services with live WebSocket updates and Datadog tracing behind a Next.js front end, and led the engineering team. At Lancer I built a Next.js, tRPC, and Prisma platform with escrowed payments and a 7-person team. Most recently, at Coordinator, I built a Go data gateway with scoped tokens, rate limits, and an audit log, and the CI/CD that ran our end-to-end suite on every release merge.
+
+My AWS work hasn't centered on Lambda and DynamoDB, and I haven't run checkout at Oura's scale. I'd be glad to talk about how I could help the Commerce team ship.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
