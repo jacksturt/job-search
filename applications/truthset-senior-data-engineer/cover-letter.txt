@@ -1,0 +1,9 @@
+Hello Truthset Team,
+
+I'm applying for the Senior Data Engineer role. Truthset's work on data accuracy and on honoring consumer opt-outs across every copy of the data is the kind of data engineering I like.
+
+At Ralli, as founder and CTO, I built the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres, and the services and live projections on top of it. At Coordinator I built a gateway that gives third-party apps scoped, revocable access to user data with rate limits and an audit log, a storage pipeline for video clips and frames on MinIO and Postgres, and a pipeline that turns reviewed production turns into training data.
+
+To be clear: I've used Databricks, but I haven't tuned Spark workloads at billion-row scale. I'd be glad to talk about how I could help Truthset's data platform.
+
+Jack Sturtevant
