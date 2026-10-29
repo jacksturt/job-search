@@ -1,0 +1,9 @@
+Hello Hightouch Team,
+
+I'm applying for the Full Stack Product Engineer role. I like building the interface that lets someone who isn't technical use something powerful without having to think about it.
+
+I've built most of my products from zero to one. At Lancer I was founder and CTO of a freelance platform built on Next.js, tRPC, and Prisma and led a 7-person team. At Banger I built a trading platform end to end in 8 weeks as interim CTO, and as a freelancer I built real-time dashboards and price charts in React. At Applied Intuition I built a customer-facing license dashboard that helped close multi-million-dollar deals. Most recently at Coordinator I built an app platform with a template registry and per-app storage, plus agent tools and voice features for a production LLM product. I wrote the Go side of that work and the TypeScript around it.
+
+I haven't worked in marketing tech, so I'd be learning how marketers work. I'd be glad to talk about how I could help build Hightouch's product.
+
+Jack Sturtevant

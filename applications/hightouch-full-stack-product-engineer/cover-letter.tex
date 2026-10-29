@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Hightouch Team,
+
+I'm applying for the Full Stack Product Engineer role. I like building the interface that lets someone who isn't technical use something powerful without having to think about it.
+
+I've built most of my products from zero to one. At Lancer I was founder and CTO of a freelance platform built on Next.js, tRPC, and Prisma and led a 7-person team. At Banger I built a trading platform end to end in 8 weeks as interim CTO, and as a freelancer I built real-time dashboards and price charts in React. At Applied Intuition I built a customer-facing license dashboard that helped close multi-million-dollar deals. Most recently at Coordinator I built an app platform with a template registry and per-app storage, plus agent tools and voice features for a production LLM product. I wrote the Go side of that work and the TypeScript around it.
+
+I haven't worked in marketing tech, so I'd be learning how marketers work. I'd be glad to talk about how I could help build Hightouch's product.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
