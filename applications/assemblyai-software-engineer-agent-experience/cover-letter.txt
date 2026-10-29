@@ -1,0 +1,9 @@
+Hello AssemblyAI Team,
+
+I'm applying for the Software Engineer, Agent Experience role. I spend most of my day working alongside a coding agent, and I've built the tool layer an agent works through, so this role lines up with what I care about.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps. The work was mostly about writing tool contracts tight enough that the model called them correctly the first time. I also built a gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log, and shipped voice messaging after benchmarking self-hosted Whisper and TTS engines. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I shipped it as its own tier. I'd rather measure than guess. I use Claude Code every day.
+
+I haven't shipped an MCP server, so that part would be new to me, though the tool-contract and auth work is close. I'd be glad to talk about how I could help coding agents get to a working AssemblyAI integration.
+
+Jack Sturtevant

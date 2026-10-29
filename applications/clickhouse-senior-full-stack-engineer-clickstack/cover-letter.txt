@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Full Stack Engineer role on ClickStack. Observability tools are something I use every day as an engineer, and I'd like to help build one.
+
+As founder and CTO of Ralli I built NestJS and Postgres services with live WebSocket updates and Datadog tracing, plus the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs. At Coordinator I built a developer-facing app platform: a Go data gateway with scoped tokens and an audit log that grew into an app store with a template registry and per-app storage. As a freelancer I built real-time dashboards and price charts in React.
+
+I haven't used ClickHouse in production; my SQL work has been on Postgres. I'd be glad to talk about how I could help make ClickStack better for developers.
+
+Jack Sturtevant

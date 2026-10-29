@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Software Engineer, Cloud Partner Integrations role. Most of the systems I've built sit at the edge between two products, and I like getting the trust model there right.
+
+At Coordinator I built a Go data gateway for third-party apps: scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, covered by 28 tests. It grew into a multi-tenant app store with a template registry, per-app data storage, and 3-way merges for template updates. As founder and CTO of Ralli I built the pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres.
+
+The posting asks for eight years; I have seven. My auth work has been token-based access rather than enterprise identity federation, and I haven't used ClickHouse in production. I'd be glad to talk about how I could help ClickHouse's cloud partner integrations.
+
+Jack Sturtevant

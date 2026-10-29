@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Cloud Software Engineer role on the Observability Platform team. Telemetry has been my main debugging tool for every service I've run, and I'd like to work on the platform side.
+
+At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability. At Coordinator I wrote Go: a data gateway for third-party apps with scoped tokens, rate limits, and an audit log. I also built the self-hosted CI/CD that ran our end-to-end suite on every release merge. As founder and CTO of Ralli I built NestJS services with live WebSocket updates and Datadog tracing.
+
+My Kubernetes, Terraform, and Helm experience is working knowledge rather than deep ownership, and I haven't run OpenTelemetry or ClickHouse in production. I'd be glad to talk about how I could help.
+
+Jack Sturtevant

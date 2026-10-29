@@ -1,0 +1,9 @@
+Hello Twilio Team,
+
+I'm applying for the Software Engineer, Platform Access role. Access control is the platform work I've enjoyed most, because a good permission model is invisible right up until it saves you.
+
+At Coordinator I built a Go data gateway for third-party apps with scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, covered by 28 tests. I also built the self-hosted CI/CD that ran our end-to-end suite on every release merge, and at Trustless Engineering I set up Kubernetes deployments with ArgoCD. I use Claude Code every day and review its output as I would a colleague's.
+
+I have more years than the posting asks for, and I'm interested in this team for the access-control work itself. My Terraform and multi-cloud IAM experience is working knowledge rather than deep ownership. I'd be glad to talk about how I could help.
+
+Jack Sturtevant

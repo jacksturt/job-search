@@ -1,0 +1,9 @@
+Hello Hightouch Team,
+
+I'm applying for the Software Engineer, AI Agents role. I've spent this year building agents that do real work for users, and I'd like to do that on top of real customer data.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps, with exact tool contracts. I also built a Python agent runtime with group-scoped memory pruning and voice-agent memory, and a pipeline that turns reviewed production turns into training data. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I shipped it as its own tier. Knowing when not to use the agent loop mattered as much as the loop.
+
+I haven't worked in marketing tech, so I'd be learning the domain. I'd be glad to talk about how I could help build Hightouch's agents.
+
+Jack Sturtevant

@@ -1,0 +1,9 @@
+Hello Hudl Team,
+
+I'm applying for the Engineering Manager role. Much of my recent work has been sports products, and I'd like to lead a team doing that at Hudl's scale.
+
+As founder and CTO of Ralli I led the engineering team building a real-time sports platform on NestJS and Postgres, with live WebSocket updates and projections from play-by-play data. At Lancer I led a 7-person team on a Next.js and tRPC platform. Most recently I was lead engineer at Coordinator, where I built a game-film VLM pipeline for formation detection and the self-hosted CI/CD that gated every release. I use coding agents every day and review their output as I would a colleague's.
+
+My leadership has been as a founder and CTO rather than as a manager inside a larger engineering org, so formal performance management would be the newest part of the job. I'd be glad to talk about how I could help a Hudl team deliver.
+
+Jack Sturtevant

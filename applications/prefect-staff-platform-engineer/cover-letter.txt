@@ -1,0 +1,9 @@
+Hello Prefect Team,
+
+I'm applying for the Staff Platform Engineer role. I like building the platform other engineers run their work on, and keeping it dependable as it grows.
+
+At Coordinator I built the self-hosted CI/CD that ran our end-to-end suite on every release merge, splitting serial and parallel jobs to cut cost per run. I also built a Go data gateway that grew into an app platform with a template registry and per-app storage, and ran self-hosted GPU services in Docker. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability, and I led engineering as founder and CTO at Ralli and Lancer.
+
+My Kubernetes and Terraform experience is working knowledge rather than deep ownership, and I haven't operated systems at Prefect Cloud's scale. I'd be glad to talk about how I could help the platform team.
+
+Jack Sturtevant

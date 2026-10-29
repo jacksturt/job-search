@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello ClickHouse Team,
+
+I'm applying for the Senior Software Engineer (Backend), AI/ML role. I've spent this year building the backend that sits between an LLM and real data, and I'd like to do that next to a database.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps, with exact tool contracts so the model called them correctly. I also built Python agent-runtime services with group-scoped memory, fine-tuned multi-sport LLMs on H100s with quantized vLLM serving, and a data gateway that gives third-party apps scoped, revocable tokens. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4--6x faster, so I shipped it as its own tier.
+
+I haven't used ClickHouse in production; my databases have been Postgres. I'd be glad to talk about how I could help developers use ClickHouse for AI.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% Supabase — Software Engineer - Branching
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+\section{Summary}
+Engineer and two-time founder/CTO with seven years of building and operating production systems. Built self-hosted CI/CD for an end-to-end suite with a serial/parallel job split, a Go data gateway that grew into an app platform, and Kubernetes deployments with ArgoCD. Go, TypeScript, AWS, Docker.
+\sectionsep
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+Go \hfill | \hfill
+TypeScript \hfill | \hfill
+CI/CD Runners \hfill | \hfill
+Job Orchestration \hfill | \hfill
+AWS \hfill | \hfill
+Docker \hfill | \hfill
+Kubernetes (ArgoCD deploys) \\
+\hspace{1.0cm} Postgres \hfill | \hfill
+Node.js / NestJS \hfill | \hfill
+Python \hfill | \hfill
+Datadog \hfill | \hfill
+Remote / Async Teams \hfill | \hfill
+Linux \hfill | \hfill
+Testing \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
+    \item Go data gateway for third-party apps (scoped, revocable tokens) that grew into an app store: template registry, per-app data storage, 3-way merge for template updates
+    \item Data gateway with scoped, revocable, device-bound tokens, refresh-reuse rejection, rate limits, audit log; 28 tests
+    \item Built agent tools (Go): workspace app write/edit tools and read-only cross-app data tools with exact tool contracts
+    \item Benchmarked self-hosted Whisper and TTS engines, then shipped production voice messaging (STT/TTS) in the web app
+    \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{November 2024 – October 2025}
+\begin{tightemize}
+    \item Built NestJS/Drizzle/Postgres domain services with live WebSocket updates and Datadog tracing
+    \item Founded a real-time social sports betting platform; led the engineering team (full-time from July 2025)
+    \item Built the betting-line and roster ingestion pipeline (ESPN APIs) and live projections from play-by-play data
+    \item Wrote on-chain bet-submission and line-resolution programs (Rust/Anchor); integrated embedded wallets
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Trustless Engineering (2024): Kubernetes deployments (ArgoCD), ML infrastructure, and Datadog observability
+    \item Lancer (2022 – 2023): founder/CTO of a freelance platform (Next.js, tRPC, Prisma, escrowed payments); led 7 people
+    \item Banger (2024): interim CTO; built a tokenized-tweet trading platform end to end in 8 weeks, which led to a \$250K raise
+    \item Particles, Cherry Labs, Cypher: on-chain raffles (3,500+ tickets sold), GPU-rental marketplace, trading UIs
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Hydraze, Inc}
+\location{College Park, MD}
+\descriptit{Chief Technology Officer}
+\location{January 2019 – July 2020}
+\begin{tightemize}
+    \item Built an IoT sensor network (Raspberry Pi + Arduino) for facilities data collection, plus a device/usage management platform
+\end{tightemize}
+
+\runsubsection{Amazon Web Services}
+\location{Seattle, WA}
+\descriptit{SDE Intern}
+\location{May 2019 – August 2019}
+\begin{tightemize}
+    \item Enabled mathematical verification of AWS products through compilation from Dafny to Java, see \href{https://github.com/dafny-lang/dafny}{Github \ExternalLink}
+\end{tightemize}
+\sectionsep
+
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude} \hfill
+\begin{tightemize}
+    \item \color{darkmodePrimary}\href{https://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/fellows-special-programs/quest}{QUEST \ExternalLink}: Honors program focused on business and technology collaboration for solving complex design challenges
+\end{tightemize}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

@@ -1,0 +1,9 @@
+Hello Hightouch Team,
+
+I'm applying for the Software Engineer, Applied AI Research role. I like the experimental end of AI engineering, where you try a model on a real problem and find out quickly whether it works.
+
+At Coordinator I built a VLM video pipeline with Qwen3-VL and Cosmos-Reason2 that detected formations in game film. Most of the work was the scoring harness and tuning thresholds against real footage. I also fine-tuned multi-sport LLMs on H100s and served them quantized with vLLM, and shipped voice messaging after benchmarking self-hosted Whisper and TTS engines. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4-6x faster, so I shipped it as its own tier.
+
+I haven't worked on image or video generation or in marketing tech, so both would be new. I'd be glad to talk about what I could build at Hightouch.
+
+Jack Sturtevant

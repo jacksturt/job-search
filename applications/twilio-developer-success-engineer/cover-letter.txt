@@ -1,0 +1,9 @@
+Hello Twilio Team,
+
+I'm applying for the Developer Success Engineer role on the Stytch team. I like the part of the job where a developer's integration is broken and you find out why, then fix it in the product so the next person doesn't hit it.
+
+At Coordinator I built a data gateway for third-party apps: scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, covered by 28 tests. At Applied Intuition I built a Zendesk automation that cut support response time from over a day to under an hour, and a customer-facing license dashboard that helped close multi-million-dollar deals. As a founder I built two products and supported their users directly.
+
+My auth work has been token lifecycle and scoped access rather than SAML or enterprise identity providers, so I'd be learning those on the job. I'd be glad to talk about how I could help Stytch developers succeed.
+
+Jack Sturtevant

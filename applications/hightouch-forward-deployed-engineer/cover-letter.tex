@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Hightouch Team,
+
+I'm applying for the Forward Deployed Engineer role. I like work where the hard part is a customer's data, and an agent is only useful when it reads that data correctly.
+
+As founder and CTO of Ralli I built the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs into Postgres and computed live projections from play-by-play data. At Coordinator I built read-only tools that let our LLM agent read data across a user's installed apps, and a gateway that gives third-party apps scoped, revocable tokens with an audit log. At Applied Intuition I built a customer-facing license dashboard and a Zendesk automation that cut support response time from over a day to under an hour.
+
+My SQL has been on Postgres, not Snowflake or Databricks, and I haven't worked on identity resolution. I'd be glad to talk about how I could help Hightouch customers.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

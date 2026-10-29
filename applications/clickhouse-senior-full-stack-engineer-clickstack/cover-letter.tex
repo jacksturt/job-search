@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello ClickHouse Team,
+
+I'm applying for the Senior Full Stack Engineer role on ClickStack. Observability tools are something I use every day as an engineer, and I'd like to help build one.
+
+As founder and CTO of Ralli I built NestJS and Postgres services with live WebSocket updates and Datadog tracing, plus the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs. At Coordinator I built a developer-facing app platform: a Go data gateway with scoped tokens and an audit log that grew into an app store with a template registry and per-app storage. As a freelancer I built real-time dashboards and price charts in React.
+
+I haven't used ClickHouse in production; my SQL work has been on Postgres. I'd be glad to talk about how I could help make ClickStack better for developers.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

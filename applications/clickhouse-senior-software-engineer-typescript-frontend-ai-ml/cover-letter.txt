@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Software Engineer (TypeScript / Frontend), AI/ML role. I like building interfaces where a lot of data has to make sense at a glance, and AI features where the UI decides whether the model is useful.
+
+As a freelance engineer I built real-time dashboards for Solana's on-chain cron (Clockwork), real-time price charts for Tsunami Finance, and trading UIs. At Applied Intuition I built a customer-facing license dashboard that helped close multi-million-dollar deals. Most recently at Coordinator I built agent tools, an app platform with a template registry and per-app storage, and voice messaging (STT/TTS) for a production LLM product.
+
+I haven't used ClickHouse in production; my databases have been Postgres. I'd be glad to talk about how I could help build the AI/ML experience in ClickHouse Cloud.
+
+Jack Sturtevant

@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Backend Engineer role on ClickStack. I've relied on observability tools to debug my own services, and I'd like to work on making them faster and easier to use.
+
+As founder and CTO of Ralli I built NestJS and Postgres services with live WebSocket updates and Datadog tracing, plus the ingestion pipeline that pulled betting lines and rosters from ESPN's APIs. At Coordinator I wrote Go: a data gateway for third-party apps with scoped, revocable tokens, rate limits, and an audit log, which grew into an app store with a template registry and per-app storage. I also built the self-hosted CI/CD for our end-to-end suite.
+
+I haven't used ClickHouse in production; my databases have been Postgres. I'd be glad to talk about how I could help ClickStack.
+
+Jack Sturtevant

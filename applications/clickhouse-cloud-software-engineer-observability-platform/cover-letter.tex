@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello ClickHouse Team,
+
+I'm applying for the Cloud Software Engineer role on the Observability Platform team. Telemetry has been my main debugging tool for every service I've run, and I'd like to work on the platform side.
+
+At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability. At Coordinator I wrote Go: a data gateway for third-party apps with scoped tokens, rate limits, and an audit log. I also built the self-hosted CI/CD that ran our end-to-end suite on every release merge. As founder and CTO of Ralli I built NestJS services with live WebSocket updates and Datadog tracing.
+
+My Kubernetes, Terraform, and Helm experience is working knowledge rather than deep ownership, and I haven't run OpenTelemetry or ClickHouse in production. I'd be glad to talk about how I could help.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

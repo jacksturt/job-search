@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello AssemblyAI Team,
+
+I'm applying for the Software Engineer, Agent Experience role. I spend most of my day working alongside a coding agent, and I've built the tool layer an agent works through, so this role lines up with what I care about.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps. The work was mostly about writing tool contracts tight enough that the model called them correctly the first time. I also built a gateway that gives third-party apps scoped, revocable tokens with rate limits and an audit log, and shipped voice messaging after benchmarking self-hosted Whisper and TTS engines. When our quick-edit path was slow, I timed a single-shot model call against the agent tiers on real requests. It was 4--6x faster, so I shipped it as its own tier. I'd rather measure than guess. I use Claude Code every day.
+
+I haven't shipped an MCP server, so that part would be new to me, though the tool-contract and auth work is close. I'd be glad to talk about how I could help coding agents get to a working AssemblyAI integration.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

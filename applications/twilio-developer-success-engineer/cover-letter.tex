@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Twilio Team,
+
+I'm applying for the Developer Success Engineer role on the Stytch team. I like the part of the job where a developer's integration is broken and you find out why, then fix it in the product so the next person doesn't hit it.
+
+At Coordinator I built a data gateway for third-party apps: scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, covered by 28 tests. At Applied Intuition I built a Zendesk automation that cut support response time from over a day to under an hour, and a customer-facing license dashboard that helped close multi-million-dollar deals. As a founder I built two products and supported their users directly.
+
+My auth work has been token lifecycle and scoped access rather than SAML or enterprise identity providers, so I'd be learning those on the job. I'd be glad to talk about how I could help Stytch developers succeed.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

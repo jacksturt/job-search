@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Full Stack Software Engineer, Control Plane role. I like owning a product surface from the API down to the database, and control planes are where that pays off most.
+
+At Coordinator I built a Go data gateway for third-party apps with scoped, revocable tokens, rate limits, and an audit log. It grew into an app store with a template registry, per-app data storage, and 3-way merges for template updates. I also built the self-hosted CI/CD that ran our end-to-end suite on every release merge. As founder and CTO of Ralli I built NestJS and Postgres services with live WebSocket updates, and at Lancer I led a 7-person team on a Next.js and tRPC platform.
+
+I haven't used ClickHouse or Auth0 in production. I'd be glad to talk about how I could help ClickHouse Cloud's control plane.
+
+Jack Sturtevant
