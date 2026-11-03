@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Cal.com Team,
+
+I'm applying for the IC4 Senior Full-Stack Engineer role on the Foundation team. The posting asks for someone who reviews high-risk pull requests, keeps daily releases smooth, embeds with product teams, and digs into hard logic like round-robin scheduling across time zones. Your stack is the one I've built on most.
+
+At Lancer, the freelance marketplace I founded, I wrote most of a Next.js, tRPC, and Prisma app with quotes, checkpoints, and in-app messaging, and led a 7-person team. At Ralli I rebuilt the product as a Turborepo monorepo with a Next.js web app and a NestJS server split into a dozen domain modules on Drizzle and Postgres, with live WebSocket updates and Datadog tracing. This year at Coordinator I built self-hosted CI that runs the end-to-end suite on every release merge.
+
+I have seven years of experience, a little under the eight the posting asks for, and I'm comfortable working async with a distributed team and being on call. I'd be glad to talk about how I could help the Foundation team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
