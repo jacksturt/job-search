@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Hugging Face Team,
+
+I'm applying for the Open-Source Machine Learning Engineer role. Almost everything I built this year ran on open models, and much of it ran because of the Hugging Face stack, so working on that stack is the most direct way I can think of to pay it back.
+
+At Coordinator I fine-tuned LLMs on H100s and served them quantized with vLLM, ran Qwen3-VL and Cosmos-Reason2 inference to detect football formations from game film, and benchmarked self-hosted Whisper and TTS engines before shipping voice messaging. Each of those started with a model card, a pinned revision, and a lot of reading other people's code to find out why something behaved the way it did. I want to be on the side of that work that makes the next person's afternoon shorter.
+
+To be direct about the gap: my public open-source work so far is compiler work on Dafny from an AWS internship, not merged pull requests to ML libraries, and my PyTorch use has been as a practitioner rather than a library author. I'd be glad to talk about whether that fits, and I'd start contributing either way.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
