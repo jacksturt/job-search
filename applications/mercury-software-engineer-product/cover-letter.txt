@@ -1,0 +1,9 @@
+Hello Mercury Team,
+
+I'm applying for the Software Engineer, Product role. The posting asks for someone product-minded who has built and shipped new products and wants to own projects on a small, autonomous team. That describes how I've worked since I started building my own products.
+
+At Lancer, the freelance marketplace I founded, payments sat in escrow until a client approved the work; 55 clients funded 264 escrows, and I added ACH payouts so freelancers without crypto could get paid. At Ralli I built NestJS and Postgres services behind a Next.js app with live updates over WebSockets, and led the engineering team. This year at Coordinator I built a Go data gateway with scoped, revocable tokens and an audit log, which grew into a third-party app store.
+
+I haven't written Haskell yet, and I'd like to. I use Claude Code every day and review what it writes the way I'd review a colleague's code. I'd be glad to talk about how I could help Mercury.
+
+Jack Sturtevant

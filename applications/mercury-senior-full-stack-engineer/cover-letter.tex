@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Mercury Team,
+
+I'm applying for the Senior Full-Stack Engineer role. The posting asks for someone who wants product ownership and a ``startup within a startup'' team, partnering with design to ship experiences customers love. I've spent seven years in that kind of setting, two of them running engineering at companies I founded.
+
+At Lancer, the freelance marketplace I founded, payments sat in escrow until a client approved the work; 55 clients funded 264 escrows, and I added ACH payouts so freelancers without crypto could get paid. At Ralli I built NestJS and Postgres services behind a Next.js app with live updates over WebSockets, and led the engineering team. This year at Coordinator I built a Go data gateway with scoped, revocable tokens and an audit log, which grew into a third-party app store.
+
+I haven't written Haskell yet, and I'd like to. I use Claude Code every day and review what it writes the way I'd review a colleague's code. I'd be glad to talk about how I could help Mercury.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Mercury Team,
+
+I'm applying for the Frontend Engineer, Design Systems role. I like the posting's focus on turning recurring product needs into components teams can rely on, and on using AI tools while still judging and testing what they produce.
+
+Most of my seven years has been building React and TypeScript front ends for products I helped design: at Ralli, a real-time betting app I founded, a Next.js web app with live WebSocket updates; at Lancer, a freelance marketplace with quotes, checkpoints, and in-app messaging; and real-time trading interfaces for Cypher and Tsunami Finance. I haven't held a design-systems role, but on each of those products I was the one deciding which pieces to share and how they should behave.
+
+I use Claude Code every day and review what it writes the way I'd review a colleague's code. I'd be glad to talk about how I could help Mercury's design systems team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

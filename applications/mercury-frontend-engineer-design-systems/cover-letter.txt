@@ -1,0 +1,9 @@
+Hello Mercury Team,
+
+I'm applying for the Frontend Engineer, Design Systems role. I like the posting's focus on turning recurring product needs into components teams can rely on, and on using AI tools while still judging and testing what they produce.
+
+Most of my seven years has been building React and TypeScript front ends for products I helped design: at Ralli, a real-time betting app I founded, a Next.js web app with live WebSocket updates; at Lancer, a freelance marketplace with quotes, checkpoints, and in-app messaging; and real-time trading interfaces for Cypher and Tsunami Finance. I haven't held a design-systems role, but on each of those products I was the one deciding which pieces to share and how they should behave.
+
+I use Claude Code every day and review what it writes the way I'd review a colleague's code. I'd be glad to talk about how I could help Mercury's design systems team.
+
+Jack Sturtevant

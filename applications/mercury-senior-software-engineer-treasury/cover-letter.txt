@@ -1,0 +1,9 @@
+Hello Mercury Team,
+
+I'm applying for the Senior Software Engineer, Treasury role. The posting asks for a technical lead on customer-facing projects that touch several teams, and for an engineer who thinks about the people consuming their APIs as well as the end customer. I've led engineering at two companies I founded, both with money moving through the product.
+
+At Lancer, the freelance marketplace I founded, payments sat in escrow until a client approved the work; 55 clients funded 264 escrows, and I added ACH payouts so freelancers without crypto could get paid. At Ralli I built NestJS and Postgres services behind a Next.js app with live updates over WebSockets, and led the engineering team. This year at Coordinator I built a Go data gateway with scoped, revocable tokens and an audit log, which grew into a third-party app store. At Applied Intuition, a license dashboard I built showing customers' product usage helped close multiple million-dollar deals.
+
+I don't have registered-investment-advisor or broker-dealer experience, and I would need to learn that domain. I haven't written Haskell yet either, and I'd like to. I'd be glad to talk about how I could help Mercury's Treasury team.
+
+Jack Sturtevant

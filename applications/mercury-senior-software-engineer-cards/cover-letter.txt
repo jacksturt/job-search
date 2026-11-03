@@ -1,0 +1,9 @@
+Hello Mercury Team,
+
+I'm applying for the Senior Software Engineer, Cards role. The posting asks for someone who cares about correctness where failure has real financial consequences and who builds features from the customer experience down to the systems that move money. Most of what I've built has had money moving through it.
+
+At Lancer, the freelance marketplace I founded, I wrote the escrow program with dispute resolution and vote-to-cancel, and added ACH payouts so freelancers without crypto could get paid; 55 clients funded 264 escrows. At Ralli I wrote the programs that submitted bets and resolved lines, behind NestJS and Postgres services with Datadog tracing. This year at Coordinator I built a Go data gateway with scoped, revocable tokens, rate limits, and an audit log. I haven't worked in card issuing, and I'd like to learn authorization, clearing, and settlement properly.
+
+I haven't written Haskell yet, and I'd like to. I use Claude Code every day and review what it writes the way I'd review a colleague's code. I'd be glad to talk about how I could help Mercury.
+
+Jack Sturtevant
