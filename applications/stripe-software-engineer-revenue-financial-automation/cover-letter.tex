@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Stripe Team,
+
+I'm applying for the Software Engineer role on Revenue and Financial Automation. The posting asks for a backend engineer with an entrepreneurial streak who works directly with users, and it lists usage-based billing and financial systems as a plus. I've built payment and settlement systems as a founder, and I'd like to work on them at Stripe's scale.
+
+At Lancer, the freelance marketplace I founded, I wrote the escrow program with dispute resolution and vote-to-cancel, and added ACH payouts so freelancers without crypto could get paid; 55 clients funded 264 escrows. At Ralli I built NestJS and Postgres services with live WebSocket updates and Datadog tracing, plus the programs that submitted bets and resolved lines. This year at Coordinator I built a Go data gateway with scoped, revocable tokens, rate limits, and an audit log, which grew into a third-party app store.
+
+My systems have been startup scale, not Stripe scale, and I'd expect to learn a lot about running distributed systems at that size. I'd be glad to talk about how I could help the Revenue and Financial Automation team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
