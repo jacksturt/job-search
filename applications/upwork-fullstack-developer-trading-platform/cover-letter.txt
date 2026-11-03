@@ -1,0 +1,19 @@
+Hi,
+
+Thanks for the invite. I've built trading products end to end several times, smart contracts included, so this is a close match for what I do.
+
+At Ralli, a real-time social betting app I founded, I built player prop markets on an on-chain Solana order book, a NestJS and Postgres backend with WebSockets for live updates, Datadog tracing, and the pipelines that ingested live lines. As interim CTO at Banger I built a trading platform in eight weeks: bonding-curve markets as Rust/Anchor smart contracts, user accounts with wallet and social login, and live price and volume charts. That product led directly to a $250K raise. At Lancer, my freelance marketplace, I wrote the on-chain escrow program that 55 clients funded 264 times on mainnet, and we won $30K at Solana's Grizzlython. I've also built real-time trading interfaces and dashboards for Cypher and Tsunami Finance. Earlier I was a software engineer at Applied Intuition and AWS.
+
+My stack is TypeScript end to end: React/Next.js on the front, Node (NestJS, tRPC) with Postgres on the back, Rust for contracts, and Docker, Kubernetes, AWS and GCP for infrastructure. I haven't used Java or C# professionally, so if part of the system is written in either, I'd like to know which part.
+
+On a trading platform I'd start with the parts that are hardest to fix later: a balance ledger that always reconciles, order handling that is safe to retry, and a real-time feed that holds up under load.
+
+A few questions so I can scope this well:
+1. What exists today, and what is still greenfield?
+2. What are users trading (crypto, equities, something else), and does settlement happen on-chain?
+3. Is there a team already, or would I be the first engineer?
+
+I can commit 30+ hours a week long term. Happy to get on a call.
+
+Jack Sturtevant
+sturt.io | github.com/jacksturt
