@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Instacart Team,
+
+I'm applying for the Senior Software Engineer II role on Marketing Enablement \& Technology. The posting asks for someone who drives a team's technical roadmap, partners directly with product and marketing leaders, and builds tooling that makes engineers more productive, including AI-assisted development. As a two-time founder/CTO, I've owned the roadmap and sat in the room where growth decisions were made.
+
+At Ralli, the real-time social betting app I founded, I built the pipeline that loaded betting lines and rosters into Postgres, shipped referrals, leaderboards, and notifications, and led the engineering team. This year at Coordinator I built the Python agent runtime and the pipeline that turns reviewed production turns into training data, plus self-hosted CI that runs the end-to-end suite on every release merge. At Applied Intuition I built a license dashboard for the business side that helped close multiple million-dollar deals.
+
+To be direct about gaps: I have seven years of experience rather than eight to twelve, and I haven't worked in ad tech. I'd be glad to talk about whether my background fits what the team needs.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
