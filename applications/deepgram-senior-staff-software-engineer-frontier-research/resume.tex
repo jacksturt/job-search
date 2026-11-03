@@ -29,12 +29,12 @@ Python \hfill | \hfill
 Go \hfill | \hfill
 Training Pipelines \hfill | \hfill
 Data Curation / Versioning \hfill | \hfill
-Evaluation Tooling \hfill | \hfill
-GPU / H100 Training \hfill | \hfill
-Speech (STT / TTS) \\
-\hspace{1.0cm} vLLM Serving \hfill | \hfill
-Internal Tools / Dashboards \hfill | \hfill
-Postgres / MinIO \hfill | \hfill
+Evaluation Tooling \\
+\hspace{1.0cm} GPU / H100 Training \hfill | \hfill
+Speech (STT / TTS) \hfill | \hfill
+vLLM Serving \hfill | \hfill
+Internal Tools / Dashboards \\
+\hspace{1.0cm} Postgres / MinIO \hfill | \hfill
 Docker \hfill | \hfill
 CI/CD \hfill | \hfill
 TypeScript \hfill | \hfill
@@ -57,7 +57,6 @@ AWS / GCP \\
     \item Benchmarked self-hosted Whisper and TTS engines, then shipped production voice messaging (STT/TTS) in the web app
     \item Agent runtime (Python): group-scoped memory pruning, voice-agent memory, reviewed-turn training-data pipeline
     \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
-    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
 \end{tightemize}
 \sectionsep
 

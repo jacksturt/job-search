@@ -30,14 +30,14 @@ API / SDK Design \hfill | \hfill
 Typed Interfaces \hfill | \hfill
 Realtime / WebSockets \hfill | \hfill
 Auth / Tokens \hfill | \hfill
-Postgres \hfill | \hfill
-Developer Experience \\
-\hspace{1.0cm} Docs / Design Docs \hfill | \hfill
+Postgres \\
+\hspace{1.0cm} Developer Experience \hfill | \hfill
+Docs / Design Docs \hfill | \hfill
 Go \hfill | \hfill
 TypeScript \hfill | \hfill
 Agent Tool Contracts \hfill | \hfill
-CI/CD \hfill | \hfill
-Docker \hfill | \hfill
+CI/CD \\
+\hspace{1.0cm} Docker \hfill | \hfill
 AWS / GCP \\
 
 \raggedright{
@@ -57,7 +57,6 @@ AWS / GCP \\
     \item Go data gateway for third-party apps (scoped, revocable tokens) that grew into an app store: template registry, per-app data storage, 3-way merge for template updates
     \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
     \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
-    \item Benchmarked self-hosted Whisper and TTS engines, then shipped production voice messaging (STT/TTS) in the web app
 \end{tightemize}
 \sectionsep
 

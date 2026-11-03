@@ -29,15 +29,15 @@ Python \hfill | \hfill
 Model Quantization \hfill | \hfill
 vLLM Serving \hfill | \hfill
 Speech (Whisper STT / TTS) \hfill | \hfill
-Latency Benchmarking \hfill | \hfill
-GPU / CUDA Pipelines \hfill | \hfill
-VLM Inference \\
-\hspace{1.0cm} Model Evaluation \hfill | \hfill
+Latency Benchmarking \\
+\hspace{1.0cm} GPU / CUDA Pipelines \hfill | \hfill
+VLM Inference \hfill | \hfill
+Model Evaluation \hfill | \hfill
 Go \hfill | \hfill
 Docker \hfill | \hfill
 CI/CD \hfill | \hfill
-IoT Hardware \hfill | \hfill
-Postgres \hfill | \hfill
+IoT Hardware \\
+\hspace{1.0cm} Postgres \hfill | \hfill
 AWS / GCP \\
 
 \raggedright{
@@ -57,7 +57,6 @@ AWS / GCP \\
     \item VLM video pipeline (Qwen3-VL, Cosmos-Reason2) for formation detection: tuned thresholds, scoring harness, MinIO + Postgres
     \item Agent runtime (Python): group-scoped memory pruning, voice-agent memory, reviewed-turn training-data pipeline
     \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
-    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
 \end{tightemize}
 \sectionsep
 

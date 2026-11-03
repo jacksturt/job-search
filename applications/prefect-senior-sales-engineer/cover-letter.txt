@@ -1,0 +1,9 @@
+Hello Prefect Team,
+
+I'm applying for the Senior Sales Engineer role. The posting asks for an engineer who has built real solutions and can distill a messy use case into something a prospect can say yes to, across orchestration, MCP, and AI governance.
+
+This year at Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and a Go data gateway with scoped, revocable tokens and an audit log, which is the governance question most AI buyers ask first. At Ralli I built the pipeline that loaded betting lines and rosters into Postgres. At Applied Intuition I built a license dashboard showing customers' product usage that helped close multiple million-dollar deals.
+
+I haven't held a sales engineering title, and my customer work has come from founding companies and building for customers directly. I'd be glad to talk about how I could help Prefect's sales team.
+
+Jack Sturtevant

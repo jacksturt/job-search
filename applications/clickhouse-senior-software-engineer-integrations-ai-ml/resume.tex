@@ -29,15 +29,15 @@ Python \hfill | \hfill
 SDK / API Design \hfill | \hfill
 LLM Integrations \hfill | \hfill
 RAG / Vector Search \hfill | \hfill
-Agent Tool Contracts \hfill | \hfill
-Fine-Tuning / vLLM \hfill | \hfill
-Data Pipelines \\
-\hspace{1.0cm} SQL / Postgres \hfill | \hfill
+Agent Tool Contracts \\
+\hspace{1.0cm} Fine-Tuning / vLLM \hfill | \hfill
+Data Pipelines \hfill | \hfill
+SQL / Postgres \hfill | \hfill
 Go \hfill | \hfill
 TypeScript \hfill | \hfill
 Docker \hfill | \hfill
-CI/CD \hfill | \hfill
-Developer Experience \hfill | \hfill
+CI/CD \\
+\hspace{1.0cm} Developer Experience \hfill | \hfill
 AWS / GCP \\
 
 \raggedright{
@@ -57,7 +57,6 @@ AWS / GCP \\
     \item Multi-sport LLM fine-tuning on H100s: corpus curation, feedback-retraining loop, quantized vLLM serving
     \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
     \item Go data gateway for third-party apps (scoped, revocable tokens) that grew into an app store: template registry, per-app data storage, 3-way merge for template updates
-    \item VLM video pipeline (Qwen3-VL, Cosmos-Reason2) for formation detection: tuned thresholds, scoring harness, MinIO + Postgres
 \end{tightemize}
 \sectionsep
 

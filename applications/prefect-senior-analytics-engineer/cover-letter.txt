@@ -1,0 +1,9 @@
+Hello Prefect Team,
+
+I'm applying for the Senior Analytics Engineer role. The posting asks for someone to own the go-to-market data model, with one agreed definition of an account, an activated workspace, and pipeline, and to model the funnel from first visit to expansion.
+
+As a founder I lived inside those questions. At Ralli I built onboarding, referrals, and leaderboards and designed the data model and ETL that loaded betting lines and rosters into Postgres. At Applied Intuition I built a license dashboard showing customers' product usage that helped close multiple million-dollar deals.
+
+To be direct: I haven't used dbt or a semantic layer like Omni or Looker in production, and analytics engineering hasn't been my title. I'd be glad to talk about whether that fits what the team needs.
+
+Jack Sturtevant
