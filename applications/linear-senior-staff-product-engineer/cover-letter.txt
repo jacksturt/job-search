@@ -1,0 +1,9 @@
+Hello Linear Team,
+
+I'm applying for the Senior / Staff Product Engineer role. The posting describes working closely with founders and design to turn new ideas into product, including AI features at the core of the app. I spent this year doing exactly that, and the years before it as a founder deciding what to build.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps. When the quick-edit path felt slow, I timed it against a single model call on real requests. The single call was 4-6x faster, so I shipped it as its own tier. I also benchmarked self-hosted speech engines and then shipped voice messaging in the web app. At Ralli, a real-time social betting app I founded, I built the NestJS and Postgres services behind a Next.js app, pushed live updates to clients over WebSockets, added Datadog tracing, and led the engineering team.
+
+I haven't used GraphQL in production, but React, TypeScript, Node, Postgres, and real-time updates are my everyday stack, and I work best on a small team that ships. I'd be glad to talk about how I could help Linear.
+
+Jack Sturtevant

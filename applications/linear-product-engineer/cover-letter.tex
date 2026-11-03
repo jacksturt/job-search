@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Linear Team,
+
+I'm applying for the Product Engineer role. I like the parts of the job the posting puts first: working with founders and design on new ideas, building AI features into the product, and owning a feature from idea to shipped without heavy process around it.
+
+At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace. When the quick-edit path felt slow, I timed it against a single model call on real requests. The single call was 4-6x faster, so I shipped it as its own tier. At Ralli, a real-time social betting app I founded, I built the NestJS and Postgres services behind a Next.js app, pushed live updates to clients over WebSockets, added Datadog tracing, and led the engineering team.
+
+I haven't used GraphQL in production, but React, TypeScript, Node, Postgres, and real-time updates are my everyday stack, and I work best on a small team that ships. I'd be glad to talk about how I could help Linear.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
