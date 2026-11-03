@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Consulting Engineer, AMER role. The posting asks for someone who scopes a customer's goals into a project with success criteria, builds it, measures it, and hands it over cleanly.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens, rate limits, and an audit log, self-hosted CI/CD that runs the end-to-end suite on every release merge, and an LLM fine-tuning and vLLM serving pipeline on H100s. Before that I founded Ralli, where I built NestJS and Postgres services with live WebSocket updates and Datadog tracing and the pipeline that loaded betting lines into Postgres, and led the engineering team.
+
+To be direct: I haven't used ClickHouse in production or worked as a consultant, and the role's 35% travel and 24x7 on-call are things I'd want to talk through. I'd be glad to talk about whether my background fits what the team needs.
+
+Jack Sturtevant

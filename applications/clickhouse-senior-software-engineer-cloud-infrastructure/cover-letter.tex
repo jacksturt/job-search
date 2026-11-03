@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello ClickHouse Team,
+
+I'm applying for the Senior Software Engineer, Cloud Infrastructure role. The posting asks for someone who builds reliable cloud infrastructure, security tooling, and automation for a SaaS platform.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens, rate limits, and an audit log, self-hosted CI/CD that runs the end-to-end suite on every release merge, and an LLM fine-tuning and vLLM serving pipeline on H100s. Before that I founded Ralli, where I built NestJS and Postgres services with live WebSocket updates and Datadog tracing and the pipeline that loaded betting lines into Postgres, and led the engineering team.
+
+To be direct: my Kubernetes work was one 2024 engagement, and I haven't built service meshes, PKI, or routing at ClickHouse's scale. I'd be glad to talk about whether my background fits what the team needs.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

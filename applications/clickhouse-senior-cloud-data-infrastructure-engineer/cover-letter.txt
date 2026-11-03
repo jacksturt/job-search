@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Cloud Data Infrastructure Engineer role. The posting asks for someone who builds and operates fault-tolerant cloud data infrastructure, including a Kubernetes operator and metrics pipelines.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens, rate limits, and an audit log, self-hosted CI/CD that runs the end-to-end suite on every release merge, and an LLM fine-tuning and vLLM serving pipeline on H100s. Before that I founded Ralli, where I built NestJS and Postgres services with live WebSocket updates and Datadog tracing and the pipeline that loaded betting lines into Postgres, and led the engineering team.
+
+To be direct: I haven't built a Kubernetes operator or distributed storage, and my Go is recent (2026). I'd be glad to talk about whether my background fits what the team needs.
+
+Jack Sturtevant

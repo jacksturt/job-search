@@ -1,0 +1,9 @@
+Hello ClickHouse Team,
+
+I'm applying for the Senior Cloud Engineer, Product Metrics role. The posting asks for someone who owns business-critical metrics systems end to end, including on-call.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens, rate limits, and an audit log, self-hosted CI/CD that runs the end-to-end suite on every release merge, and an LLM fine-tuning and vLLM serving pipeline on H100s. Before that I founded Ralli, where I built NestJS and Postgres services with live WebSocket updates and Datadog tracing and the pipeline that loaded betting lines into Postgres, and led the engineering team.
+
+To be direct: my Go dates from 2026 rather than two-plus years, and I haven't run petabyte-scale systems or used Helm, Temporal, or Terraform in production. I'd be glad to talk about whether my background fits what the team needs.
+
+Jack Sturtevant
