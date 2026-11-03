@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello GitLab Team,
+
+I'm applying for the Staff Fullstack Engineer role on the Purchase team. The posting asks for experience with checkout-style flows, a bias toward safe, incremental delivery, and clear technical direction for a product area. Most of what I've built has had money moving through it, and I've run engineering at two companies I founded.
+
+At Lancer, the freelance marketplace I founded, I built the flow from quote to checkpoint to payment: funds sat in escrow until the client approved the work, and I integrated ACH payouts through Coinflow so freelancers without crypto could get paid; 55 clients funded 264 escrows. As interim CTO at Banger I built a trading platform end to end in eight weeks, which led to a \$250K raise. At Applied Intuition, a license dashboard I built showing customers' product usage helped close multiple million-dollar deals.
+
+I haven't used Ruby on Rails or Vue.js professionally; my front ends have been React and TypeScript, and my backends Node, Go, and Python. I'd be glad to talk about how I could help the Purchase team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
