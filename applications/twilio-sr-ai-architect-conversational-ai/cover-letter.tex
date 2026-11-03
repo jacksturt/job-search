@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Twilio Team,
+
+I'm applying for the Sr AI Architect role in Conversational AI. The posting asks for a player-coach who leads architecture for agentic systems (orchestration, tool use, memory) while staying in the code.
+
+This year at Coordinator I built the tools our LLM agent used to edit apps in a user's workspace, agent-runtime memory for chat and voice, and the pipeline that turns reviewed production turns into training data. When the quick-edit path was slow, I timed a single model call against the agent tiers on real requests; it was 4-6x faster, so I shipped it as its own tier. I also fine-tuned and served models with vLLM on H100s and shipped production voice messaging.
+
+To be direct: I have seven years of experience, not the fifteen the posting asks for, and my ML work has been at startup scale. I'd be glad to talk about whether my hands-on agent work fits what the team needs.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

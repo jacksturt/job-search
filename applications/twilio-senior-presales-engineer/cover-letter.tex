@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Twilio Team,
+
+I'm applying for the Senior Presales Engineer role. The posting asks for someone who can understand a customer's communications needs, guide them to a technical solution, and explain it to every level of the room. As a two-time founder/CTO I've done that from both sides of the table.
+
+At Applied Intuition I built a license dashboard showing customers' product usage that helped close multiple million-dollar deals, and a Zendesk automation that cut support response time from over a day to under an hour. This year at Coordinator I benchmarked self-hosted speech engines and shipped voice messaging in the web app, and at Ralli I built real-time WebSocket updates and notifications.
+
+I haven't held a formal presales title or worked in telecom or SIP; my customer-facing work has come from founding companies and building for customers directly. I'd be glad to talk about how I could help Twilio's presales team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

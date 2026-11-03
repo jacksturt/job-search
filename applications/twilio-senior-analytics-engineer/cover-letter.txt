@@ -1,0 +1,9 @@
+Hello Twilio Team,
+
+I'm applying for the Senior Analytics Engineer role. The posting asks for someone who owns ambiguous data projects end to end and works with stakeholders to define and reconcile the metrics a business runs on.
+
+At Ralli, the company I founded, I designed the data model and ETL that loaded live betting lines and rosters from ESPN's APIs into Postgres. At Applied Intuition I built a license dashboard showing customers' product usage that helped close multiple million-dollar deals. This year at Coordinator I built the pipeline that turns reviewed production conversations into training data.
+
+I haven't used AWS Glue, Athena, or LookML, and analytics engineering hasn't been my title; my data work has been part of building products. I'd be glad to talk about whether that fits what the team needs.
+
+Jack Sturtevant

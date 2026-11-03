@@ -1,0 +1,9 @@
+Hello Twilio Team,
+
+I'm applying for the Software Engineer role on Video. The posting asks for an owner who designs real-time, low-latency services, works from the customer's problem, and writes ideas down clearly.
+
+At Ralli, the real-time social betting app I founded, I built NestJS and Postgres services that pushed live updates over WebSockets, with Datadog tracing. This year at Coordinator I built a Go data gateway with rate limits and an audit log, benchmarked self-hosted Whisper and TTS engines for latency, and shipped voice messaging in the web app.
+
+My JVM experience is limited to an AWS internship, and I haven't built media servers or worked with Kafka. I'd be glad to talk about whether my real-time work fits what the team needs.
+
+Jack Sturtevant

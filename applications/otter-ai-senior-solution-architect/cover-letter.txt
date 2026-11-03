@@ -1,0 +1,9 @@
+Hello Otter.ai Team,
+
+I'm applying for the Senior Solution Architect role. The posting asks for someone who owns the technical side of an enterprise evaluation, designs success criteria, and turns field feedback into product input. I've done the technical half of that as a founder and as an engineer close to sales.
+
+At Applied Intuition I built a license dashboard showing customers' product usage that helped close multiple million-dollar deals. This year at Coordinator I benchmarked self-hosted speech engines, shipped voice messaging in the web app, and built a Go data gateway with scoped, revocable tokens and an audit log, which is the kind of detail security reviews ask about.
+
+I haven't held a presales title, run MEDDPICC, or carried enterprise deals of $200K+ ACV, and the posting is explicit about those. I'd be glad to talk about whether my background fits.
+
+Jack Sturtevant

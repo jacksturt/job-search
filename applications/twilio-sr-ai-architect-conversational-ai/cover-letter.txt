@@ -1,0 +1,9 @@
+Hello Twilio Team,
+
+I'm applying for the Sr AI Architect role in Conversational AI. The posting asks for a player-coach who leads architecture for agentic systems (orchestration, tool use, memory) while staying in the code.
+
+This year at Coordinator I built the tools our LLM agent used to edit apps in a user's workspace, agent-runtime memory for chat and voice, and the pipeline that turns reviewed production turns into training data. When the quick-edit path was slow, I timed a single model call against the agent tiers on real requests; it was 4-6x faster, so I shipped it as its own tier. I also fine-tuned and served models with vLLM on H100s and shipped production voice messaging.
+
+To be direct: I have seven years of experience, not the fifteen the posting asks for, and my ML work has been at startup scale. I'd be glad to talk about whether my hands-on agent work fits what the team needs.
+
+Jack Sturtevant
