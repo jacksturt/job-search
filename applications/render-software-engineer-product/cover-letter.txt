@@ -1,0 +1,9 @@
+Hello Render Team,
+
+I'm applying for the Software Engineer, Product role. The posting asks for someone who builds new products across the stack, works closely with design and product, and makes pragmatic calls at a small, high-growth company. That is how I've worked for most of my career.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens that grew into a third-party app store, the tools our LLM agent used to act on a user's workspace, and self-hosted CI that runs the end-to-end suite on every release merge. Before that I founded Ralli, a real-time social betting app, where I built NestJS and Postgres services behind a Next.js app with live WebSocket updates and Datadog tracing, and led the engineering team.
+
+I've spent most of my seven years at small, fast-moving startups, wearing whichever hat the week needed. I'd be glad to talk about how I could help Render.
+
+Jack Sturtevant

@@ -1,0 +1,9 @@
+Hello Render Team,
+
+I'm applying for the Software Engineer role on Agent Access & Governance. The team is building how developers, services, and AI agents get secure access to Render, and the posting wants someone who owns that experience from interface and API down to the backend. That is close to what I built this year.
+
+At Coordinator I built a Go data gateway for third-party apps with scoped, revocable, device-bound tokens, refresh-reuse rejection, rate limits, and an audit log, and the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps. Before that I founded Ralli, a real-time social betting app, where I built NestJS and Postgres services with live WebSocket updates and embedded-wallet onboarding, and led the engineering team.
+
+My hands-on experience with OAuth, OpenID Connect, and SAML is limited, and I haven't built a policy engine; my access work has been token-based. I'd be glad to talk about how I could help the team.
+
+Jack Sturtevant

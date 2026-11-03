@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Render Team,
+
+I'm applying for the Software Engineer, Expansion role. The team builds tools that help larger teams manage their apps as they grow, and I've built that kind of tool before: at Applied Intuition, an intranet for managing developers, teams, and customers, and a license dashboard showing customers' product usage that helped close multiple million-dollar deals.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens that grew into a third-party app store, the tools our LLM agent used to act on a user's workspace, and self-hosted CI that runs the end-to-end suite on every release merge. Before that I founded Ralli, a real-time social betting app, where I built NestJS and Postgres services behind a Next.js app with live WebSocket updates and Datadog tracing, and led the engineering team.
+
+I've spent most of my seven years at small, fast-moving startups, wearing whichever hat the week needed. I'd be glad to talk about how I could help Render.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

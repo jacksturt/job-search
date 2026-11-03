@@ -1,0 +1,9 @@
+Hello Render Team,
+
+I'm applying for the Software Engineer, Billing role. The posting asks for someone detail-oriented who owns mission-critical systems where money has to be right, works across finance and product, and is strong in Go and production databases.
+
+At Lancer, the freelance marketplace I founded, I wrote the escrow program with dispute resolution and vote-to-cancel and integrated ACH payouts through Coinflow, a third-party provider, so freelancers without crypto could get paid; 55 clients funded 264 escrows. At Ralli I wrote the programs that submitted bets and resolved lines, and built the pipeline that loaded betting lines into Postgres. This year at Coordinator I built a Go data gateway with rate limits and an audit log. At Applied Intuition I built a license dashboard showing customers' product usage.
+
+I haven't run usage-based billing or worked with Orb or Metronome, and I would be learning that part. I'd be glad to talk about how I could help Render's billing team.
+
+Jack Sturtevant

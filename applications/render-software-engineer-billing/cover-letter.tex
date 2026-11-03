@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Render Team,
+
+I'm applying for the Software Engineer, Billing role. The posting asks for someone detail-oriented who owns mission-critical systems where money has to be right, works across finance and product, and is strong in Go and production databases.
+
+At Lancer, the freelance marketplace I founded, I wrote the escrow program with dispute resolution and vote-to-cancel and integrated ACH payouts through Coinflow, a third-party provider, so freelancers without crypto could get paid; 55 clients funded 264 escrows. At Ralli I wrote the programs that submitted bets and resolved lines, and built the pipeline that loaded betting lines into Postgres. This year at Coordinator I built a Go data gateway with rate limits and an audit log. At Applied Intuition I built a license dashboard showing customers' product usage.
+
+I haven't run usage-based billing or worked with Orb or Metronome, and I would be learning that part. I'd be glad to talk about how I could help Render's billing team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

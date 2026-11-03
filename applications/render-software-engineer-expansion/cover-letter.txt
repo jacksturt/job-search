@@ -1,0 +1,9 @@
+Hello Render Team,
+
+I'm applying for the Software Engineer, Expansion role. The team builds tools that help larger teams manage their apps as they grow, and I've built that kind of tool before: at Applied Intuition, an intranet for managing developers, teams, and customers, and a license dashboard showing customers' product usage that helped close multiple million-dollar deals.
+
+This year at Coordinator I built a Go data gateway with scoped, revocable tokens that grew into a third-party app store, the tools our LLM agent used to act on a user's workspace, and self-hosted CI that runs the end-to-end suite on every release merge. Before that I founded Ralli, a real-time social betting app, where I built NestJS and Postgres services behind a Next.js app with live WebSocket updates and Datadog tracing, and led the engineering team.
+
+I've spent most of my seven years at small, fast-moving startups, wearing whichever hat the week needed. I'd be glad to talk about how I could help Render.
+
+Jack Sturtevant

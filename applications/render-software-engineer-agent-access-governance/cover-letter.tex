@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Render Team,
+
+I'm applying for the Software Engineer role on Agent Access \& Governance. The team is building how developers, services, and AI agents get secure access to Render, and the posting wants someone who owns that experience from interface and API down to the backend. That is close to what I built this year.
+
+At Coordinator I built a Go data gateway for third-party apps with scoped, revocable, device-bound tokens, refresh-reuse rejection, rate limits, and an audit log, and the tools our LLM agent used to edit apps in a user's workspace and read data across their installed apps. Before that I founded Ralli, a real-time social betting app, where I built NestJS and Postgres services with live WebSocket updates and embedded-wallet onboarding, and led the engineering team.
+
+My hands-on experience with OAuth, OpenID Connect, and SAML is limited, and I haven't built a policy engine; my access work has been token-based. I'd be glad to talk about how I could help the team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
