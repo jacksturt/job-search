@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello Recursion Team,
+
+I'm applying for the Staff Engineer, IAM role knowing it's a stretch. The posting asks for 7+ years in IAM and expert experience with enterprise platforms like Okta and Azure AD, and privileged access tools. I haven't held a dedicated IAM role or run those platforms, and your application asks directly about that, so I'd rather say so here too.
+
+What I have built is application-level access control. At Coordinator I wrote a Go data gateway for third-party apps with scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, and agent tools with read-only access under exact contracts. That experience touches non-human identity, which your application also asks about, though from an engineer's seat and not as the owner of an enterprise program.
+
+I'd be glad to talk if there is a place for that background on your team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

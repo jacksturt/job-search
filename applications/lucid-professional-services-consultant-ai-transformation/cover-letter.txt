@@ -1,0 +1,9 @@
+Hello Lucid Team,
+
+I'm applying for the Professional Services Consultant role in AI Transformation from the engineering side. The posting asks for 5+ years in a consultative, customer-facing role and experience presenting to VPs and C-suite stakeholders at large enterprises. I haven't worked in professional services or led Fortune 500 workshops, so you should weigh that first.
+
+The posting also prefers engineering experience before consulting, and that is what I have. I've spent this year building AI systems: fine-tuned LLMs, agent tools, and measurements of which approaches actually work on real requests. At Applied Intuition I built a license dashboard that helped close multiple million-dollar deals and automated support so response times fell from over a day to under an hour. As a two-time founder and CTO I've had to turn unclear situations into plans and explain them to customers and my teams, and I've taught engineers at Turbin3.
+
+I can explain what AI will and won't do for a process without overselling it. I'd be glad to talk about whether that could help your clients.
+
+Jack Sturtevant

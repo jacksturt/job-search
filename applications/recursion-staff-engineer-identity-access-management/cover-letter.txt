@@ -1,0 +1,9 @@
+Hello Recursion Team,
+
+I'm applying for the Staff Engineer, IAM role knowing it's a stretch. The posting asks for 7+ years in IAM and expert experience with enterprise platforms like Okta and Azure AD, and privileged access tools. I haven't held a dedicated IAM role or run those platforms, and your application asks directly about that, so I'd rather say so here too.
+
+What I have built is application-level access control. At Coordinator I wrote a Go data gateway for third-party apps with scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, and agent tools with read-only access under exact contracts. That experience touches non-human identity, which your application also asks about, though from an engineer's seat and not as the owner of an enterprise program.
+
+I'd be glad to talk if there is a place for that background on your team.
+
+Jack Sturtevant
