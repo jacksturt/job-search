@@ -1,0 +1,9 @@
+Hello BILL Team,
+
+I'm applying for the Staff Machine Learning Engineer role because fine-tuning LLMs and taking them to production is what I spent this year doing. The posting asks for someone who stays hands-on: prototyping, tuning, and shipping models personally.
+
+At Coordinator I ran multi-sport LLM fine-tuning on H100s, curating the corpus, closing a feedback-retraining loop, and quantizing for vLLM serving. I built the pipeline that turned reviewed production turns into training data, which is the human-in-the-loop flywheel your posting describes. I also tuned Qwen3-VL and Cosmos-Reason2 inference against a scoring harness, iterating on confidence thresholds and frame preprocessing.
+
+To be direct about gaps: I have seven years rather than eight, I haven't built recommendation, personalization, or search ranking systems in production, and I haven't held a Staff title. I'd be glad to talk about whether my background fits what the team needs.
+
+Jack Sturtevant

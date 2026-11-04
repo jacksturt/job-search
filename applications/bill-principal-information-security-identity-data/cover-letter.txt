@@ -1,0 +1,9 @@
+Hello BILL Team,
+
+I'm applying for the Principal Information Security role in Identity and Data Security knowing it's a stretch. I haven't held a security title, and I haven't run enterprise IGA, SSO and MFA policy, or DLP programs, or worked under a regulatory compliance program.
+
+What I can offer is an engineer's view of the non-human identity problem in your posting. At Coordinator I built a Go data gateway for third-party apps with scoped, revocable, device-bound tokens, refresh-token reuse rejection, rate limits, and an audit log, and read-only cross-app data tools for agents with exact tool contracts. At Lancer I built escrowed payments with ACH payouts, so I understand why correctness matters where money moves.
+
+If the team could use someone who builds these controls rather than governs them, I'd be glad to talk.
+
+Jack Sturtevant

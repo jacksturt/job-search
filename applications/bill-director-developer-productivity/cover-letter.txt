@@ -1,0 +1,9 @@
+Hello BILL Team,
+
+I'm applying for the Director of Developer Productivity role knowing it's a stretch. The posting asks for 12+ years and at least 5 leading platform teams at a Director level, plus production-scale Kubernetes, and I don't have those. I have seven years, I've led teams of up to seven as a founder and CTO, and my Kubernetes work has been deployments with ArgoCD.
+
+What I do have is close, hands-on experience with how AI changes the way engineers work. I use Claude Code every day and review what it writes as I would a colleague's code. At Coordinator I built the self-hosted CI that ran our end-to-end suite on every release merge, split serial and parallel jobs, and lowered the cost per run. I also built agent tools with exact contracts and timed single-shot against agent-loop tiers on real requests, which is the kind of measurement I'd want behind any AI tooling rollout.
+
+I'd be glad to talk, including about whether a more senior IC or team-lead role on the platform would be a better fit.
+
+Jack Sturtevant

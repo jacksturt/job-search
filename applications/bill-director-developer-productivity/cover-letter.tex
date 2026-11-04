@@ -1,0 +1,30 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=black}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+\href{mailto:jack@sturt.io}{jack@sturt.io} \textbar{} \href{https://www.sturt.io}{sturt.io} \textbar{} \href{https://www.linkedin.com/in/jack-sturtevant/}{linkedin.com/in/jack-sturtevant}
+
+\vspace{1.2em}
+
+Hello BILL Team,
+
+I'm applying for the Director of Developer Productivity role knowing it's a stretch. The posting asks for 12+ years and at least 5 leading platform teams at a Director level, plus production-scale Kubernetes, and I don't have those. I have seven years, I've led teams of up to seven as a founder and CTO, and my Kubernetes work has been deployments with ArgoCD.
+
+What I do have is close, hands-on experience with how AI changes the way engineers work. I use Claude Code every day and review what it writes as I would a colleague's code. At Coordinator I built the self-hosted CI that ran our end-to-end suite on every release merge, split serial and parallel jobs, and lowered the cost per run. I also built agent tools with exact contracts and timed single-shot against agent-loop tiers on real requests, which is the kind of measurement I'd want behind any AI tooling rollout.
+
+I'd be glad to talk, including about whether a more senior IC or team-lead role on the platform would be a better fit.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

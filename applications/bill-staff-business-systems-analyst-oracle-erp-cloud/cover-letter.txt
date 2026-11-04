@@ -1,0 +1,9 @@
+Hello BILL Team,
+
+I'm applying for the Staff Business Systems Analyst role knowing it's a real stretch. I haven't worked in Oracle ERP Cloud, haven't supported a finance close or an R2R, P2P, or O2C process, and haven't worked with SOX audits. You should weigh that first.
+
+My experience is on the engineering side of the same work: learning what a business team needs, then building and supporting the system. At Applied Intuition I built an intranet for managing developers, teams, and customers, a license dashboard that helped close multiple million-dollar deals, and an automated Zendesk solution that took support response times from over a day to under an hour. At Lancer I built escrowed payments with ACH payouts, so I have worked with money movement and its failure cases.
+
+If that kind of background is useful on the systems or integration side, I'd be glad to talk.
+
+Jack Sturtevant
