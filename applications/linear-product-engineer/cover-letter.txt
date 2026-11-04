@@ -4,6 +4,6 @@ I'm applying for the Product Engineer role. I like the parts of the job the post
 
 At Coordinator I built the tools our LLM agent used to edit apps in a user's workspace. When the quick-edit path felt slow, I timed it against a single model call on real requests. The single call was 4-6x faster, so I shipped it as its own tier. At Ralli, a real-time social betting app I founded, I built the NestJS and Postgres services behind a Next.js app, pushed live updates to clients over WebSockets, added Datadog tracing, and led the engineering team.
 
-I haven't used GraphQL in production, but React, TypeScript, Node, Postgres, and real-time updates are my everyday stack, and I work best on a small team that ships. I'd be glad to talk about how I could help Linear.
+I used GraphQL in production at Applied Intuition, though that was about six years ago, so I'd be refreshing it. React, TypeScript, Node, Postgres, and real-time updates are my everyday stack, and I work best on a small team that ships. I'd be glad to talk about how I could help Linear.
 
 Jack Sturtevant
