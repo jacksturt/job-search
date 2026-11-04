@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Foley Team,
+
+I'm applying for the Senior Data Engineer role because I like building pipelines that people can trust and then improving them over time.
+
+At Ralli I built the ETL pipeline that ingested betting lines and athlete data from public APIs into a normalized Postgres database on a schedule, owned the data model, and led the team that extended it. At Coordinator I built a video pipeline with storage on MinIO and Postgres, a data-access gateway with scoped, revocable tokens, and the CI/CD that gated every release, so I care about reliability, testing and access control. I've supported LLM pipelines in production too. I haven't used Redshift, Glue or EventBridge, or built CDC and streaming workflows, and I'd be learning those.
+
+I'd be glad to talk about how I could help Foley's data team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

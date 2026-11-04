@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Gusto Team,
+
+I'm applying for the ML Platform role because the systems around models are the part of ML I like best.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD around it, and the backend I shipped was Go. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network. I'm most comfortable in Python and TypeScript, and I haven't worked in Ruby or Java.
+
+I'd be glad to talk about how I could help Gusto's ML platform.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Riot Games Team,
+
+I've followed Riot since Season 3 of League of Legends, and I've put in thousands of hours playing and watching it. Building ML infrastructure for Riot's games is a job I'd love, which is why I'm applying for the Staff ML Engineer role in Game Tech.
+
+At Coordinator I ran GPU training and vLLM serving and built the self-hosted CI/CD around it. At Trustless Engineering I built Kubernetes deployments with ArgoCD and Datadog monitoring for an ML network. Staff is a big step up in scope from what I've held, and I'd be upfront about that.
+
+I'd be glad to talk about how I could help Riot's ML platform.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

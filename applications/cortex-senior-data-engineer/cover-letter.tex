@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Cortex Team,
+
+I'm applying for the Senior Data Engineer role because I like owning data systems end to end, including the automation built on top of them.
+
+At Ralli I built the pipeline that ingested betting lines and athlete data from public APIs into Postgres on a schedule, owned the data model, and led the team that later extended it. At Coordinator I built a video pipeline with clip and frame storage on MinIO and Postgres, and the CI/CD around it. I work agentic-first, so I move quickly. I haven't used dbt or BigQuery in production.
+
+I'd be glad to talk about how I could help Cortex.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

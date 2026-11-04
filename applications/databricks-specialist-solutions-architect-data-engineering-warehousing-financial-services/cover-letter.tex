@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Databricks Team,
+
+I'm applying for the Specialist Solutions Architect role knowing it's a stretch. The posting asks for 6+ years in solutions architecture or pre-sales and deep Spark and Kafka experience, and I don't have either. I haven't worked in financial services or pre-sales, and I haven't used the Databricks platform in production.
+
+What I do have is data pipeline experience and a record of working directly with customers. At Applied Intuition I built a customer-facing license dashboard that showed product usage and helped close multi-million dollar deals, and I rebuilt customer support so response times dropped from over a day to under an hour. At Ralli and Coordinator I built ingestion and video pipelines on Postgres and MinIO, and I taught at Turbin3. I can explain a technical design to an engineer or an executive.
+
+I'd be glad to talk about whether that could be useful to your financial services customers.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

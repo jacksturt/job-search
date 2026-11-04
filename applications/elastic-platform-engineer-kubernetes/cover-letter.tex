@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Elastic Team,
+
+I'm applying for the Platform Engineer role because it matches the work I do best: building the infrastructure other engineers ship on, and automating everything I can.
+
+At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog monitoring for a decentralized GPU network. At Coordinator I built the self-hosted CI/CD for our end-to-end test suite and ran GPU model serving in production. Before that I was founder and CTO twice, so I'm used to owning infrastructure end to end with a small team.
+
+I like small, focused teams that care about automation and security, and I'd be glad to talk about how I could help build Elastic's application hosting platform.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

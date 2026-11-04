@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Cricut Team,
+
+I'm applying for the AI Engineering Lead role. I live in Utah, and building AI features into products that people use to make things is exactly what I'd like to do next.
+
+At Coordinator I shipped AI features into a client-facing web app: a voice messaging feature, LLM features, and a data-access gateway that grew into an app store. I also built the fine-tuning and serving pipelines behind them and the CI/CD that gated every release. I work agentic-first every day, and I pay close attention to the tradeoffs in latency, cost and quality. Before that I was founder and CTO of Ralli and Lancer, where I led small teams of developers, set the technical direction and wrote production code myself.
+
+I haven't shipped AI image generation or MCP integrations, and I've led as a CTO rather than as a manager of managers. I'd be glad to talk about how I could lead this team.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

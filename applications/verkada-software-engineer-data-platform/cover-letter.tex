@@ -1,0 +1,29 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Verkada Team,
+
+I'm applying for the Data Platform role because I like building pipelines and tooling from the ground up.
+
+At Ralli I built the ingestion pipeline that moved betting lines and athlete data into Postgres on a schedule. At Coordinator I built a video pipeline with storage on MinIO and Postgres, and the CI/CD around it. I'd be glad to grow with a team on the platform side.
+
+I'd be glad to talk about how I could help Verkada.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
