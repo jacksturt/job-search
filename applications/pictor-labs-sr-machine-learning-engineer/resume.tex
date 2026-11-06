@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% Pictor Labs — Sr. Machine Learning Engineer
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+\section{Summary}
+ML engineer and two-time founder/CTO with seven years of production software, most recently GPU inference and computer vision: quantized vLLM serving, video pipelines, and latency work measured on real requests, on NVIDIA H100s and ARM64 GB10 hardware. Earlier C++ for robotics and ML, down to the CUDA level. Python, Go, TypeScript.
+\sectionsep
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+Python \hfill | \hfill
+PyTorch \hfill | \hfill
+GPU Inference (vLLM) \hfill | \hfill
+Quantization (FP8 / FP4 / INT4) \hfill | \hfill
+Computer Vision \hfill | \hfill
+YOLOv8 \\
+\hspace{1.0cm} Docker \hfill | \hfill
+Kubernetes (ArgoCD deploys) \hfill | \hfill
+AWS / GCP \hfill | \hfill
+CI/CD \hfill | \hfill
+Datadog \hfill | \hfill
+Go \hfill | \hfill
+C++ / CUDA (earlier) \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Fine-tuned multi-sport LLMs on 1 to 8 H100s (LoRA with NeMo and Unsloth); wrote FP8/FP4/INT4 quantization for vLLM serving
+    \item Built a CV pipeline for All-22 football film: YOLOv8-pose motion signal, K-means player classification, pixel-to-field homography, and Hungarian matching to playbooks, with an async job tracker, Postgres, and object storage
+    \item VLM video inference (Qwen3-VL, Cosmos-Reason2): tuned frame preprocessing and thresholds against a scoring harness
+    \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
+    \item Moved GPU voice services (Whisper, TTS) to ARM64 NVIDIA hardware, swapping TTS engines for compatibility and latency
+    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{January 2025 – October 2025}
+\begin{tightemize}
+    \item Founded a real-time social sports betting platform and led the engineering team (full-time from July 2025)
+    \item Built NestJS/Drizzle/Postgres services with live WebSocket updates and Datadog tracing, plus live projections from play-by-play data
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Trustless Engineering (2024): Kubernetes deployments (ArgoCD), ML infrastructure, and Datadog observability
+    \item Lancer (2022 -- 2023): founder/CTO of a freelance platform (Next.js, tRPC, Prisma, escrowed payments); led 7 people
+    \item Banger (2024): interim CTO; built a tokenized-tweet trading platform end to end in 8 weeks, which led to a \$250K raise
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+\end{tightemize}
+\sectionsep
+
+\section{Early Experience}
+\vspace{1.4em}
+\begin{tightemize}
+    \item C++ / CUDA (college and early career, about 5 years ago): robotics and ML projects, master's-level C++ courses, and senior-year robotics research
+    \item Hydraze (CTO, 2019 -- 2020): IoT sensor network (Raspberry Pi + Arduino) and device-management platform
+    \item AWS (SDE Intern, 2019): enabled mathematical verification of AWS products through compilation from Dafny to Java
+    \item Harvard medical lab (first job): worked on early lab-on-a-chip experiments
+\end{tightemize}
+\sectionsep
+
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

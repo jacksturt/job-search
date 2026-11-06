@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Pictor Labs Team,
+
+I'm applying for the Senior Software Engineer role because I want my work to help patients. I started college as an EMT studying biomedical engineering, and my first job was in a Harvard medical lab working on early lab-on-a-chip experiments. Coding pulled me away, but I've kept taking biology and chemistry classes on my own time and money.
+
+This role covers the range I've worked across. At Coordinator I built a Go data gateway with scoped tokens, rate limits and an audit log, a containerized GPU vision service with async job tracking, and vLLM serving on H100s. I also moved our GPU voice services to ARM64 NVIDIA hardware, which is close to your edge devices. At Ralli I built a Next.js app and NestJS services with live WebSocket updates and Datadog tracing. Earlier, at Hydraze, I built an IoT sensor network and the platform to manage those devices.
+
+I haven't built software under FDA or SOC2 requirements, and I haven't worked with pathology slide images. I'd be learning both from your team, and most of my inference work is from the past year rather than the 3+ you ask for.
+
+I'd be glad to talk about how I could help get Pictor's cloud services and edge devices into more labs.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
