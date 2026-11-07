@@ -1,0 +1,31 @@
+Hi,
+
+Thanks for the invite. I'm a hands-on engineer who has spent most of the last seven years as the lead engineer on small teams. That has meant turning what a founder or client wants into a plan, splitting it into tasks, and keeping the work on track. This role is that same job with the coordination as the main focus.
+
+Background: I've been a professional software engineer since 2019. I started at AWS and Applied Intuition. Since then I've been a two-time founder/CTO and a contract lead engineer, usually as the first or most senior engineer.
+
+Coordinating teams and clients:
+- Lancer (founder/CTO): I led a 7-person team building a freelance marketplace with escrowed payments, from planning through launch. 55 clients funded 264 jobs on it, and we won $30K at Solana's Grizzlython.
+- Ralli (founder/CTO): I led the engineering team on a real-time social sports betting app (Next.js, NestJS, Postgres, WebSockets) and scaled us from part-time to full-time.
+- Banger (interim CTO): I took the founders' idea to a working trading platform in eight weeks. I worked directly with them on scope. The product led directly to a $250K raise.
+- Coordinator (lead engineer, contract, 2026): I led engineering on the client's AI platform: LLM fine-tuning and serving, voice and video pipelines, CI/CD, and an API gateway for third-party apps.
+- Applied Intuition: I built the internal tool the company used to manage developers, teams and customers. I also built a support system that cut customer response time from over a day to under an hour.
+
+Technologies: TypeScript, React/Next.js and Node (NestJS, tRPC) on the web, Python for AI and data work, Go, Postgres, Docker, Kubernetes, AWS and GCP. I work hands-on with LLM integrations, RAG, and workflow automation. I also used Java earlier in my career, though not recently.
+
+My approach:
+1. Requirements: I turn each request into a short written spec covering the goal, what's in and out of scope, acceptance criteria, and open questions. The client confirms it before any work starts, which catches most misunderstandings early.
+2. Tasks and priorities: I break the spec into tasks a developer can finish in a day or two. Then I order them by risk and value, so the riskiest and most important work happens first.
+3. Technical review: I read the code and the designs, so I can spot implementation problems and blockers early instead of finding out at the deadline.
+4. Timelines: each milestone has a target date and a weekly written update covering what shipped, what's next, and what's at risk. If a date slips, the client hears it early, along with options such as cutting scope or moving the date.
+
+Availability and rate: I'm available now, part-time, and can scale up to 30+ hours a week. My rate is [RATE]/hr.
+
+A few questions so I can understand the setup:
+1. How many developers would I be coordinating, and are they in-house or contractors?
+2. Will I be talking to clients directly on your Upwork account, or through my own?
+3. What project-management tools do you use today (Jira, Linear, Trello, GitHub)?
+
+Happy to get on a call.
+
+Jack Sturtevant
