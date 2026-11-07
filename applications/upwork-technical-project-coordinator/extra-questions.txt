@@ -1,0 +1,7 @@
+Q: Describe your recent experience with similar projects.
+
+From March to September 2026 I was the contract lead engineer at Coordinator, an AI sports platform. I worked directly with the client and delivered LLM fine-tuning and serving, production voice messaging, a video-analysis pipeline, self-hosted CI/CD, and a third-party API gateway that grew into an app store.
+
+Before that I founded Ralli, a real-time social sports betting app. As CTO I led the engineering team and set priorities through launch. As interim CTO at Banger, I worked out scope with the founders and delivered a trading platform in eight weeks. It led directly to a $250K raise.
+
+In each of these I was the technical lead and also worked closely with the people paying for the work, which I take to be the core of this role. If you can tell me what kinds of projects your clients usually bring (web apps, AI integrations, mobile), I can point to the closest match.
