@@ -1,0 +1,11 @@
+Hello Canopy Team,
+
+I'm applying for the Engineering Team Lead role on Embedded Analytics. I live in Utah, and a hands-on lead role that blends people, data and code is the role I've been doing as a founder and want to keep doing.
+
+I've led engineering at three startups. At Ralli, my sports betting startup, I led the team from part-time to full-time, designed the Postgres data model, and built the ETL pipeline that loaded betting lines and rosters every 12 hours. At Lancer I led a 7-person team from planning through launch. In both, I set technical direction and owned delivery, and I still wrote and reviewed much of the code. Analytics is where I started: at Applied Intuition I built the license dashboard that showed clients their product-usage trends, and it helped close multiple million dollar deals. Most recently, at Coordinator, I built data pipelines, Docker-based services and the CI/CD that gated every release, and I work agentic-first with Claude Code and Cursor every day.
+
+To be direct about the gaps: I've led as a founder/CTO rather than as a people manager inside a larger company, so formal performance goals and reviews would be newer to me. My data work has been mostly in Postgres. I also learned to code on Java, but I haven't used it in years.
+
+I'd be glad to talk about how I could help Canopy's analytics team grow.
+
+Jack Sturtevant

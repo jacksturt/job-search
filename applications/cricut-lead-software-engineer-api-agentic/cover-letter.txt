@@ -1,0 +1,11 @@
+Hello Cricut Team,
+
+I'm applying for the Lead Software Engineer (API/Agentic) role. I live in Utah, and an in-office lead role building the APIs behind products people use to make things is the kind of work I want next.
+
+Most of my last seven years has been designing and shipping backend APIs end to end, usually as the lead or only senior engineer. At Coordinator I built a Go data gateway for third-party apps, with scoped, revocable tokens, rate limits and an audit log. It grew into an app store with a template registry and merge reconciliation for updates. I also built an async job API for a GPU vision service, served fine-tuned LLMs behind the product, and ran the CI/CD that gated every release. At Ralli I built a dozen NestJS and Postgres backend modules with live WebSocket updates and Datadog tracing. I write code with Claude Code and Cursor every day, and I review what they produce as carefully as anyone else's code.
+
+To be direct about the gaps: my API work has mostly been in TypeScript (NestJS) and Go, not C#/.NET or a Python web framework, and I have seven years of experience rather than eight. I pick up new languages quickly, and the API design, testing and rollout practices carry over.
+
+I'd be glad to talk about how I could help build Cricut's APIs.
+
+Jack Sturtevant
