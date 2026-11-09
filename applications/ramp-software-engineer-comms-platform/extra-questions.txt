@@ -1,0 +1,3 @@
+Q: What have you built recently? (optional)
+
+From March to September 2026 I was the contract lead engineer at Coordinator, an AI sports-coaching product. I built production voice messaging (after benchmarking self-hosted Whisper and TTS engines), a Go data gateway with scoped, revocable tokens that grew into an app store with template merges, an agent runtime with Go tools, LLM fine-tuning with quantized vLLM serving, and the CI that ran the end-to-end suite on every release merge. Before that I founded Ralli, where I built notifications, friends, leaderboards and live WebSocket updates on NestJS and Postgres.

@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello PostHog Team,
+
+I'm applying for the Product Engineer role. PostHog's way of working (engineers own the product, talk to users, and take their turn on support) is how I've worked as a founder.
+
+This year at Coordinator I built AI-native product end to end: Go agent tools with exact contracts that a model used to write and edit workspace apps, a tiered agent runtime I tuned by timing real requests, and production voice messaging. Before that I founded Ralli and built the product on Next.js and NestJS/Postgres. At Applied Intuition I built a usage analytics dashboard that helped close multiple million dollar deals, and a Zendesk automation that cut support response time from over a day to under an hour.
+
+To be direct about a gap: I haven't worked with big-data systems like ClickHouse in production.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

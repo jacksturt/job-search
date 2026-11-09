@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Toast Voice AI Team,
+
+I'm applying for the Staff/Senior Software Engineer role on the Voice AI Platform. Voice AI for restaurants has to work under real noise and real latency, and that's where I did my hardest work this year.
+
+At Coordinator I self-hosted Whisper speech-to-text and several TTS engines, benchmarked them on latency and compatibility, swapped engines on the data, and shipped production voice messaging in the web app. I built the agent runtime around it, with voice-agent memory and Go tools with exact contracts, and I handled non-deterministic output by measuring it: scoring harnesses for model quality, and timing agent tiers on real requests to route simpler requests to a 4-6x faster path.
+
+To be direct about gaps: the posting asks for eight years in Java or Kotlin. I learned to code on Java but haven't used it in years, and my recent backends are Go, Python and TypeScript. I have seven years, so I'd expect the Senior level.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

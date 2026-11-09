@@ -1,0 +1,3 @@
+Q: Have you built anything agents use? (required)
+
+Yes. At Coordinator (2026) I built Go agent tools with exact contracts: write/edit tools that let the model change a user's workspace apps, and read-only tools for data across apps. I also built a data gateway with scoped, revocable tokens that third-party apps and agents used to reach user data, which grew into an app store.

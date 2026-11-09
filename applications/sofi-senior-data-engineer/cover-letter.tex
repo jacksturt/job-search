@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello SoFi Fraud Data Team,
+
+I'm applying for the Senior Data Engineer role on fraud data. I live in Utah, near Cottonwood Heights, and I'm looking for a data role where the pipelines matter to real decisions.
+
+At Ralli I designed the Postgres data model and built the pipeline that loaded betting lines and rosters from ESPN's APIs every 12 hours, which fed live projections. At Coordinator I built a video data pipeline with metadata in Postgres feeding model scoring, and a pipeline that turned reviewed production turns into training data. At Applied Intuition I built the license dashboard that showed clients their usage trends, and it helped close multiple million dollar deals.
+
+To be direct about gaps: I haven't used Snowflake, dbt or Airflow in production; my pipelines have been Python, SQL and scheduled jobs on Postgres. Data engineering has been part of my roles rather than my whole title.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

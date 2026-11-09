@@ -1,0 +1,3 @@
+Q: How are you currently using AI tools (e.g., coding assistants, automation, analysis) in your day-to-day work? Provide a specific example of how it improved your work. (optional)
+
+I work agentic-first: Claude Code and Cursor write most of my first drafts across the stack, and tests and CI decide what ships. A specific example from Coordinator: I wanted to know whether every assistant request really needed the full agent loop. I timed the paths on real requests and found a single-shot path was 4-6x faster for many of them, so I added it as a fourth tier. Working agentic-first is what made experiments like that cheap enough to run routinely.

@@ -1,0 +1,43 @@
+Q: Describe a role you were in or a project you led that brought out your absolute best work? What setup or attributes of the role/project enabled that? (required)
+
+My best work was as the contract lead engineer at Coordinator, an AI sports-coaching product, from March to September 2026. In six months I shipped LLM fine-tuning and quantized serving on H100s, production voice messaging, a vision-model pipeline for game film, an agent runtime with Go tools, a third-party data gateway that grew into an app store, and the CI that gated every release.
+
+What made it work:
+- I owned problems end to end, from the conversation with the client to production, and decided with the client what mattered.
+- Short feedback loops. Reviewed model turns from the app became training data, so changes were judged on real use.
+- Permission to measure before choosing. I could benchmark three TTS engines or time two agent paths on real requests and pick on the data, rather than defend a guess.
+- A workflow that let one engineer cover a lot of ground: agentic-first with Claude Code and Cursor, with tests and CI as the gate.
+
+Ashby's setup (engineers who own a problem from customer to code, with lots of focus time) is close to that, which is a big part of why I'm applying.
+
+(Jack: check the details match your memory before submitting.)
+
+---
+
+Q: Describe a choice you made when shipping a product or working on a technical challenge that didn't come from a product manager or an engineering manager/lead. How did you advocate for it, and what impact did it have on your end users? (optional)
+
+At Coordinator the in-app assistant sent every request through a full agent loop. Nobody asked me to change that; the loop worked. But simple requests felt slow, and I suspected many didn't need tools at all.
+
+I timed both paths on real requests. A single-shot path was 4-6x faster for many of them. I made the case with those numbers: keep the loop for requests that need tools, and add a single-shot tier for the rest.
+
+We shipped it as a fourth tier, so users got answers to simple requests several times faster and the agent loop was kept for the requests that needed it. The habit I took from it: when something is slow, measure real requests before deciding the architecture is right.
+
+(Jack: add who you made the case to and any cost or usage numbers, if you have them.)
+
+---
+
+Q: Describe a time you challenged and changed a product request for a better user experience or business outcome. (optional)
+
+(Jack: please replace or confirm. I don't have a verified example of this from our sessions. One possible candidate is voice messaging at Coordinator: you prototyped a self-hosted Whisper/TTS pipeline and the shipped version used STT/TTS through OpenRouter. If that change came from you pushing back on the original plan, the shape of the answer is below. Otherwise use another example you know well.)
+
+Draft shape: what was asked for, what you saw that the requester didn't (user experience, cost, reliability), how you made the case (data, a prototype, a smaller version first), what changed, and the result for users or the business. Keep it to one concrete story with one number if you have it.
+
+---
+
+Q: What's something, in a professional context, that you've gone deep on purely because you couldn't let it go? (optional)
+
+Making speech services run on ARM64 NVIDIA hardware at Coordinator. We moved our self-hosted voice services (Whisper speech-to-text and a text-to-speech engine) onto ARM64 GPUs, and the TTS engine we had been using didn't carry over cleanly.
+
+I couldn't let it go. I benchmarked TTS engines on ARM64 for latency and compatibility, swapped engines on the data, and got the voice path running on the new hardware. That depth paid off when we shipped production voice messaging in the web app: I understood where the latency went and what each engine traded away.
+
+(Jack: adjust details if this differs from how you remember it, or swap in another obsession, e.g. Dafny-to-Java verification at AWS.)

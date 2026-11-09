@@ -1,0 +1,11 @@
+Hello SoFi Fraud Data Team,
+
+I'm applying for the Senior Data Engineer role on fraud data. I live in Utah, near Cottonwood Heights, and I'm looking for a data role where the pipelines matter to real decisions.
+
+At Ralli I designed the Postgres data model and built the pipeline that loaded betting lines and rosters from ESPN's APIs every 12 hours, which fed live projections. At Coordinator I built a video data pipeline with metadata in Postgres feeding model scoring, and a pipeline that turned reviewed production turns into training data. At Applied Intuition I built the license dashboard that showed clients their usage trends, and it helped close multiple million dollar deals.
+
+To be direct about gaps: I haven't used Snowflake, dbt or Airflow in production; my pipelines have been Python, SQL and scheduled jobs on Postgres. Data engineering has been part of my roles rather than my whole title.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

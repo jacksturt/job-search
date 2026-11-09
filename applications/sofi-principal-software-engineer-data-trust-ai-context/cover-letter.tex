@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello SoFi Data Platform Team,
+
+I'm applying for the Principal Software Engineer role in Data Trust and AI Context. I live in Utah, and the problem this role names (data that AI can rely on, with the context to use it well) is the one I kept running into this year.
+
+At Coordinator I built the pipeline that turned reviewed production turns into training data, a video pipeline with clips on MinIO and metadata in Postgres feeding model scoring, and a data gateway with scoped, revocable tokens and an audit log so third-party apps only saw what they were allowed to. At Ralli I designed the Postgres data model and the ingestion cadence for live sports data.
+
+To be direct about gaps: this is a Principal role and I have seven years. I haven't worked with Snowflake, Kafka-based ingestion, or catalog and lineage tools, and my data work has been at startup scale.
+
+I'd be glad to talk about whether there is a fit on the team, at this level or another.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
