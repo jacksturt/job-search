@@ -1,0 +1,11 @@
+Hello Shopify Team,
+
+I'm applying for the Engineering Manager role. Giving engineers direction and coaching while staying close to the code is what I've done as a founder.
+
+I have led engineering at three startups. At Ralli I led the team from part-time to full-time, designed the Postgres data model, and set the architecture for the Next.js and NestJS platform. At Lancer I led a 7-person team from planning through launch. As interim CTO at Banger I scoped and delivered a trading platform in eight weeks, which led to a $250K raise. Most recently, at Coordinator, I led the engineering work on LLM fine-tuning, voice and agent features, and worked agentic-first with Claude Code and Cursor.
+
+To be direct about the gap: I've led as a founder/CTO rather than as a manager inside a larger company, so performance reviews and calibration at Shopify's scale would be newer to me.
+
+I'd be glad to talk about which team might fit.
+
+Jack Sturtevant

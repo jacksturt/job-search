@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Shopify Team,
+
+I'm applying for the Applied Machine Learning Engineer role. Building agents and multimodal LLMs, with post-training and quantization to make them practical, is what I did this year.
+
+At Coordinator I fine-tuned LLMs on H100s across five sports, with corpus curation and a feedback-retraining loop, and wrote FP8, FP4 and INT4 quantization so the models could be served with vLLM. I built a multimodal pipeline with Qwen3-VL and Cosmos-Reason2 for formation detection from game film, tuned against a scoring harness, and the agent runtime that used these models in the product.
+
+To be direct about gaps: I haven't worked with petabyte-scale data or reinforcement learning in production, and my models served a startup's users, not millions.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

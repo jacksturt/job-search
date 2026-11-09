@@ -1,0 +1,11 @@
+Hello Shopify Recommendations Team,
+
+I'm applying for the Machine Learning Engineer role on Recommendations. The part of this role I'd step into fastest is scaling LLM-based recommendation for production: throughput, latency and operational reliability.
+
+At Coordinator I fine-tuned LLMs on H100s, wrote FP8/FP4/INT4 quantization and served the models with vLLM, and built the reviewed-turn data pipeline that fed retraining. I evaluated offline before shipping: a scoring harness for vision models, and timing real requests to choose agent tiers (single-shot was 4-6x faster for many requests).
+
+To be direct about gaps: I haven't built a production recommendation system, and I haven't used two-tower retrieval, HSTU or gradient-boosted ranking models in production.
+
+I'd be glad to talk about whether that fits the team.
+
+Jack Sturtevant

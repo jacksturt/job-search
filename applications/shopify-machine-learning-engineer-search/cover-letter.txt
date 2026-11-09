@@ -1,0 +1,11 @@
+Hello Shopify Search Team,
+
+I'm applying for the Machine Learning Engineer role on Search. I'm drawn to the evaluation and relevance side of it: deciding with data whether a change made search better.
+
+That's how I've worked with models this year. At Coordinator I tuned vision-model thresholds and frame preprocessing against a scoring harness instead of eyeballing output, timed agent tiers on real requests and routed by the result, and built a reviewed-turn pipeline that doubled as training and evaluation data. I built retrieval for LLM features and the data pipelines underneath them.
+
+To be direct about the gap: I haven't owned a production search or recommendation ranking system, or Elasticsearch/Solr. This would be a step into relevance as a specialty.
+
+I'd be glad to talk about whether that fits the team.
+
+Jack Sturtevant

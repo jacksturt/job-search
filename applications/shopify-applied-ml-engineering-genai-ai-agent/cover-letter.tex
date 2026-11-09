@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Shopify Team,
+
+I'm applying for the Applied ML Engineering role on GenAI and AI Agents. An AI personal shopper needs exactly the pieces I built this year: fine-tuning data, tuned models, and an agent that uses them well.
+
+At Coordinator I built the pipeline that turned reviewed production turns into training data, fine-tuned LLMs on H100s with a feedback-retraining loop, and served them quantized with vLLM. I built the agent runtime around them, with memory, Go tools with exact contracts, and a single-shot tier I added after timing real requests showed it was 4-6x faster than the agent loop for many of them. Before that I built ETL pipelines into Postgres at Ralli.
+
+To be direct about gaps: I haven't used dbt or BigQuery, and my agents served a startup's users rather than commerce at Shopify's scale.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

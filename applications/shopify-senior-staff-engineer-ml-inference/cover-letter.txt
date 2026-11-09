@@ -1,0 +1,11 @@
+Hello Shopify ML Inference Team,
+
+I'm applying for the Senior Staff Engineer role on ML Inference. Making models fast and cheap to serve is the part of ML I enjoy most, though I'm applying from below the Senior Staff level.
+
+At Coordinator I wrote FP8, FP4 and INT4 quantization for fine-tuned LLMs and served them with vLLM on H100s. I ran self-hosted GPU services for Whisper, TTS engines and vision-language models, benchmarked engines on latency and compatibility, and swapped them on the data. Earlier, in college and the first years after, I wrote a lot of C++ down to CUDA for robotics and ML research, about five years ago now.
+
+To be direct about gaps: I haven't used TensorRT, Triton or TVM or written custom GPU kernels in production, and I have seven years, not a Senior Staff track.
+
+I'd be glad to talk about whether there's a fit, at this level or another.
+
+Jack Sturtevant

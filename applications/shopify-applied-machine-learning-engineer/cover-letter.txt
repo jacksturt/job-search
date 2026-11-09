@@ -1,0 +1,11 @@
+Hello Shopify Team,
+
+I'm applying for the Applied Machine Learning Engineer role. Building agents and multimodal LLMs, with post-training and quantization to make them practical, is what I did this year.
+
+At Coordinator I fine-tuned LLMs on H100s across five sports, with corpus curation and a feedback-retraining loop, and wrote FP8, FP4 and INT4 quantization so the models could be served with vLLM. I built a multimodal pipeline with Qwen3-VL and Cosmos-Reason2 for formation detection from game film, tuned against a scoring harness, and the agent runtime that used these models in the product.
+
+To be direct about gaps: I haven't worked with petabyte-scale data or reinforcement learning in production, and my models served a startup's users, not millions.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

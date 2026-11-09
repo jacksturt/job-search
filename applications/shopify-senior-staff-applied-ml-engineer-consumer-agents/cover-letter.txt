@@ -1,0 +1,11 @@
+Hello Shopify Consumer Agents Team,
+
+I'm applying for the Senior Staff Applied ML Engineer role on Consumer Agents. The work it describes (student models, evaluation you can trust, agentic memory) lines up closely with what I built this year, though at a smaller scale and a lower level than Senior Staff.
+
+At Coordinator I ran supervised fine-tuning on H100s across five sports with corpus curation and a feedback-retraining loop, and served the models quantized with vLLM. I built the agent runtime with group-scoped memory pruning and voice-agent memory, and evaluated with scoring harnesses and reviewed production turns rather than by eye. I timed agent tiers on real requests and routed by the result.
+
+To be direct about gaps: I have seven years and have led as a founder/CTO, not at Senior Staff level inside a large company. I haven't done knowledge distillation in production.
+
+I'd be glad to talk about whether there's a fit on the team, at this level or another.
+
+Jack Sturtevant

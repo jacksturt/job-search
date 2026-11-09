@@ -1,0 +1,11 @@
+Hello Shopify Infrastructure Team,
+
+I'm applying for the Infrastructure Engineer role. I like that Shopify's infrastructure engineers spend most of their time writing code, because that's how I've run systems.
+
+At Coordinator I built self-hosted CI/CD that ran our end-to-end suite on every release merge, and operated GPU services on Linux (Whisper, TTS engines, vision-model inference), benchmarking engines and swapping them on the data. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability. At Ralli I ran NestJS/Postgres services in production with Datadog tracing.
+
+To be direct about gaps: my Kubernetes work has been deployments rather than running clusters, I haven't used Terraform, Prometheus or Kafka in production, and I haven't run systems at Black Friday scale.
+
+I'd be glad to talk about where I could fit.
+
+Jack Sturtevant

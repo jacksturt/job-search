@@ -1,0 +1,11 @@
+Hello Shopify Team,
+
+I'm applying for the Machine Learning Applied Scientist role. I'm an engineer who runs experiments, and the part of applied science I'm strongest at is getting models from an experiment into production efficiently.
+
+At Coordinator I curated corpora and fine-tuned LLMs on H100s across five sports, then quantized them (FP8, FP4, INT4) for vLLM serving. I tested vision-language models (Qwen3-VL, Cosmos-Reason2) for formation detection, tuning thresholds and frame preprocessing against a scoring harness. In college I did ML research on robot navigation in C++ and CUDA.
+
+To be direct about gaps: I don't have a graduate degree or published research, and my work has been applied engineering rather than new methods.
+
+I'd be glad to talk about whether that fits the team.
+
+Jack Sturtevant
