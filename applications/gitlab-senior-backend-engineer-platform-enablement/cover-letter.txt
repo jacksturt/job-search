@@ -1,0 +1,11 @@
+Hello GitLab Performance Enablement Team,
+
+I'm applying for the Senior Backend Engineer role on Platform Enablement. Moving performance testing from a consulting model to a paved road that service teams own is the kind of platform work I like most.
+
+Most of my performance work has been measuring before choosing. At Coordinator I timed single-shot versus agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier. I benchmarked self-hosted Whisper and several TTS engines on latency and compatibility and swapped engines on the data. I also built the self-hosted CI/CD for our end-to-end suite, splitting serial and parallel jobs so it ran on every release merge at lower cost. I work agentic-first with Claude Code and Cursor, with tests gating each release.
+
+To be direct about gaps: I haven't used k6, and my Kubernetes experience is ArgoCD deployments rather than running clusters. My benchmarking has been on single services, not load tests across a large platform.
+
+I'd be glad to talk about how I could help.
+
+Jack Sturtevant

@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello GitLab Security Factory Team,
+
+I'm applying for the Senior Software Engineer role on Security Factory: Code Security. Pairing deterministic analysis with AI, and measuring false positives with a real harness, matches how I've been building with LLMs.
+
+At Coordinator I built my own LLM tooling: Go agent tools with exact contracts, a tiered agent runtime, and a scoring harness I used to tune vision-model thresholds instead of trusting the output. I also built a Go data gateway with scoped, revocable, device-bound tokens, refresh-reuse rejection, rate limits and an audit log, covered by 28 tests. I write Go daily and have written Rust/Anchor programs.
+
+To be direct about the main gap: I don't have application security experience in the sense the posting means, such as vulnerability research, writing detection rules or dependency analysis. My security work has been designing auth into the services I build. I'd be learning the analysis domain.
+
+I'd be glad to talk about whether that fits what the team needs.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

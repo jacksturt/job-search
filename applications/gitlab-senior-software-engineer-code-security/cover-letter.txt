@@ -1,0 +1,11 @@
+Hello GitLab Security Factory Team,
+
+I'm applying for the Senior Software Engineer role on Security Factory: Code Security. Pairing deterministic analysis with AI, and measuring false positives with a real harness, matches how I've been building with LLMs.
+
+At Coordinator I built my own LLM tooling: Go agent tools with exact contracts, a tiered agent runtime, and a scoring harness I used to tune vision-model thresholds instead of trusting the output. I also built a Go data gateway with scoped, revocable, device-bound tokens, refresh-reuse rejection, rate limits and an audit log, covered by 28 tests. I write Go daily and have written Rust/Anchor programs.
+
+To be direct about the main gap: I don't have application security experience in the sense the posting means, such as vulnerability research, writing detection rules or dependency analysis. My security work has been designing auth into the services I build. I'd be learning the analysis domain.
+
+I'd be glad to talk about whether that fits what the team needs.
+
+Jack Sturtevant

@@ -1,0 +1,11 @@
+Hello GitLab Infrastructure Platforms Team,
+
+I'm applying for the Site Reliability Engineer role on Infrastructure Platforms, at whichever level fits best. I like the single-application approach.
+
+As a founder and contract lead, I have owned production end to end. At Ralli I ran our NestJS/Postgres services on managed cloud with Datadog tracing and live WebSocket traffic. At Coordinator I ran self-hosted GPU services on Linux, built the self-hosted CI/CD that ran our end-to-end suite on every release merge, and built production tooling rather than only configuring it. At Trustless Engineering I set up Kubernetes deployments with ArgoCD and Datadog observability. I read and write Go comfortably.
+
+To be direct about gaps: I haven't held an SRE title or carried a formal 24/7 on-call rotation at scale, and my Kubernetes work has been deployments rather than operating clusters. I'd expect to start at the intermediate level.
+
+I'd be glad to talk about where I'd fit.
+
+Jack Sturtevant

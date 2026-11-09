@@ -1,0 +1,11 @@
+Hello GitLab Security Factory Team,
+
+I'm applying for the Staff Software Engineer role on Static Analysis. The part that drew me in is the harness: separate coding and reviewing agents, and checks that decide whether agent-written engine changes can be trusted.
+
+That is how I worked this year at Coordinator. I built Go agent tools with exact contracts, a scoring harness for tuning model thresholds, and self-hosted CI that ran the end-to-end suite on every release merge, so agent-written code had to pass before it shipped. My first serious compiler work was at AWS, where I worked on compiling Dafny to Java so AWS products could be mathematically verified.
+
+To be direct about gaps: I haven't built a static analysis engine or worked in application security, and I haven't held a Staff title inside a larger company; I've led as a founder/CTO. My Rust is from on-chain programs, not a large analyzer.
+
+I'd be glad to talk about whether my background fits what the team needs.
+
+Jack Sturtevant

@@ -1,0 +1,11 @@
+Hello GitLab Orbit Team,
+
+I'm applying for the Backend Engineer role on GitLab Orbit. A graph service that gives Duo agents structured context about code and the SDLC is close to what I spent this year building from the other side.
+
+At Coordinator I built agent tools in Go: write/edit tools for workspace apps and read-only cross-app data tools, each with an exact tool contract so the model could rely on it. I also built a Go data gateway with scoped, revocable tokens, rate limits and an audit log, and the CI that ran the end-to-end suite on every release merge. On Rust, I wrote on-chain bet-submission and line-resolution programs in Rust/Anchor for Ralli, so the language is not new to me, though that was smaller code than a query engine.
+
+To be direct about gaps: I haven't worked with ClickHouse or NATS JetStream, and my Rust has been on-chain programs rather than a performance-sensitive analytical service. I'm also more senior than the intermediate level, which I'm fine with.
+
+I'd be glad to talk about the work.
+
+Jack Sturtevant

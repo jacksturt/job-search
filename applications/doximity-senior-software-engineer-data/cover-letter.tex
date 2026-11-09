@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Doximity Team,
+
+I'm applying for the Senior Software Engineer, Data role. A data role that wants a software engineer first, with high code quality and async systems, describes how I work.
+
+At Ralli I designed the Postgres data model and built the pipeline that loaded betting lines and rosters from ESPN's APIs every 12 hours, plus live projections from play-by-play data. At Coordinator I built a video data pipeline with clips and frames on MinIO and metadata in Postgres feeding model scoring, and a pipeline that turned reviewed production turns into training data. Around those I built real-time services with WebSocket updates and the CI that gated each release.
+
+To be direct about gaps: I have seven years of software engineering, but data engineering has been part of my roles rather than the whole title, and I haven't used Spark or a warehouse like Snowflake or Redshift in production.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

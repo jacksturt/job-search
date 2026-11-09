@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello GitLab Subscription Lifecycle Team,
+
+I'm applying for the Intermediate Fullstack Engineer role on Subscription Lifecycle. Post-purchase flows where money changes hands are the part of a product I most like getting right, and I've built them twice as a founder.
+
+At Lancer I built escrowed payments with ACH payouts, quotes, checkpoints and in-app messaging, and led the 7-person team that shipped it. At Ralli I built bet submission and settlement on NestJS and Postgres, plus the Next.js app on top. Most recently, at Coordinator, I built a Go data gateway with scoped, revocable tokens and an audit log, and the CI that ran our end-to-end suite on every release merge. I work asynchronously by default and write things down.
+
+To be direct about the main gap: I haven't shipped Ruby on Rails in production, and the posting lists it as a must-have. My stacks have been TypeScript, Go and Python, and I've picked up each new one quickly. I'd also be coming in above the intermediate level in scope, which I'm comfortable with.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

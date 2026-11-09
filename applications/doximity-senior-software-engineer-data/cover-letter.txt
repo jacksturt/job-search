@@ -1,0 +1,11 @@
+Hello Doximity Team,
+
+I'm applying for the Senior Software Engineer, Data role. A data role that wants a software engineer first, with high code quality and async systems, describes how I work.
+
+At Ralli I designed the Postgres data model and built the pipeline that loaded betting lines and rosters from ESPN's APIs every 12 hours, plus live projections from play-by-play data. At Coordinator I built a video data pipeline with clips and frames on MinIO and metadata in Postgres feeding model scoring, and a pipeline that turned reviewed production turns into training data. Around those I built real-time services with WebSocket updates and the CI that gated each release.
+
+To be direct about gaps: I have seven years of software engineering, but data engineering has been part of my roles rather than the whole title, and I haven't used Spark or a warehouse like Snowflake or Redshift in production.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

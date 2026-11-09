@@ -1,0 +1,11 @@
+Hello GitLab Solutions Architecture Team,
+
+I'm applying for the Staff Solutions Architect role as an AI Subject Matter Expert. Explaining how agentic AI really behaves in a software workflow, and where it doesn't yet, is what I've been doing hands-on this year.
+
+At Coordinator I was the contract lead engineer working directly with the client. I built agent tools with exact contracts, a tiered agent runtime, LLM fine-tuning with quantized vLLM serving, and the CI/CD that gated every release, and I worked agentic-first with Claude Code and Cursor on all of it. As interim CTO at Banger I worked out scope with the founders and shipped a trading platform in eight weeks, which led to a $250K raise.
+
+To be direct about gaps: I haven't held a pre-sales or solutions architect title, and I haven't been measured on technical win rate or bookings. My customer work has been as a founder and contract lead.
+
+I'd be glad to talk about whether that fits the role.
+
+Jack Sturtevant

@@ -1,0 +1,11 @@
+Hello GitLab East Enterprise Team,
+
+I'm applying for the Senior Solutions Architect role on the East Enterprise team. Mapping a team's real workflow onto CI/CD and source control, then showing them it works, is work I've done from the engineering side for years.
+
+I built self-hosted CI/CD at Coordinator that ran our end-to-end suite on every release merge, set up GitOps deployments with ArgoCD at Trustless Engineering, and built a GitHub app at Lancer that linked bounties to pull requests. As interim CTO at Banger, and as a contract lead at Coordinator, I worked directly with the people paying for the work, scoped it with them and delivered.
+
+To be direct about gaps: I haven't held a solutions architect title or worked with large enterprise accounts. I live in Utah, so East coverage would mean travel as needed, which I'm open to.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

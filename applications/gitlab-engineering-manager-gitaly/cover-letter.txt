@@ -1,0 +1,11 @@
+Hello GitLab Gitaly Team,
+
+I'm applying for the Engineering Manager role on Gitaly. Leading engineers through long, technical work while staying close enough to the code to argue about it is the role I've been doing as a founder.
+
+I have led engineering at three startups. At Lancer I led a 7-person team and built a GitHub app and browser extension that linked bounties to pull requests, so a merged PR paid its author from escrow. At Ralli I led the team from part-time to full-time and designed the Postgres data model. At Coordinator I led the engineering work, wrote Go services and agent tools, and benchmarked engines on latency before choosing them.
+
+To be direct about gaps: I've led as a founder/CTO rather than as a manager of senior and staff engineers inside a larger company, and I haven't worked on Git storage internals. Gitaly's domain would be new to me.
+
+I'd be glad to talk about whether my background fits the team.
+
+Jack Sturtevant
