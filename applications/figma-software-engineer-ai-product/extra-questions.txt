@@ -1,0 +1,5 @@
+Q: Why do you want to join Figma? (required)
+
+I want to build AI features that designers actually keep using, and Figma is where that bar is highest. This year I shipped generative AI into a product end to end: an assistant on a tiered agent runtime, voice messaging, and vision-model analysis tuned against a scoring harness. Connecting what the model can do to what users and the business need is the part I'm best at, and Figma is where I'd most like to do it.
+
+(Jack: add a line about your own use of Figma, if any.)

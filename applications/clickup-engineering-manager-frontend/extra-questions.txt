@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+I want a hands-on leadership role where I still read and write the code, and ClickUp's description of this one says exactly that. As a founder/CTO I've led teams at three startups, including 7 people at Lancer, while building the Next.js and NestJS apps myself. Leading inside a larger company, with a business-critical surface and a real frontend team, is the next step I'm looking for.

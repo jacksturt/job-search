@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+Search is the feature that decides whether a workspace that holds everything is usable, and I want to work on it seriously. My backend work has been real-time ingestion and serving (betting lines and rosters into Postgres on a schedule, services with live WebSocket updates) plus vector search for LLM features. I haven't run OpenSearch in production, so this would be a step into search as a specialty, on a product with the scale and real-time demands to make it interesting.

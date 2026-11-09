@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+I like the moment when a customer sees their own process working in a tool, and solutions engineering is built around that moment. I've done the engineering half for years: building a third-party integration gateway, automating support with a custom Zendesk solution that cut response time from over a day to under an hour, and building a license dashboard that helped close multiple million dollar deals at Applied Intuition. ClickUp's AI workflows give me a lot to show, and I'd like to move into a customer-facing role.

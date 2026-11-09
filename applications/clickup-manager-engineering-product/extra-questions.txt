@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+ClickUp's EMs read and review code daily, debug production with the team, and prototype with AI tools, which is how I've led as a founder/CTO. At Ralli and Lancer I set direction and owned delivery while writing and reviewing much of the code, and I now work agentic-first with Claude Code and Cursor. I want to do that inside a company with real scale and a strong engineering bar, which is why this role stood out.

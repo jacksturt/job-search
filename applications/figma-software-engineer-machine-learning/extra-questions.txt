@@ -1,0 +1,5 @@
+Q: Why do you want to join Figma? (required)
+
+Figma's ML work sits right where I've been working: training and evaluation data, human-in-the-loop review, and getting models into a product people use every day. This year I curated corpora and fine-tuned LLMs on H100s, built the pipeline that turned reviewed production turns into training data, and tuned vision models against a scoring harness. I'd like to do that with Figma's data and users.
+
+(Jack: add a line about your own use of Figma, if any.)

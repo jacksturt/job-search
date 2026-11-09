@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+% ClickUp — Senior AI Developer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+\section{Summary}
+AI engineer and two-time founder/CTO with seven years of production software. I build production LLM systems and measure them: a tiered agent runtime routed by timing real requests, scoring harnesses for model quality, reviewed-turn training data, and multiple models across self-hosted and API backends. Python, Go, TypeScript.
+\sectionsep
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+LLM Evals \hfill | \hfill
+Golden Datasets / Reviewed Turns \hfill | \hfill
+Scoring Harnesses \hfill | \hfill
+Multi-Model Routing \hfill | \hfill
+Cost / Latency Tradeoffs \hfill | \hfill
+LLM Fine-Tuning \hfill | \hfill
+vLLM Serving \\
+\hspace{1.0cm} Agent Runtimes \hfill | \hfill
+Python \hfill | \hfill
+Go \hfill | \hfill
+TypeScript \hfill | \hfill
+Postgres \hfill | \hfill
+CI/CD \hfill | \hfill
+Claude Code / Cursor \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Timed single-shot vs. agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier
+    \item VLM video inference (Qwen3-VL, Cosmos-Reason2): tuned frame preprocessing and thresholds against a scoring harness
+    \item Agent runtime (Python): group-scoped memory pruning, voice-agent memory, reviewed-turn training-data pipeline
+    \item Multi-sport LLM fine-tuning on H100s: corpus curation, feedback-retraining loop, quantized vLLM serving
+    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{January 2025 – October 2025}
+\begin{tightemize}
+    \item Founded a real-time social sports betting platform; led the engineering team (full-time from July 2025)
+    \item Built NestJS/Drizzle/Postgres domain services with live WebSocket updates and Datadog tracing
+    \item Rebuilt the product as a Turborepo monorepo: a Next.js web app and a NestJS server
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Lancer (2022 -- 2023): founder/CTO of a freelance platform (Next.js, tRPC, Prisma, escrowed payments); led 7 people
+    \item Banger (2024): interim CTO; built a tokenized-tweet trading platform end to end in 8 weeks, which led to a \$250K raise
+    \item Trustless Engineering (2024): Kubernetes deployments (ArgoCD), ML infrastructure, and Datadog observability
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+\end{tightemize}
+\sectionsep
+
+\section{Early Experience}
+\vspace{1.4em}
+\begin{tightemize}
+    \item Hydraze (CTO, 2019 -- 2020): IoT sensor network collecting facilities data, plus a platform to view device and usage data
+    \item AWS (SDE Intern, 2019): enabled mathematical verification of AWS products through compilation from Dafny to Java
+    \item Java and C++ (college and early career): learned to code on Java; C++ / CUDA for robotics and ML research
+\end{tightemize}
+\sectionsep
+
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

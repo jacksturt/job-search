@@ -1,0 +1,11 @@
+Hello Zillow Team,
+
+I'm applying for the Senior Software Development Engineer (Full Stack) role. Designing, building and operating web apps end to end is the work I've done at every stage of my career.
+
+At Ralli I built the Next.js app and NestJS/Postgres services with live WebSocket updates and Datadog tracing, then rebuilt the product as a Turborepo monorepo, and led the team. At Coordinator I built a Go data gateway with scoped tokens that grew into an app store, shipped voice messaging in the web app, and built the CI that ran the end-to-end suite on every release merge. At Applied Intuition I built a full-stack intranet and a license dashboard that helped close multiple million dollar deals.
+
+To be direct about the gap: the posting asks for eight years and I have seven. I've led technical direction as a founder/CTO rather than inside a large engineering org.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

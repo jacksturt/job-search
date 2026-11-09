@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+This role pairs developer infrastructure with AI fluency coaching, and both are things I care about. I built self-hosted CI/CD that ran our end-to-end suite on every release merge, set up GitOps deployments, and moved my own work to agentic-first development with Claude Code and Cursor, with tests as the gate. Helping a whole engineering org get faster and more AI-native is the kind of leverage I want next.

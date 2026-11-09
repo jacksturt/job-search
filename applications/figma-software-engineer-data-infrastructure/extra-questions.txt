@@ -1,0 +1,5 @@
+Q: Why do you want to join Figma? (required)
+
+Figma is moving into AI faster than most products its size, and the quality of that AI depends on its data. The data layer under that work (what the models are trained and evaluated on, and whether it's reliable) is what I've been building this year: a video pipeline feeding model scoring and a pipeline that turned reviewed production turns into training data. I'd like to do that work on a small team that owns data infrastructure for an AI-heavy product people already love.
+
+(Jack: add a line about your own use of Figma, if any.)

@@ -1,0 +1,5 @@
+Q: Why do you want to join Figma? (required)
+
+Figma's AI features only work if the platform under them is fast, measurable and easy for product teams to build on, and that's the layer I like building. This year I built agent tools with exact contracts, a tiered agent runtime chosen by timing real requests, fine-tuned models served on vLLM, and the CI that gated each release. I'd like to build that for many product teams at once, at Figma's scale.
+
+(Jack: add a line about your own use of Figma, if any.)

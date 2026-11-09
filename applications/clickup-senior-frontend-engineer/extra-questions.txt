@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+ClickUp's front end is one of the hardest in productivity software: lots of views over the same live data, and users who notice every slow render. That's the kind of UI I like building. My work has been React and TypeScript over real-time data (trading UIs, live charts, a Next.js app on WebSockets), with an end-to-end suite in CI on every release. I'd be learning Angular and RxJS/NgRx, which I'm happy to do for a product like this.

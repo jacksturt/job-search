@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+Owning how AI quality gets measured is the part of the work I've found most valuable. Without it, every model or prompt change is a guess. This year I timed agent tiers on real requests and routed by the result, tuned vision models against a scoring harness, built a reviewed-turn pipeline that doubled as training and evaluation data, and switched LLM backends in CI to cut cost per run. ClickUp has many AI features on many models, so a strong evaluation practice pays off across the whole product.

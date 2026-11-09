@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+The hierarchy (workspaces, spaces, folders, lists) sits under every ClickUp feature, so its data model and query performance shape everything else. That kind of foundational backend work is what I like most. At Ralli I designed the Postgres data model and built a dozen NestJS/Drizzle domain modules on it, which is close to ClickUp's stack. I'd be stretching into Staff scope at a company this size, and I'd rather do that on a core system.

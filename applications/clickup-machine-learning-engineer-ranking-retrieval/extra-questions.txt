@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+Enterprise search across tasks, docs and chat is only as good as its retrieval, and that's the layer I want to go deeper on. My recent work has been on the LLM side of retrieval (fine-tuned models, agent memory, scoring harnesses that decide what ships), and ClickUp is building hybrid lexical-plus-vector retrieval at a scale where those choices matter. I'd be stretching into ranking as a specialty, and I'd rather do that on a product this many teams use every day.

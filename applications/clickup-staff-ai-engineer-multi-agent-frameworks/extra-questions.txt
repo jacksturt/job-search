@@ -1,0 +1,3 @@
+Q: Why did you decide to apply to this role at ClickUp? (required)
+
+A shared multi-agent framework for ClickUp's whole product is the next step after building one product's agent runtime, which is what I did this year: tiers for different request shapes, memory with group-scoped pruning, Go tools with exact contracts, and scoped, revocable data access. I'd be stepping into Staff scope inside a larger company for the first time, and I'd rather do that on the system I know best.

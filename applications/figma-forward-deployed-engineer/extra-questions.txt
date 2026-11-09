@@ -1,0 +1,5 @@
+Q: Why do you want to join Figma? (required)
+
+The founding FDE team is working on the problem I find most interesting right now: getting agents to produce real, on-brand product from a team's actual design system, not a demo. I've done the engineering half of that (Go agent tools with exact contracts that let a model write and edit workspace apps, and an app store with templates and 3-way merges) while working directly with the client as Coordinator's contract lead. I'd like to do it with Figma's customers and bring what I learn back into the product.
+
+(Jack: add a line about your own use of Figma, if any.)
