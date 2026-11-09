@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Twilio Email Team,
+
+I'm applying for the Software Engineer (L3) role on Email. Delivery systems that have to be correct and observable at volume are the kind of backend work I like.
+
+At Coordinator I built a Go data gateway with scoped, revocable, device-bound tokens, refresh-reuse rejection, rate limits and an audit log, covered by 28 tests, and the self-hosted CI that ran the end-to-end suite on every release merge. At Ralli I built NestJS/Postgres services for games, lines, friends and notifications with live WebSocket updates and Datadog tracing, and led the team that ran them. I write Go and Python daily, and I learned to code on Java, though it has been years.
+
+To be direct about gaps: I haven't run Kafka or email infrastructure such as MTAs, and I haven't written Terraform in production or worked on Azure. My cloud work has been AWS, GCP and managed services.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

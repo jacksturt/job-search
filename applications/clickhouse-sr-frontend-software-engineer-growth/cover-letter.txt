@@ -1,0 +1,11 @@
+Hello ClickHouse Growth Team,
+
+I'm applying for the Senior Frontend Software Engineer role on Growth. Growth work is product engineering where you can see the effect, and I've been doing it as a founder.
+
+At Ralli I built the Next.js app and shipped friends, leaderboards, notifications and referrals to drive engagement, on top of NestJS services with live WebSocket updates. Before that I built real-time front ends: a DEX trading UI for Cypher, live price charts for Tsunami Finance, and dashboards for Clockwork. At Applied Intuition I built the license dashboard that showed clients their product usage trends, and it helped close multiple million dollar deals.
+
+To be direct about gaps: I haven't run a formal A/B testing program with a tool like GrowthBook or Optimizely, and I haven't used ClickHouse itself.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

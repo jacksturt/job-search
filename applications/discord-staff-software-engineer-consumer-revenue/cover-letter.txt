@@ -1,0 +1,11 @@
+Hello Discord Consumer Revenue Team,
+
+I'm applying for the Staff Software Engineer role in Consumer Revenue. Building a business that the community is happy to pay for is product work I care about.
+
+I have built money-moving products end to end three times. At Lancer I built escrowed payments with ACH payouts, quotes and checkpoints, and led the 7-person team. At Ralli I built bet submission and settlement, the Next.js app, and engagement features: friends, leaderboards, notifications and referrals. As interim CTO at Banger I built a trading platform end to end in eight weeks, which led to a $250K raise.
+
+To be direct about gaps: I have seven years rather than eight, I haven't shipped React Native, and I haven't held a Staff title inside a larger company; my large initiatives were as founder/CTO.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

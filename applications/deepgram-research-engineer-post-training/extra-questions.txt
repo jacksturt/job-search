@@ -1,0 +1,17 @@
+Q: What is the most impressive thing you've personally built or automated with AI? Describe exactly what you did, how it worked, and the measurable outcome. (required)
+
+A multi-sport LLM fine-tuning and serving pipeline for Coordinator, an AI sports-coaching product, built in 2026 as the contract lead engineer.
+
+What I did: I curated training corpora for five sports (football, basketball, hockey, golf, endurance), ran fine-tuning on rented H100s with a two-layer setup (a shared base adapted per sport), and quantized the results (FP8, FP4 and INT4) so they could be served with vLLM behind the app. Then I closed the loop: coaches and users reviewed model turns in the product, and a pipeline I wrote turned the reviewed turns into new training data for the next round.
+
+How I kept it honest: I didn't trust the output by eye. For the vision side of the same product (formation detection from game film with Qwen3-VL and Cosmos-Reason2) I built a scoring harness and tuned confidence thresholds and frame preprocessing against it. For the agent side, I timed a single-shot path against the full agent loop on real requests. Single-shot was 4-6x faster, so I added it as a fourth tier rather than sending everything through the loop.
+
+I also benchmarked self-hosted Whisper and several TTS engines on latency and compatibility, swapped engines based on the numbers, and shipped production voice messaging.
+
+(Jack: add any quality numbers you have from the fine-tuned models, such as eval scores or user-rated turns before and after retraining.)
+
+---
+
+Q: What excites you about Deepgram? (optional)
+
+Speech is where I hit the hardest production problems this year. Self-hosting Whisper and TTS taught me how much latency and robustness work sits between a good model and a voice product people will use. Deepgram does that work as the core product, and post-training is the part of it I most want to go deeper on.

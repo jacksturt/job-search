@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Twilio Customer Memory Team,
+
+I'm applying for the Machine Learning Engineer 2 role on Customer Memory. Memory that an agent can actually rely on is the problem I spent the most time on this year.
+
+At Coordinator I built the agent runtime in Python, including group-scoped memory pruning and voice-agent memory, and a pipeline that turned reviewed production turns into training data for fine-tuned models served on vLLM. I measured instead of guessing: I tuned vision-model thresholds against a scoring harness, and timed single-shot against agent-loop tiers on real requests (single-shot was 4-6x faster, so it became a fourth tier). I wrote the Go agent tools with exact contracts, and I work agentic-first with Claude Code and Cursor.
+
+To be direct about gaps: I haven't used Kafka or another event-streaming system in production, and my retrieval work has been at startup scale rather than Twilio's.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

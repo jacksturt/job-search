@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Hugging Face Team,
+
+I'm applying for the Senior Open-Source Python Engineer role on ML Developer Tools. I use the tools this team builds, and real-time audio is where I've done my hardest recent work.
+
+At Coordinator I ran multi-sport LLM fine-tuning on H100s with quantized vLLM serving, and built a self-hosted voice pipeline: I benchmarked Whisper and several TTS engines on latency and compatibility, swapped engines on the data, and shipped production voice messaging in the web app. I wrote the agent runtime in Python. On the front end I have built React and Next.js apps with live WebSocket updates, including trading UIs and live charts.
+
+My open-source start was at AWS in 2019, on compiling Dafny to Java for mathematical verification. To be direct about gaps: most of my work since has been in private startup repos, not maintaining a public Python library, and I haven't worked with WebRTC directly; my real-time work has been WebSockets.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}

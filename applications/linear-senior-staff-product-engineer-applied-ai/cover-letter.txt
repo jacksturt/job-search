@@ -1,0 +1,11 @@
+Hello Linear Team,
+
+I'm applying for the Senior / Staff Product Engineer role on Applied AI. Turning foundation models into structured workflows that people can trust inside a product is the work I've been doing this year.
+
+At Coordinator I built agent tools in Go with exact contracts, so the model wrote and edited workspace apps through a narrow, testable interface. I timed single-shot against agent-loop tiers on real requests; single-shot was 4-6x faster, so I added it as a fourth tier and routed simple requests there. I also shipped voice messaging after benchmarking self-hosted Whisper and TTS engines. Before that, at Ralli, I built the product end to end on Next.js and NestJS/Postgres.
+
+On your stack: I used GraphQL in production at Applied Intuition, about six years ago, so I'd be refreshing it. I haven't used Temporal. I'd expect to come in at Senior rather than Staff.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

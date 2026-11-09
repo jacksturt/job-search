@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+% Deepgram — Research Engineer, Post-Training
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+\section{Summary}
+Hands-on ML engineer and two-time founder/CTO with seven years of production software. This year I fine-tuned LLMs on H100s across five sports (corpus curation, a feedback-retraining loop, FP8/FP4/INT4 quantization for vLLM serving) and built self-hosted speech pipelines with Whisper and TTS engines. Python, Go, SQL.
+\sectionsep
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+Post-Training / Fine-Tuning \hfill | \hfill
+Evals / Scoring Harnesses \hfill | \hfill
+Quantization (FP8 / FP4 / INT4) \hfill | \hfill
+vLLM Serving \hfill | \hfill
+Speech-to-Text / TTS \hfill | \hfill
+Whisper \hfill | \hfill
+Training-Data Pipelines \\
+\hspace{1.0cm} H100 / GPU Pipelines \hfill | \hfill
+VLMs \hfill | \hfill
+Python \hfill | \hfill
+Go \hfill | \hfill
+Postgres \hfill | \hfill
+Docker \hfill | \hfill
+Claude Code / Cursor \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Multi-sport LLM fine-tuning on H100s: corpus curation, feedback-retraining loop, quantized vLLM serving
+    \item Served quantized fine-tuned LLMs with vLLM on H100s; wrote FP8/FP4/INT4 quantization and a feedback-retraining loop
+    \item Benchmarked self-hosted Whisper and TTS engines, then shipped production voice messaging (STT/TTS) in the web app
+    \item Agent runtime (Python): group-scoped memory pruning, voice-agent memory, reviewed-turn training-data pipeline
+    \item VLM video inference (Qwen3-VL, Cosmos-Reason2): tuned frame preprocessing and thresholds against a scoring harness
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{January 2025 – October 2025}
+\begin{tightemize}
+    \item Founded a real-time social sports betting platform; led the engineering team (full-time from July 2025)
+    \item Built the betting-line and roster ingestion pipeline (ESPN APIs) and live projections from play-by-play data
+    \item Built NestJS/Drizzle/Postgres domain services with live WebSocket updates and Datadog tracing
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Lancer (2022 -- 2023): founder/CTO of a freelance platform (Next.js, tRPC, Prisma, escrowed payments); led 7 people
+    \item Banger (2024): interim CTO; built a tokenized-tweet trading platform end to end in 8 weeks, which led to a \$250K raise
+    \item Trustless Engineering (2024): Kubernetes deployments (ArgoCD), ML infrastructure, and Datadog observability
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+\end{tightemize}
+\sectionsep
+
+\section{Early Experience}
+\vspace{1.4em}
+\begin{tightemize}
+    \item Hydraze (CTO, 2019 -- 2020): IoT sensor network collecting facilities data, plus a platform to view device and usage data
+    \item AWS (SDE Intern, 2019): enabled mathematical verification of AWS products through compilation from Dafny to Java
+    \item Java and C++ (college and early career): learned to code on Java; C++ / CUDA for robotics and ML research
+\end{tightemize}
+\sectionsep
+
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

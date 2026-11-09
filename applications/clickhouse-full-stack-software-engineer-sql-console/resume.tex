@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+% ClickHouse — Full Stack Software Engineer - SQL Console
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+\section{Summary}
+Full-stack engineer and two-time founder/CTO with seven years of production software. I build state-heavy React apps on Node.js services: real-time trading UIs, live charts and dashboards, a Next.js app on NestJS with live WebSocket updates, and a license-usage analytics dashboard. TypeScript, React, Node.js, SQL.
+\sectionsep
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+React \hfill | \hfill
+TypeScript \hfill | \hfill
+State Management \hfill | \hfill
+Node.js / NestJS \hfill | \hfill
+Next.js \hfill | \hfill
+SQL \hfill | \hfill
+Postgres \\
+\hspace{1.0cm} Data Visualization \hfill | \hfill
+Real-Time UIs / WebSockets \hfill | \hfill
+Dashboards \hfill | \hfill
+Browser Extensions \hfill | \hfill
+Testing / CI \hfill | \hfill
+Go \hfill | \hfill
+Claude Code / Cursor \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Go data gateway for third-party apps (scoped, revocable tokens) that grew into an app store: template registry, per-app data storage, 3-way merge for template updates
+    \item Benchmarked self-hosted Whisper and TTS engines, then shipped production voice messaging (STT/TTS) in the web app
+    \item Built agent tools (Go): workspace app write/edit tools and read-only cross-app data tools with exact tool contracts
+    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
+    \item Worked agentic-first (Claude Code, Cursor) on every part of the stack, with tests gating each release
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{January 2025 – October 2025}
+\begin{tightemize}
+    \item Founded a real-time social sports betting platform; led the engineering team (full-time from July 2025)
+    \item Built NestJS/Drizzle/Postgres domain services with live WebSocket updates and Datadog tracing
+    \item Rebuilt the product as a Turborepo monorepo: a Next.js web app and a NestJS server
+    \item Shipped friends, leaderboards, notifications, and referrals to drive engagement and growth
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Real-time front ends: DEX trading UI for Cypher, live price charts for Tsunami Finance, dashboards for Clockwork
+    \item Lancer (2022 -- 2023): founder/CTO of a freelance platform (Next.js, tRPC, Prisma, escrowed payments); led 7 people
+    \item Lancer: GitHub app and browser extension linking bounties to pull requests; a linked PR closing paid its author from escrow
+    \item Banger (2024): interim CTO; built a tokenized-tweet trading platform end to end in 8 weeks, which led to a \$250K raise
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+\end{tightemize}
+\sectionsep
+
+\section{Early Experience}
+\vspace{1.4em}
+\begin{tightemize}
+    \item Hydraze (CTO, 2019 -- 2020): IoT sensor network collecting facilities data, plus a platform to view device and usage data
+    \item AWS (SDE Intern, 2019): enabled mathematical verification of AWS products through compilation from Dafny to Java
+    \item Java and C++ (college and early career): learned to code on Java; C++ / CUDA for robotics and ML research
+\end{tightemize}
+\sectionsep
+
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

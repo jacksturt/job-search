@@ -1,0 +1,17 @@
+Q: Tell us about your experience working in an async and/or remote environment. What practices or approaches have worked well for you? What challenges have you faced?
+
+Almost all of my last five years has been remote. At Coordinator I was a contract lead working remotely with the client, and at Ralli and Lancer I led distributed teams as founder/CTO.
+
+What has worked for me:
+- Writing decisions down where the team can find them: a short note with the options, the tradeoff we picked, and what we'd measure to know if it was wrong.
+- Small, tested pull requests, so review doesn't need a meeting.
+- Letting CI be the gate instead of a person. At Coordinator the end-to-end suite ran on every release merge, so nobody had to be online to say a release was safe.
+- Making status visible without being asked, so nobody has to chase me.
+
+The challenges I've hit are decisions that stall because nobody owns them, and time zones. For the first, I propose a default with a date ("I'll go with X on Thursday unless someone objects"). For the second, I send my questions at the end of my day so answers are waiting in the morning.
+
+---
+
+Q: Have you made any open source contributions in the past that you'd like to share with us? (optional)
+
+At AWS in 2019 I worked on Dafny, the open-source verification language, on compiling Dafny to Java so AWS products could be mathematically verified. Most of my work since has been in private startup repos. (Jack: add any public repos from github.com/jacksturt you want to point to.)

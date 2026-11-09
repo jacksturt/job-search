@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+% Pinecone — Solutions Engineer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{jack-resume}
+\usepackage{progressbar}
+\begin{document}
+\pagecolor{darkmodeBackground}
+
+\namesection{Jack}{Sturtevant}{
+    \href{mailto:jack@sturt.io}{jack@sturt.io \ExternalLink} | \href{https://www.sturt.io}{sturt.io \ExternalLink}  | 508-951-0133
+}
+
+\begin{minipage}[t][1cm][t]{.03\textwidth}
+    \hfill
+\end{minipage}
+
+\section{Summary}
+Customer-facing engineer and two-time founder/CTO with seven years of production software. I build retrieval and LLM systems hands-on (vector search and RAG, fine-tuned models on vLLM, agent tools) and have scoped and delivered work directly with clients and founders. Python, SQL, TypeScript, Go.
+\sectionsep
+
+\section{Skills and Profiles}
+\runsubsection{Skills}:
+Vector Search / RAG \hfill | \hfill
+LLM Applications \hfill | \hfill
+SQL \hfill | \hfill
+Postgres \hfill | \hfill
+ETL / Data Pipelines \hfill | \hfill
+Solution Design \hfill | \hfill
+Technical Demos \\
+\hspace{1.0cm} Customer-Facing Delivery \hfill | \hfill
+Python \hfill | \hfill
+TypeScript \hfill | \hfill
+Go \hfill | \hfill
+Docker \hfill | \hfill
+AWS / GCP \hfill | \hfill
+CI/CD \\
+
+\raggedright{
+    \runsubsection{Profiles}:
+    \custombold{LinkedIn}  \href{https://www.linkedin.com/in/jack-sturtevant/}{\custombold{jack-sturtevant} \ExternalLink} |
+    \custombold{Github} \href{https://github.com/jacksturt}{\custombold{jacksturt} \ExternalLink}}
+
+\section{Experience}
+
+\runsubsection{Coordinator, LLC}
+\location{Remote}
+\descriptit{Lead Engineer (Contractor)}
+\location{March 2026 – September 2026}
+\begin{tightemize}
+    \item Go data gateway for third-party apps (scoped, revocable tokens) that grew into an app store: template registry, per-app data storage, 3-way merge for template updates
+    \item Benchmarked self-hosted Whisper and TTS engines, then shipped production voice messaging (STT/TTS) in the web app
+    \item Multi-sport LLM fine-tuning on H100s: corpus curation, feedback-retraining loop, quantized vLLM serving
+    \item Built agent tools (Go): workspace app write/edit tools and read-only cross-app data tools with exact tool contracts
+    \item Built self-hosted CI/CD for the end-to-end suite: serial/parallel job split, runs on every release merge, cheaper per run
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ralli}
+\location{Remote}
+\descriptit{Founder / CTO}
+\location{January 2025 – October 2025}
+\begin{tightemize}
+    \item Founded a real-time social sports betting platform; led the engineering team (full-time from July 2025)
+    \item Built the betting-line and roster ingestion pipeline (ESPN APIs) and live projections from play-by-play data
+    \item Built NestJS/Drizzle/Postgres domain services with live WebSocket updates and Datadog tracing
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Independent Engineer}
+\location{Remote}
+\descriptit{Founder / Freelance Engineer, startups}
+\location{October 2021 – December 2024}
+\begin{tightemize}
+    \item Banger (2024): interim CTO; built a tokenized-tweet trading platform end to end in 8 weeks, which led to a \$250K raise
+    \item Lancer (2022 -- 2023): founder/CTO of a freelance platform (Next.js, tRPC, Prisma, escrowed payments); led 7 people
+    \item Trustless Engineering (2024): Kubernetes deployments (ArgoCD), ML infrastructure, and Datadog observability
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://www.appliedintuition.com/}{Applied Intuition \ExternalLink}}
+\location{Mountain View, CA}
+\descriptit{Software Engineer}
+\location{July 2020 – October 2021}
+\begin{tightemize}
+    \item Helped close multiple million dollar deals through creation of a license dashboard showing client product usage
+    \item Developed (full stack) intranet for managing developers, teams, and customers, vastly improving efficiency of all employees
+    \item Cut average customer support response time from > 1 day to < 1 hour with a custom, automated Zendesk solution
+\end{tightemize}
+\sectionsep
+
+\section{Early Experience}
+\vspace{1.4em}
+\begin{tightemize}
+    \item Hydraze (CTO, 2019 -- 2020): IoT sensor network collecting facilities data, plus a platform to view device and usage data
+    \item AWS (SDE Intern, 2019): enabled mathematical verification of AWS products through compilation from Dafny to Java
+    \item Java and C++ (college and early career): learned to code on Java; C++ / CUDA for robotics and ML research
+\end{tightemize}
+\sectionsep
+
+\section{Education}
+\subsection{A. James Clark School of Engineering, University Of Maryland \hfill GPA: 3.93}
+\descriptit{Bachelor of Science in Computer Engineering, University Honors, Cum Laude}
+
+\begin{minipage}[t]{0.04\textwidth}
+    \hfill
+\end{minipage}
+\end{document}

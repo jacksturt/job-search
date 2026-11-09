@@ -1,0 +1,11 @@
+Hello Hugging Face Team,
+
+I'm applying for the Senior Open-Source Python Engineer role on ML Developer Tools. I use the tools this team builds, and real-time audio is where I've done my hardest recent work.
+
+At Coordinator I ran multi-sport LLM fine-tuning on H100s with quantized vLLM serving, and built a self-hosted voice pipeline: I benchmarked Whisper and several TTS engines on latency and compatibility, swapped engines on the data, and shipped production voice messaging in the web app. I wrote the agent runtime in Python. On the front end I have built React and Next.js apps with live WebSocket updates, including trading UIs and live charts.
+
+My open-source start was at AWS in 2019, on compiling Dafny to Java for mathematical verification. To be direct about gaps: most of my work since has been in private startup repos, not maintaining a public Python library, and I haven't worked with WebRTC directly; my real-time work has been WebSockets.
+
+I'd be glad to talk about the role.
+
+Jack Sturtevant

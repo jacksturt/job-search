@@ -1,0 +1,31 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello ClickHouse SQL Console Team,
+
+I'm applying for the Full Stack Software Engineer role on SQL Console. Rich, state-heavy interfaces over live data are what I most enjoy building.
+
+I've built several: a DEX trading UI for Cypher, live price charts for Tsunami Finance, dashboards for Clockwork, and at Ralli a Next.js app on NestJS services with live WebSocket updates. At Applied Intuition I built the license dashboard that showed clients their product-usage trends, and it helped close multiple million dollar deals. At Lancer I built a GitHub app and a browser extension, which is the closest I've come to developer tooling inside someone else's environment.
+
+To be direct about gaps: I haven't built a query editor with Monaco or a VS Code extension, and I haven't used ClickHouse; my SQL has been Postgres. I'm based in Utah, so US-remote.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
