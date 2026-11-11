@@ -1,0 +1,33 @@
+% Cover letter, compiled with XeLaTeX / Tectonic alongside resume/base/fonts (black-and-white)
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.3in,top=1.1in]{geometry}
+\usepackage{fontspec,xcolor}
+\setmainfont[Path=fonts/lato/,BoldFont=Lato-Bol.ttf]{Lato-Reg.ttf}
+\newfontfamily\namefont[Path=fonts/raleway/]{Raleway-Regular.otf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+
+{\namefont\fontsize{20pt}{24pt}\selectfont Jack Sturtevant}\\[-0.3em]
+jack@sturt.io
+
+\vspace{1.2em}
+
+Hello Toast Digital Storefront Team,
+
+I'm applying for the Senior Software Engineer (Fullstack) role on Digital Storefront. Online ordering is a product where a guest notices every slow page and every confusing step, and owning that kind of consumer flow end to end is the work I like most.
+
+At Ralli, a real-time social sports betting platform I founded, I rebuilt the product as a Next.js web app on NestJS and Postgres services with live WebSocket updates, then shipped the friends, leaderboards, notifications and referrals features that drove engagement. Before that, as founder and CTO of Lancer, I built escrowed payments with ACH payouts, quotes and checkpoints, and as interim CTO at Banger I took a trading platform from nothing to launch in eight weeks. At Coordinator I built the CI that runs our end-to-end suite on every release merge, so tests gate what ships.
+
+I work closely with design and product, turning designs into real screens and iterating once people use them. Running experiments and shipping quickly is how a startup survives, and I'd bring that pace to a product used by millions of guests a day.
+
+To be direct about gaps: the posting lists Java and Kotlin on the backend. I learned to code on Java but haven't used it in years, and I haven't used Kotlin; my recent backends are TypeScript/Node.js, Go and Python. I'm comfortable picking up a new JVM codebase.
+
+I'd be glad to talk about the role.
+
+\vspace{0.6em}
+Jack Sturtevant
+
+\end{document}
