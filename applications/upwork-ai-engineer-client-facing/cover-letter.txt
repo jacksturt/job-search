@@ -15,7 +15,7 @@ Before that I was a founder and contract engineer for early-stage teams for four
 
 How I'd run engagements: a short written spec for each goal covering what's in, what's out, how we'll know it worked, and the open questions, confirmed by the client before work starts. Then a weekly written update covering what shipped, what's next, and what's at risk. If a date is going to slip, the client hears it early, along with options such as cutting scope or moving the date.
 
-Availability and rate: I'm available now for 20-30 consistent hours a week, long term. My target rate is $115/hr.
+Availability and rate: I'm available now for 20-30 consistent hours a week, long term. My target rate is $100/hr.
 
 A couple of questions:
 1. What kinds of AI projects do your clients usually bring (LLM apps and agents, vision, classic ML)?
