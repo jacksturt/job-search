@@ -1,0 +1,26 @@
+Hi,
+
+This role is the job I've done for most of my career: sitting between the people paying for the work and the people building it, and writing a fair share of the code myself.
+
+Relevant AI/ML work:
+- Coordinator (contract lead engineer, Mar-Sep 2026): I fine-tuned LLMs across five sports on H100s, covering corpus curation, a feedback-retraining loop, and quantization for vLLM serving. I also built a computer vision pipeline that ran Qwen3-VL and Cosmos-Reason2 over game film to detect plays and formations at the snap, plus pose-estimation analysis of swing video. On top of that I built a self-hosted Whisper voice pipeline that became production voice messaging, the tools and tiered runtime for the product's LLM agent, and a pipeline that turned reviewed production conversations into training data.
+- Trustless Engineering (2024): ML infrastructure and Kubernetes deployments with ArgoCD and Datadog.
+- Earlier: C++ down to the CUDA level for robotics and ML research in college and the years after, about five years ago.
+My specialty is computer vision, and my day-to-day stack is Python, vLLM, Docker, Kubernetes, AWS and GCP, with RAG and agent work on the LLM side. To be straight about one thing: my production ML work is concentrated in the last two years. Before that I was building products as a founder and contract engineer, with the ML work in research.
+
+A client relationship I managed:
+At Coordinator I was the lead engineer working directly with the client, a sports AI company, and much of the work began as a product idea rather than a spec. Voice was one example. They wanted users to be able to talk to the product, so I benchmarked self-hosted Whisper and several TTS engines on latency and compatibility, showed them the numbers, and swapped engines based on the results. Voice then shipped as a production feature in the web app. When they said the agent's quick-edit path felt slow, I timed a single model call against the agent tiers on real requests. The single call was 4-6x faster, so we shipped it as its own tier. I try to bring data like this to every decision, so a non-technical client can see the tradeoff and make the call themselves.
+
+Before that I was a founder and contract engineer for early-stage teams for four years, usually the first or most senior engineer. As interim CTO at Banger I worked out scope with the founders and shipped their platform in eight weeks, which led directly to a $250K raise. At Applied Intuition I built a dashboard that showed clients their product usage trends, and it helped close multiple million-dollar deals.
+
+How I'd run engagements: a short written spec for each goal covering what's in, what's out, how we'll know it worked, and the open questions, confirmed by the client before work starts. Then a weekly written update covering what shipped, what's next, and what's at risk. If a date is going to slip, the client hears it early, along with options such as cutting scope or moving the date.
+
+Availability and rate: I'm available now for 20-30 consistent hours a week, long term. My target rate is $115/hr.
+
+A couple of questions:
+1. What kinds of AI projects do your clients usually bring (LLM apps and agents, vision, classic ML)?
+2. Would I be running client calls on my own, or alongside an account lead?
+
+Happy to get on a call.
+
+Jack Sturtevant
